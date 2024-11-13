@@ -4,14 +4,14 @@ Ce projet est un tableau de bord de vente qui permet de gérer les données de v
 
 ## Environnement
 
-Serveur : Node.js
-Base de données : MongoDB
-Langages de programmation : JavaScript, HTML, CSS
-Frameworks et bibliothèques : React, Express.js, Axios
+- Serveur : Node.js
+- Base de données : MongoDB
+- Langages de programmation : JavaScript, HTML, CSS
+- Frameworks et bibliothèques : React, Express.js, Axios
 
 ## Installation
 
-Cloner le dépôt Git
-Installer les dépendances avec npm install
-Démarrer le serveur avec npm start
-Accéder à l'application à l'adresse http://localhost:3000
+- Cloner le dépôt Git
+- Installer les dépendances avec npm install
+- Démarrer le serveur avec npm start
+- Accéder à l'application à l'adresse http://localhost:3000
