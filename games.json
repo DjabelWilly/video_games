@@ -1,0 +1,8966 @@
+[
+  {
+    "_id": {
+      "$oid": "65f807ac50827a0c488db4e4"
+    },
+    "name": "Doki Majo Plus",
+    "platform": "DS",
+    "year": "2009",
+    "genre": "Adventure",
+    "publisher": "SNK Playmore",
+    "naSales": 2,
+    "euSales": 4,
+    "jpSales": 0.02,
+    "otherSales": 7,
+    "globalSales": 0.02
+  },
+  {
+    "_id": {
+      "$oid": "65f807ac50827a0c488db4e6"
+    },
+    "name": "Love Once: Mermaid's Tears",
+    "platform": "PS3",
+    "year": "2011",
+    "genre": "Adventure",
+    "publisher": "SNK Playmore",
+    "naSales": 0,
+    "euSales": 0,
+    "jpSales": 0.02,
+    "otherSales": 0,
+    "globalSales": 0.02
+  },
+  {
+    "_id": {
+      "$oid": "65f807ac50827a0c488db4ea"
+    },
+    "name": "Yamasa Digi Portable: Matsuri no Tatsujin",
+    "platform": "PSP",
+    "year": "2006",
+    "genre": "Misc",
+    "publisher": "Yamasa Entertainment",
+    "naSales": 0,
+    "euSales": 0,
+    "jpSales": 0.02,
+    "otherSales": 0,
+    "globalSales": 0.02
+  },
+  {
+    "_id": {
+      "$oid": "65f807ac50827a0c488db4e9"
+    },
+    "name": "Shippuu Mahou Daisakusen: Kingdom-Grandprix",
+    "platform": "SAT",
+    "year": "1996",
+    "genre": "Shooter",
+    "publisher": "Gaga",
+    "naSales": 0,
+    "euSales": 0,
+    "jpSales": 0.02,
+    "otherSales": 0,
+    "globalSales": 0.02
+  },
+  {
+    "_id": {
+      "$oid": "65f807ac50827a0c488db4e8"
+    },
+    "name": "Muppets Party Cruise",
+    "platform": "GC",
+    "year": "2003",
+    "genre": "Misc",
+    "publisher": "TDK Mediactive",
+    "naSales": 0.02,
+    "euSales": 0,
+    "jpSales": 0,
+    "otherSales": 0,
+    "globalSales": 0.02
+  },
+  {
+    "_id": {
+      "$oid": "65f807ac50827a0c488db4ee"
+    },
+    "name": "Serious Sam: Next Encounter",
+    "platform": "GC",
+    "year": "2004",
+    "genre": "Shooter",
+    "publisher": "Global Star",
+    "naSales": 0.02,
+    "euSales": 0,
+    "jpSales": 0,
+    "otherSales": 0,
+    "globalSales": 0.02
+  },
+  {
+    "_id": {
+      "$oid": "65f807ac50827a0c488db4ef"
+    },
+    "name": "PachiPara 15: Super Umi Monogatari in Okinawa 2",
+    "platform": "PS3",
+    "year": "2010",
+    "genre": "Misc",
+    "publisher": "Irem Software Engineering",
+    "naSales": 0,
+    "euSales": 0,
+    "jpSales": 0.02,
+    "otherSales": 0,
+    "globalSales": 0.02
+  },
+  {
+    "_id": {
+      "$oid": "65f807ac50827a0c488db4e5"
+    },
+    "name": "Eureka Seven Vol. 2: The New Vision",
+    "platform": "PS2",
+    "year": "2006",
+    "genre": "Shooter",
+    "publisher": "Namco Bandai Games",
+    "naSales": 0,
+    "euSales": 0,
+    "jpSales": 0.02,
+    "otherSales": 0,
+    "globalSales": 0.02
+  },
+  {
+    "_id": {
+      "$oid": "65f807ac50827a0c488db4f5"
+    },
+    "name": "Natsuiro no Sunadokei",
+    "platform": "PS2",
+    "year": "2002",
+    "genre": "Adventure",
+    "publisher": "Princess Soft",
+    "naSales": 0,
+    "euSales": 0,
+    "jpSales": 0.02,
+    "otherSales": 0,
+    "globalSales": 0.02
+  },
+  {
+    "_id": {
+      "$oid": "65f807ac50827a0c488db4f2"
+    },
+    "name": "Akai Ito DS",
+    "platform": "DS",
+    "year": "2008",
+    "genre": "Adventure",
+    "publisher": "Alchemist",
+    "naSales": 0,
+    "euSales": 0,
+    "jpSales": 0.02,
+    "otherSales": 0,
+    "globalSales": 0.02
+  },
+  {
+    "_id": {
+      "$oid": "65f807ac50827a0c488db4f0"
+    },
+    "name": "Motto! SoniComi",
+    "platform": "PS3",
+    "year": "2014",
+    "genre": "Simulation",
+    "publisher": "Kadokawa Games",
+    "naSales": 0,
+    "euSales": 0,
+    "jpSales": 0.02,
+    "otherSales": 0,
+    "globalSales": 0.02
+  },
+  {
+    "_id": {
+      "$oid": "65f807ac50827a0c488db4f1"
+    },
+    "name": "Let's Play Flight Attendant",
+    "platform": "DS",
+    "year": "2010",
+    "genre": "Simulation",
+    "publisher": "Deep Silver",
+    "naSales": 0.02,
+    "euSales": 0,
+    "jpSales": 0,
+    "otherSales": 0,
+    "globalSales": 0.02
+  },
+  {
+    "_id": {
+      "$oid": "65f807ac50827a0c488db4f6"
+    },
+    "name": "Jissen Pachi-Slot Hisshouhou! Mister Magic Neo",
+    "platform": "PS2",
+    "year": "2007",
+    "genre": "Misc",
+    "publisher": "Sega",
+    "naSales": 0,
+    "euSales": 0,
+    "jpSales": 0.02,
+    "otherSales": 0,
+    "globalSales": 0.02
+  },
+  {
+    "_id": {
+      "$oid": "65f807ac50827a0c488db4f8"
+    },
+    "name": "Koisuru Otome to Shugo no Tate: The Shield of AIGIS",
+    "platform": "PS2",
+    "year": "2008",
+    "genre": "Adventure",
+    "publisher": "Alchemist",
+    "naSales": 0,
+    "euSales": 0,
+    "jpSales": 0.02,
+    "otherSales": 0,
+    "globalSales": 0.02
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d74f5"
+    },
+    "name": "Wii Sports",
+    "platform": "Wii",
+    "year": "2006",
+    "genre": "Sports",
+    "publisher": "Nintendo",
+    "naSales": 41.49,
+    "euSales": 29.02,
+    "jpSales": 3.77,
+    "otherSales": 8.46,
+    "globalSales": 82.74
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d74f9"
+    },
+    "name": "Pokemon Red/Pokemon Blue",
+    "platform": "GB",
+    "year": "1996",
+    "genre": "Role-Playing",
+    "publisher": "Nintendo",
+    "naSales": 11.27,
+    "euSales": 8.89,
+    "jpSales": 10.22,
+    "otherSales": 1,
+    "globalSales": 31.37
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d74fe"
+    },
+    "name": "Duck Hunt",
+    "platform": "NES",
+    "year": "1984",
+    "genre": "Shooter",
+    "publisher": "Nintendo",
+    "naSales": 26.93,
+    "euSales": 0.63,
+    "jpSales": 0.28,
+    "otherSales": 0.47,
+    "globalSales": 28.31
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d74fd"
+    },
+    "name": "New Super Mario Bros. Wii",
+    "platform": "Wii",
+    "year": "2009",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 14.59,
+    "euSales": 7.06,
+    "jpSales": 4.7,
+    "otherSales": 2.26,
+    "globalSales": 28.62
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d74ff"
+    },
+    "name": "Nintendogs",
+    "platform": "DS",
+    "year": "2005",
+    "genre": "Simulation",
+    "publisher": "Nintendo",
+    "naSales": 9.07,
+    "euSales": 11,
+    "jpSales": 1.93,
+    "otherSales": 2.75,
+    "globalSales": 24.76
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d74f8"
+    },
+    "name": "Wii Sports Resort",
+    "platform": "Wii",
+    "year": "2009",
+    "genre": "Sports",
+    "publisher": "Nintendo",
+    "naSales": 15.75,
+    "euSales": 11.01,
+    "jpSales": 3.28,
+    "otherSales": 2.96,
+    "globalSales": 33
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7500"
+    },
+    "name": "Mario Kart DS",
+    "platform": "DS",
+    "year": "2005",
+    "genre": "Racing",
+    "publisher": "Nintendo",
+    "naSales": 9.81,
+    "euSales": 7.57,
+    "jpSales": 4.13,
+    "otherSales": 1.92,
+    "globalSales": 23.42
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d74fa"
+    },
+    "name": "Tetris",
+    "platform": "GB",
+    "year": "1989",
+    "genre": "Puzzle",
+    "publisher": "Nintendo",
+    "naSales": 23.2,
+    "euSales": 2.26,
+    "jpSales": 4.22,
+    "otherSales": 0.58,
+    "globalSales": 30.26
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7504"
+    },
+    "name": "Kinect Adventures!",
+    "platform": "X360",
+    "year": "2010",
+    "genre": "Misc",
+    "publisher": "Microsoft Game Studios",
+    "naSales": 14.97,
+    "euSales": 4.94,
+    "jpSales": 0.24,
+    "otherSales": 1.67,
+    "globalSales": 21.82
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7502"
+    },
+    "name": "Wii Fit",
+    "platform": "Wii",
+    "year": "2007",
+    "genre": "Sports",
+    "publisher": "Nintendo",
+    "naSales": 8.94,
+    "euSales": 8.03,
+    "jpSales": 3.6,
+    "otherSales": 2.15,
+    "globalSales": 22.72
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7503"
+    },
+    "name": "Wii Fit Plus",
+    "platform": "Wii",
+    "year": "2009",
+    "genre": "Sports",
+    "publisher": "Nintendo",
+    "naSales": 9.09,
+    "euSales": 8.59,
+    "jpSales": 2.53,
+    "otherSales": 1.79,
+    "globalSales": 22
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7501"
+    },
+    "name": "Pokemon Gold/Pokemon Silver",
+    "platform": "GB",
+    "year": "1999",
+    "genre": "Role-Playing",
+    "publisher": "Nintendo",
+    "naSales": 9,
+    "euSales": 6.18,
+    "jpSales": 7.2,
+    "otherSales": 0.71,
+    "globalSales": 23.1
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d74f6"
+    },
+    "name": "Super Mario Bros.",
+    "platform": "NES",
+    "year": "1985",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 29.08,
+    "euSales": 3.58,
+    "jpSales": 6.81,
+    "otherSales": 0.77,
+    "globalSales": 40.24
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d74fc"
+    },
+    "name": "Wii Play",
+    "platform": "Wii",
+    "year": "2006",
+    "genre": "Misc",
+    "publisher": "Nintendo",
+    "naSales": 14.03,
+    "euSales": 9.2,
+    "jpSales": 2.93,
+    "otherSales": 2.85,
+    "globalSales": 29.02
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d74fb"
+    },
+    "name": "New Super Mario Bros.",
+    "platform": "DS",
+    "year": "2006",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 11.38,
+    "euSales": 9.23,
+    "jpSales": 6.5,
+    "otherSales": 2.9,
+    "globalSales": 30.01
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d750a"
+    },
+    "name": "Pokemon Diamond/Pokemon Pearl",
+    "platform": "DS",
+    "year": "2006",
+    "genre": "Role-Playing",
+    "publisher": "Nintendo",
+    "naSales": 6.42,
+    "euSales": 4.52,
+    "jpSales": 6.04,
+    "otherSales": 1.37,
+    "globalSales": 18.36
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d74f7"
+    },
+    "name": "Mario Kart Wii",
+    "platform": "Wii",
+    "year": "2008",
+    "genre": "Racing",
+    "publisher": "Nintendo",
+    "naSales": 15.85,
+    "euSales": 12.88,
+    "jpSales": 3.79,
+    "otherSales": 3.31,
+    "globalSales": 35.82
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d750b"
+    },
+    "name": "Super Mario Land",
+    "platform": "GB",
+    "year": "1989",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 10.83,
+    "euSales": 2.71,
+    "jpSales": 4.18,
+    "otherSales": 0.42,
+    "globalSales": 18.14
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d750c"
+    },
+    "name": "Super Mario Bros. 3",
+    "platform": "NES",
+    "year": "1988",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 9.54,
+    "euSales": 3.44,
+    "jpSales": 3.84,
+    "otherSales": 0.46,
+    "globalSales": 17.28
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d750d"
+    },
+    "name": "Grand Theft Auto V",
+    "platform": "X360",
+    "year": "2013",
+    "genre": "Action",
+    "publisher": "Take-Two Interactive",
+    "naSales": 9.63,
+    "euSales": 5.31,
+    "jpSales": 0.06,
+    "otherSales": 1.38,
+    "globalSales": 16.38
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d750f"
+    },
+    "name": "Pokemon Ruby/Pokemon Sapphire",
+    "platform": "GBA",
+    "year": "2002",
+    "genre": "Role-Playing",
+    "publisher": "Nintendo",
+    "naSales": 6.06,
+    "euSales": 3.9,
+    "jpSales": 5.38,
+    "otherSales": 0.5,
+    "globalSales": 15.85
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7511"
+    },
+    "name": "Brain Age 2: More Training in Minutes a Day",
+    "platform": "DS",
+    "year": "2005",
+    "genre": "Puzzle",
+    "publisher": "Nintendo",
+    "naSales": 3.44,
+    "euSales": 5.36,
+    "jpSales": 5.32,
+    "otherSales": 1.18,
+    "globalSales": 15.3
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7510"
+    },
+    "name": "Pokemon Black/Pokemon White",
+    "platform": "DS",
+    "year": "2010",
+    "genre": "Role-Playing",
+    "publisher": "Nintendo",
+    "naSales": 5.57,
+    "euSales": 3.28,
+    "jpSales": 5.65,
+    "otherSales": 0.82,
+    "globalSales": 15.32
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d750e"
+    },
+    "name": "Grand Theft Auto: Vice City",
+    "platform": "PS2",
+    "year": "2002",
+    "genre": "Action",
+    "publisher": "Take-Two Interactive",
+    "naSales": 8.41,
+    "euSales": 5.49,
+    "jpSales": 0.47,
+    "otherSales": 1.78,
+    "globalSales": 16.15
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7512"
+    },
+    "name": "Call of Duty: Black Ops 3",
+    "platform": "PS4",
+    "year": "2015",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 6.18,
+    "euSales": 6.05,
+    "jpSales": 0.41,
+    "otherSales": 2.44,
+    "globalSales": 15.09
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7515"
+    },
+    "name": "Pokémon Yellow: Special Pikachu Edition",
+    "platform": "GB",
+    "year": "1998",
+    "genre": "Role-Playing",
+    "publisher": "Nintendo",
+    "naSales": 5.89,
+    "euSales": 5.04,
+    "jpSales": 3.12,
+    "otherSales": 0.59,
+    "globalSales": 14.64
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7513"
+    },
+    "name": "Gran Turismo 3: A-Spec",
+    "platform": "PS2",
+    "year": "2001",
+    "genre": "Racing",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 6.85,
+    "euSales": 5.09,
+    "jpSales": 1.87,
+    "otherSales": 1.16,
+    "globalSales": 14.98
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7514"
+    },
+    "name": "Call of Duty: Modern Warfare 3",
+    "platform": "X360",
+    "year": "2011",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 9.03,
+    "euSales": 4.28,
+    "jpSales": 0.13,
+    "otherSales": 1.32,
+    "globalSales": 14.76
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7516"
+    },
+    "name": "Call of Duty: Black Ops",
+    "platform": "X360",
+    "year": "2010",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 9.67,
+    "euSales": 3.73,
+    "jpSales": 0.11,
+    "otherSales": 1.13,
+    "globalSales": 14.64
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7519"
+    },
+    "name": "Red Dead Redemption 2",
+    "platform": "PS4",
+    "year": "2018",
+    "genre": "Action-Adventure",
+    "publisher": "Rockstar Games",
+    "naSales": 5.26,
+    "euSales": 6.21,
+    "jpSales": 0.21,
+    "otherSales": 2.26,
+    "globalSales": 13.94
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7517"
+    },
+    "name": "Pokemon X/Pokemon Y",
+    "platform": "3DS",
+    "year": "2013",
+    "genre": "Role-Playing",
+    "publisher": "Nintendo",
+    "naSales": 5.28,
+    "euSales": 4.19,
+    "jpSales": 4.35,
+    "otherSales": 0.78,
+    "globalSales": 14.6
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7518"
+    },
+    "name": "Call of Duty: Black Ops II",
+    "platform": "PS3",
+    "year": "2012",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 4.99,
+    "euSales": 5.88,
+    "jpSales": 0.65,
+    "otherSales": 2.52,
+    "globalSales": 14.03
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7505"
+    },
+    "name": "Grand Theft Auto V",
+    "platform": "PS3",
+    "year": "2013",
+    "genre": "Action",
+    "publisher": "Take-Two Interactive",
+    "naSales": 7.01,
+    "euSales": 9.27,
+    "jpSales": 0.97,
+    "otherSales": 4.14,
+    "globalSales": 21.4
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7507"
+    },
+    "name": "Super Mario World",
+    "platform": "SNES",
+    "year": "1990",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 12.78,
+    "euSales": 3.75,
+    "jpSales": 3.54,
+    "otherSales": 0.55,
+    "globalSales": 20.61
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d751a"
+    },
+    "name": "Call of Duty: Black Ops II",
+    "platform": "X360",
+    "year": "2012",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 8.25,
+    "euSales": 4.3,
+    "jpSales": 0.07,
+    "otherSales": 1.12,
+    "globalSales": 13.73
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7508"
+    },
+    "name": "Brain Age: Train Your Brain in Minutes a Day",
+    "platform": "DS",
+    "year": "2005",
+    "genre": "Misc",
+    "publisher": "Nintendo",
+    "naSales": 4.75,
+    "euSales": 9.26,
+    "jpSales": 4.16,
+    "otherSales": 2.05,
+    "globalSales": 20.22
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7506"
+    },
+    "name": "Grand Theft Auto: San Andreas",
+    "platform": "PS2",
+    "year": "2004",
+    "genre": "Action",
+    "publisher": "Take-Two Interactive",
+    "naSales": 9.43,
+    "euSales": 0.4,
+    "jpSales": 0.41,
+    "otherSales": 10.57,
+    "globalSales": 20.81
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7509"
+    },
+    "name": "Grand Theft Auto V",
+    "platform": "PS4",
+    "year": "2014",
+    "genre": "Action",
+    "publisher": "Rockstar Games",
+    "naSales": 6.06,
+    "euSales": 9.71,
+    "jpSales": 0.6,
+    "otherSales": 3.02,
+    "globalSales": 19.39
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d751d"
+    },
+    "name": "Call of Duty: WWII",
+    "platform": "PS4",
+    "year": "2017",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 4.67,
+    "euSales": 6.21,
+    "jpSales": 0.4,
+    "otherSales": 2.12,
+    "globalSales": 13.4
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d751c"
+    },
+    "name": "Call of Duty: Modern Warfare 3",
+    "platform": "PS3",
+    "year": "2011",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 5.54,
+    "euSales": 5.82,
+    "jpSales": 0.49,
+    "otherSales": 1.62,
+    "globalSales": 13.46
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d751e"
+    },
+    "name": "Grand Theft Auto III",
+    "platform": "PS2",
+    "year": "2001",
+    "genre": "Action",
+    "publisher": "Take-Two Interactive",
+    "naSales": 6.99,
+    "euSales": 4.51,
+    "jpSales": 0.3,
+    "otherSales": 1.3,
+    "globalSales": 13.1
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d751f"
+    },
+    "name": "Super Smash Bros. Brawl",
+    "platform": "Wii",
+    "year": "2008",
+    "genre": "Fighting",
+    "publisher": "Nintendo",
+    "naSales": 6.75,
+    "euSales": 2.61,
+    "jpSales": 2.66,
+    "otherSales": 1.02,
+    "globalSales": 13.04
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7521"
+    },
+    "name": "Mario Kart 7",
+    "platform": "3DS",
+    "year": "2011",
+    "genre": "Racing",
+    "publisher": "Nintendo",
+    "naSales": 5.03,
+    "euSales": 4.02,
+    "jpSales": 2.69,
+    "otherSales": 0.91,
+    "globalSales": 12.66
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7520"
+    },
+    "name": "Call of Duty: Black Ops",
+    "platform": "PS3",
+    "year": "2010",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 5.98,
+    "euSales": 4.44,
+    "jpSales": 0.48,
+    "otherSales": 1.83,
+    "globalSales": 12.73
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7522"
+    },
+    "name": "Grand Theft Auto V",
+    "platform": "PS4",
+    "year": "2014",
+    "genre": "Action",
+    "publisher": "Take-Two Interactive",
+    "naSales": 3.96,
+    "euSales": 6.31,
+    "jpSales": 0.38,
+    "otherSales": 1.97,
+    "globalSales": 12.61
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7523"
+    },
+    "name": "Animal Crossing: Wild World",
+    "platform": "DS",
+    "year": "2005",
+    "genre": "Simulation",
+    "publisher": "Nintendo",
+    "naSales": 2.55,
+    "euSales": 3.52,
+    "jpSales": 5.33,
+    "otherSales": 0.88,
+    "globalSales": 12.27
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7525"
+    },
+    "name": "Pokemon HeartGold/Pokemon SoulSilver",
+    "platform": "DS",
+    "year": "2009",
+    "genre": "Action",
+    "publisher": "Nintendo",
+    "naSales": 4.4,
+    "euSales": 2.77,
+    "jpSales": 3.96,
+    "otherSales": 0.77,
+    "globalSales": 11.9
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7526"
+    },
+    "name": "Super Mario 64",
+    "platform": "N64",
+    "year": "1996",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 6.91,
+    "euSales": 2.85,
+    "jpSales": 1.91,
+    "otherSales": 0.23,
+    "globalSales": 11.89
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d752b"
+    },
+    "name": "Super Mario Land 2: 6 Golden Coins",
+    "platform": "GB",
+    "year": "1992",
+    "genre": "Adventure",
+    "publisher": "Nintendo",
+    "naSales": 6.16,
+    "euSales": 2.04,
+    "jpSales": 2.69,
+    "otherSales": 0.29,
+    "globalSales": 11.18
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7524"
+    },
+    "name": "Halo 3",
+    "platform": "X360",
+    "year": "2007",
+    "genre": "Shooter",
+    "publisher": "Microsoft Game Studios",
+    "naSales": 7.97,
+    "euSales": 2.83,
+    "jpSales": 0.13,
+    "otherSales": 1.21,
+    "globalSales": 12.14
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d752c"
+    },
+    "name": "Grand Theft Auto IV",
+    "platform": "X360",
+    "year": "2008",
+    "genre": "Action",
+    "publisher": "Take-Two Interactive",
+    "naSales": 6.76,
+    "euSales": 3.1,
+    "jpSales": 0.14,
+    "otherSales": 1.03,
+    "globalSales": 11.02
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d752d"
+    },
+    "name": "Gran Turismo",
+    "platform": "PS",
+    "year": "1997",
+    "genre": "Racing",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 4.02,
+    "euSales": 3.87,
+    "jpSales": 2.54,
+    "otherSales": 0.52,
+    "globalSales": 10.95
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d751b"
+    },
+    "name": "Call of Duty: Modern Warfare 2",
+    "platform": "X360",
+    "year": "2009",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 8.52,
+    "euSales": 3.63,
+    "jpSales": 0.08,
+    "otherSales": 1.29,
+    "globalSales": 13.51
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d752e"
+    },
+    "name": "FIFA 17",
+    "platform": "PS4",
+    "year": "2016",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 1.26,
+    "euSales": 7.95,
+    "jpSales": 0.12,
+    "otherSales": 1.61,
+    "globalSales": 10.94
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d752f"
+    },
+    "name": "Super Mario 3D Land",
+    "platform": "3DS",
+    "year": "2011",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 4.89,
+    "euSales": 3,
+    "jpSales": 2.14,
+    "otherSales": 0.78,
+    "globalSales": 10.81
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7527"
+    },
+    "name": "FIFA 18",
+    "platform": "PS4",
+    "year": "2017",
+    "genre": "Sports",
+    "publisher": "EA Sports",
+    "naSales": 1.27,
+    "euSales": 8.64,
+    "jpSales": 0.15,
+    "otherSales": 1.73,
+    "globalSales": 11.8
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7528"
+    },
+    "name": "Pokemon Omega Ruby/Pokemon Alpha Sapphire",
+    "platform": "3DS",
+    "year": "2014",
+    "genre": "Role-Playing",
+    "publisher": "Nintendo",
+    "naSales": 4.35,
+    "euSales": 3.49,
+    "jpSales": 3.1,
+    "otherSales": 0.74,
+    "globalSales": 11.68
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7530"
+    },
+    "name": "Gran Turismo 5",
+    "platform": "PS3",
+    "year": "2010",
+    "genre": "Racing",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 2.96,
+    "euSales": 4.88,
+    "jpSales": 0.81,
+    "otherSales": 2.12,
+    "globalSales": 10.77
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7531"
+    },
+    "name": "Call of Duty: Modern Warfare 2",
+    "platform": "PS3",
+    "year": "2009",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 4.99,
+    "euSales": 3.69,
+    "jpSales": 0.38,
+    "otherSales": 1.63,
+    "globalSales": 10.69
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7534"
+    },
+    "name": "Pokemon FireRed/Pokemon LeafGreen",
+    "platform": "GBA",
+    "year": "2004",
+    "genre": "Role-Playing",
+    "publisher": "Nintendo",
+    "naSales": 4.34,
+    "euSales": 2.65,
+    "jpSales": 3.15,
+    "otherSales": 0.35,
+    "globalSales": 10.49
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7535"
+    },
+    "name": "Super Mario 64",
+    "platform": "DS",
+    "year": "2004",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 5.08,
+    "euSales": 3.11,
+    "jpSales": 1.25,
+    "otherSales": 0.98,
+    "globalSales": 10.42
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7532"
+    },
+    "name": "Grand Theft Auto IV",
+    "platform": "PS3",
+    "year": "2008",
+    "genre": "Action",
+    "publisher": "Take-Two Interactive",
+    "naSales": 4.76,
+    "euSales": 3.76,
+    "jpSales": 0.44,
+    "otherSales": 1.62,
+    "globalSales": 10.57
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7533"
+    },
+    "name": "Super Mario All-Stars",
+    "platform": "SNES",
+    "year": "1993",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 5.99,
+    "euSales": 2.15,
+    "jpSales": 2.12,
+    "otherSales": 0.29,
+    "globalSales": 10.55
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d752a"
+    },
+    "name": "Super Mario Galaxy",
+    "platform": "Wii",
+    "year": "2007",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 6.16,
+    "euSales": 3.4,
+    "jpSales": 1.2,
+    "otherSales": 0.76,
+    "globalSales": 11.52
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7536"
+    },
+    "name": "Uncharted (PS4)",
+    "platform": "PS4",
+    "year": "2016",
+    "genre": "Action",
+    "publisher": "Sony Interactive Entertainment",
+    "naSales": 4.49,
+    "euSales": 3.93,
+    "jpSales": 0.21,
+    "otherSales": 1.7,
+    "globalSales": 10.33
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7529"
+    },
+    "name": "Gran Turismo 4",
+    "platform": "PS2",
+    "year": "2004",
+    "genre": "Racing",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 3.01,
+    "euSales": 0.01,
+    "jpSales": 1.1,
+    "otherSales": 7.53,
+    "globalSales": 11.66
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7537"
+    },
+    "name": "Just Dance 3",
+    "platform": "Wii",
+    "year": "2011",
+    "genre": "Misc",
+    "publisher": "Ubisoft",
+    "naSales": 6.05,
+    "euSales": 3.15,
+    "jpSales": 0,
+    "otherSales": 1.07,
+    "globalSales": 10.26
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7539"
+    },
+    "name": "New Super Mario Bros. 2",
+    "platform": "3DS",
+    "year": "2012",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 3.66,
+    "euSales": 3.14,
+    "jpSales": 2.47,
+    "otherSales": 0.63,
+    "globalSales": 9.9
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d753a"
+    },
+    "name": "Halo: Reach",
+    "platform": "X360",
+    "year": "2010",
+    "genre": "Shooter",
+    "publisher": "Microsoft Game Studios",
+    "naSales": 7.03,
+    "euSales": 1.98,
+    "jpSales": 0.08,
+    "otherSales": 0.78,
+    "globalSales": 9.88
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d753b"
+    },
+    "name": "Mario Kart 64",
+    "platform": "N64",
+    "year": "1996",
+    "genre": "Racing",
+    "publisher": "Nintendo",
+    "naSales": 5.55,
+    "euSales": 1.94,
+    "jpSales": 2.23,
+    "otherSales": 0.15,
+    "globalSales": 9.87
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d753d"
+    },
+    "name": "Final Fantasy VII",
+    "platform": "PS",
+    "year": "1997",
+    "genre": "Role-Playing",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 3.01,
+    "euSales": 2.47,
+    "jpSales": 3.28,
+    "otherSales": 0.96,
+    "globalSales": 9.72
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d753e"
+    },
+    "name": "Call of Duty: Ghosts",
+    "platform": "PS3",
+    "year": "2013",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 4.09,
+    "euSales": 3.73,
+    "jpSales": 0.38,
+    "otherSales": 1.38,
+    "globalSales": 9.59
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7541"
+    },
+    "name": "Call of Duty 4: Modern Warfare",
+    "platform": "X360",
+    "year": "2007",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 5.91,
+    "euSales": 2.38,
+    "jpSales": 0.13,
+    "otherSales": 0.9,
+    "globalSales": 9.32
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d753f"
+    },
+    "name": "Just Dance 2",
+    "platform": "Wii",
+    "year": "2010",
+    "genre": "Misc",
+    "publisher": "Ubisoft",
+    "naSales": 5.84,
+    "euSales": 2.89,
+    "jpSales": 0.01,
+    "otherSales": 0.78,
+    "globalSales": 9.52
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7545"
+    },
+    "name": "Mario Party DS",
+    "platform": "DS",
+    "year": "2007",
+    "genre": "Misc",
+    "publisher": "Nintendo",
+    "naSales": 4.46,
+    "euSales": 1.88,
+    "jpSales": 1.98,
+    "otherSales": 0.7,
+    "globalSales": 9.02
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7544"
+    },
+    "name": "Animal Crossing: New Leaf",
+    "platform": "3DS",
+    "year": "2012",
+    "genre": "Simulation",
+    "publisher": "Nintendo",
+    "naSales": 2.03,
+    "euSales": 2.36,
+    "jpSales": 4.39,
+    "otherSales": 0.39,
+    "globalSales": 9.16
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7543"
+    },
+    "name": "Minecraft",
+    "platform": "X360",
+    "year": "2013",
+    "genre": "Misc",
+    "publisher": "Microsoft Game Studios",
+    "naSales": 5.58,
+    "euSales": 2.83,
+    "jpSales": 0.02,
+    "otherSales": 0.77,
+    "globalSales": 9.2
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7538"
+    },
+    "name": "Call of Duty: Ghosts",
+    "platform": "X360",
+    "year": "2013",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 6.73,
+    "euSales": 2.56,
+    "jpSales": 0.04,
+    "otherSales": 0.91,
+    "globalSales": 10.25
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7542"
+    },
+    "name": "Donkey Kong Country",
+    "platform": "SNES",
+    "year": "1994",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 4.36,
+    "euSales": 1.71,
+    "jpSales": 3,
+    "otherSales": 0.23,
+    "globalSales": 9.3
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7540"
+    },
+    "name": "Gran Turismo 2",
+    "platform": "PS",
+    "year": "1999",
+    "genre": "Racing",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 3.88,
+    "euSales": 3.42,
+    "jpSales": 1.69,
+    "otherSales": 0.5,
+    "globalSales": 9.49
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7547"
+    },
+    "name": "Spider-Man (PS4)",
+    "platform": "PS4",
+    "year": "2018",
+    "genre": "Action-Adventure",
+    "publisher": "Sony Interactive Entertainment",
+    "naSales": 3.64,
+    "euSales": 3.39,
+    "jpSales": 0.32,
+    "otherSales": 1.41,
+    "globalSales": 8.76
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d754a"
+    },
+    "name": "FIFA 16",
+    "platform": "PS4",
+    "year": "2015",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 1.12,
+    "euSales": 6.12,
+    "jpSales": 0.06,
+    "otherSales": 1.28,
+    "globalSales": 8.57
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7546"
+    },
+    "name": "The Elder Scrolls V: Skyrim",
+    "platform": "X360",
+    "year": "2011",
+    "genre": "Role-Playing",
+    "publisher": "Bethesda Softworks",
+    "naSales": 5.03,
+    "euSales": 2.86,
+    "jpSales": 0.1,
+    "otherSales": 0.85,
+    "globalSales": 8.84
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d754c"
+    },
+    "name": "Halo 2",
+    "platform": "XB",
+    "year": "2004",
+    "genre": "Shooter",
+    "publisher": "Microsoft Game Studios",
+    "naSales": 6.82,
+    "euSales": 1.53,
+    "jpSales": 0.05,
+    "otherSales": 0.08,
+    "globalSales": 8.49
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d754b"
+    },
+    "name": "Wii Party",
+    "platform": "Wii",
+    "year": "2010",
+    "genre": "Misc",
+    "publisher": "Nintendo",
+    "naSales": 1.79,
+    "euSales": 3.53,
+    "jpSales": 2.49,
+    "otherSales": 0.68,
+    "globalSales": 8.49
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d754d"
+    },
+    "name": "Fallout 4",
+    "platform": "PS4",
+    "year": "2015",
+    "genre": "Role-Playing",
+    "publisher": "Bethesda Softworks",
+    "naSales": 2.91,
+    "euSales": 3.97,
+    "jpSales": 0.27,
+    "otherSales": 1.34,
+    "globalSales": 8.48
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7549"
+    },
+    "name": "Grand Theft Auto V",
+    "platform": "XboxOne",
+    "year": "2014",
+    "genre": "Action",
+    "publisher": "Rockstar Games",
+    "naSales": 4.7,
+    "euSales": 3.25,
+    "jpSales": 0.01,
+    "otherSales": 0.76,
+    "globalSales": 8.72
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7548"
+    },
+    "name": "Super Mario Kart",
+    "platform": "SNES",
+    "year": "1992",
+    "genre": "Racing",
+    "publisher": "Nintendo",
+    "naSales": 3.54,
+    "euSales": 1.24,
+    "jpSales": 3.81,
+    "otherSales": 0.18,
+    "globalSales": 8.76
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d754e"
+    },
+    "name": "Call of Duty: Infinite Warfare",
+    "platform": "PS4",
+    "year": "2016",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 3.11,
+    "euSales": 3.83,
+    "jpSales": 0.19,
+    "otherSales": 1.36,
+    "globalSales": 8.48
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d753c"
+    },
+    "name": "Halo 4",
+    "platform": "X360",
+    "year": "2012",
+    "genre": "Shooter",
+    "publisher": "Microsoft Game Studios",
+    "naSales": 6.63,
+    "euSales": 2.36,
+    "jpSales": 0.04,
+    "otherSales": 0.73,
+    "globalSales": 9.76
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d754f"
+    },
+    "name": "Mario Party 8",
+    "platform": "Wii",
+    "year": "2007",
+    "genre": "Misc",
+    "publisher": "Nintendo",
+    "naSales": 3.81,
+    "euSales": 2.3,
+    "jpSales": 1.58,
+    "otherSales": 0.73,
+    "globalSales": 8.42
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7551"
+    },
+    "name": "FIFA Soccer 13",
+    "platform": "PS3",
+    "year": "2012",
+    "genre": "Action",
+    "publisher": "Electronic Arts",
+    "naSales": 1.06,
+    "euSales": 5.05,
+    "jpSales": 0.13,
+    "otherSales": 2.01,
+    "globalSales": 8.24
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7550"
+    },
+    "name": "Pokemon Black 2/Pokemon White 2",
+    "platform": "DS",
+    "year": "2012",
+    "genre": "Role-Playing",
+    "publisher": "Nintendo",
+    "naSales": 2.91,
+    "euSales": 1.86,
+    "jpSales": 3.14,
+    "otherSales": 0.43,
+    "globalSales": 8.33
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7552"
+    },
+    "name": "FIFA 16",
+    "platform": "PS4",
+    "year": "2015",
+    "genre": "Sports",
+    "publisher": "EA Sports",
+    "naSales": 1.15,
+    "euSales": 5.77,
+    "jpSales": 0.07,
+    "otherSales": 1.23,
+    "globalSales": 8.22
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7553"
+    },
+    "name": "The Sims 3",
+    "platform": "PC",
+    "year": "2009",
+    "genre": "Simulation",
+    "publisher": "Electronic Arts",
+    "naSales": 0.98,
+    "euSales": 6.42,
+    "jpSales": 0,
+    "otherSales": 0.71,
+    "globalSales": 8.11
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7554"
+    },
+    "name": "GoldenEye 007",
+    "platform": "N64",
+    "year": "1997",
+    "genre": "Shooter",
+    "publisher": "Nintendo",
+    "naSales": 5.8,
+    "euSales": 2.01,
+    "jpSales": 0.13,
+    "otherSales": 0.15,
+    "globalSales": 8.09
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7555"
+    },
+    "name": "Mario & Sonic at the Olympic Games",
+    "platform": "Wii",
+    "year": "2007",
+    "genre": "Sports",
+    "publisher": "Sega",
+    "naSales": 2.58,
+    "euSales": 3.9,
+    "jpSales": 0.66,
+    "otherSales": 0.91,
+    "globalSales": 8.06
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7556"
+    },
+    "name": "Final Fantasy X",
+    "platform": "PS2",
+    "year": "2001",
+    "genre": "Role-Playing",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 2.91,
+    "euSales": 2.07,
+    "jpSales": 2.73,
+    "otherSales": 0.33,
+    "globalSales": 8.05
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d755a"
+    },
+    "name": "Pokémon Platinum Version",
+    "platform": "DS",
+    "year": "2008",
+    "genre": "Role-Playing",
+    "publisher": "Nintendo",
+    "naSales": 2.82,
+    "euSales": 1.78,
+    "jpSales": 2.69,
+    "otherSales": 0.55,
+    "globalSales": 7.84
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7557"
+    },
+    "name": "Star Wars Battlefront 2015",
+    "platform": "PS4",
+    "year": "2015",
+    "genre": "Shooter",
+    "publisher": "Electronic Arts",
+    "naSales": 3.31,
+    "euSales": 3.19,
+    "jpSales": 0.23,
+    "otherSales": 1.3,
+    "globalSales": 8.03
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7558"
+    },
+    "name": "Star Wars Battlefront (2015)",
+    "platform": "PS4",
+    "year": "2015",
+    "genre": "Shooter",
+    "publisher": "Electronic Arts",
+    "naSales": 2.99,
+    "euSales": 3.49,
+    "jpSales": 0.22,
+    "otherSales": 1.28,
+    "globalSales": 7.98
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7559"
+    },
+    "name": "Final Fantasy VIII",
+    "platform": "PS",
+    "year": "1999",
+    "genre": "Role-Playing",
+    "publisher": "SquareSoft",
+    "naSales": 2.28,
+    "euSales": 1.72,
+    "jpSales": 3.63,
+    "otherSales": 0.23,
+    "globalSales": 7.86
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d755b"
+    },
+    "name": "Pac-Man",
+    "platform": "2600",
+    "year": "1982",
+    "genre": "Puzzle",
+    "publisher": "Atari",
+    "naSales": 7.28,
+    "euSales": 0.45,
+    "jpSales": 0,
+    "otherSales": 0.08,
+    "globalSales": 7.81
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d755d"
+    },
+    "name": "Super Mario Galaxy 2",
+    "platform": "Wii",
+    "year": "2010",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 3.66,
+    "euSales": 2.42,
+    "jpSales": 0.98,
+    "otherSales": 0.64,
+    "globalSales": 7.69
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7560"
+    },
+    "name": "Crash Bandicoot 2: Cortex Strikes Back",
+    "platform": "PS",
+    "year": "1997",
+    "genre": "platform",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 3.78,
+    "euSales": 2.17,
+    "jpSales": 1.31,
+    "otherSales": 0.31,
+    "globalSales": 7.58
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d755e"
+    },
+    "name": "Call of Duty: Advanced Warfare",
+    "platform": "PS4",
+    "year": "2014",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 2.81,
+    "euSales": 3.48,
+    "jpSales": 0.14,
+    "otherSales": 1.23,
+    "globalSales": 7.66
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d755f"
+    },
+    "name": "The Legend of Zelda: Ocarina of Time",
+    "platform": "N64",
+    "year": "1998",
+    "genre": "Action",
+    "publisher": "Nintendo",
+    "naSales": 4.1,
+    "euSales": 1.89,
+    "jpSales": 1.45,
+    "otherSales": 0.16,
+    "globalSales": 7.6
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7562"
+    },
+    "name": "Super Mario Bros. 2",
+    "platform": "NES",
+    "year": "1988",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 5.39,
+    "euSales": 1.18,
+    "jpSales": 0.7,
+    "otherSales": 0.19,
+    "globalSales": 7.46
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7563"
+    },
+    "name": "Call of Duty: Black Ops 3",
+    "platform": "XOne",
+    "year": "2015",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 4.59,
+    "euSales": 2.11,
+    "jpSales": 0.01,
+    "otherSales": 0.68,
+    "globalSales": 7.39
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7561"
+    },
+    "name": "Super Smash Bros. for Wii U and 3DS",
+    "platform": "3DS",
+    "year": "2014",
+    "genre": "Fighting",
+    "publisher": "Nintendo",
+    "naSales": 3.27,
+    "euSales": 1.37,
+    "jpSales": 2.43,
+    "otherSales": 0.48,
+    "globalSales": 7.55
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d755c"
+    },
+    "name": "Grand Theft Auto: Liberty City Stories",
+    "platform": "PSP",
+    "year": "2005",
+    "genre": "Action",
+    "publisher": "Take-Two Interactive",
+    "naSales": 2.9,
+    "euSales": 2.83,
+    "jpSales": 0.24,
+    "otherSales": 1.75,
+    "globalSales": 7.72
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7566"
+    },
+    "name": "Battlefield 3",
+    "platform": "X360",
+    "year": "2011",
+    "genre": "Shooter",
+    "publisher": "Electronic Arts",
+    "naSales": 4.46,
+    "euSales": 2.13,
+    "jpSales": 0.06,
+    "otherSales": 0.69,
+    "globalSales": 7.34
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7565"
+    },
+    "name": "Call of Duty: Black Ops 3",
+    "platform": "XboxOne",
+    "year": "2015",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 4.63,
+    "euSales": 2.04,
+    "jpSales": 0.02,
+    "otherSales": 0.68,
+    "globalSales": 7.37
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7564"
+    },
+    "name": "Call of Duty: World at War",
+    "platform": "X360",
+    "year": "2008",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 4.81,
+    "euSales": 1.88,
+    "jpSales": 0,
+    "otherSales": 0.69,
+    "globalSales": 7.38
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7567"
+    },
+    "name": "The Legend of Zelda: Twilight Princess",
+    "platform": "Wii",
+    "year": "2006",
+    "genre": "Action",
+    "publisher": "Nintendo",
+    "naSales": 3.83,
+    "euSales": 2.19,
+    "jpSales": 0.6,
+    "otherSales": 0.7,
+    "globalSales": 7.31
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7569"
+    },
+    "name": "Battlefield 1",
+    "platform": "PS4",
+    "year": "2016",
+    "genre": "Shooter",
+    "publisher": "Electronic Arts",
+    "naSales": 2.2,
+    "euSales": 3.65,
+    "jpSales": 0.29,
+    "otherSales": 1.12,
+    "globalSales": 7.26
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7568"
+    },
+    "name": "Just Dance",
+    "platform": "Wii",
+    "year": "2009",
+    "genre": "Misc",
+    "publisher": "Ubisoft",
+    "naSales": 3.51,
+    "euSales": 3.03,
+    "jpSales": 0,
+    "otherSales": 0.73,
+    "globalSales": 7.27
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d756b"
+    },
+    "name": "Need for Speed Underground",
+    "platform": "PS2",
+    "year": "2003",
+    "genre": "Racing",
+    "publisher": "Electronic Arts",
+    "naSales": 3.27,
+    "euSales": 2.83,
+    "jpSales": 0.08,
+    "otherSales": 1.02,
+    "globalSales": 7.2
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d756d"
+    },
+    "name": "Pokemon Sun/Moon",
+    "platform": "3DS",
+    "year": "2016",
+    "genre": "Role-Playing",
+    "publisher": "Nintendo",
+    "naSales": 2.98,
+    "euSales": 1.45,
+    "jpSales": 2.26,
+    "otherSales": 0.45,
+    "globalSales": 7.14
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d756a"
+    },
+    "name": "Battlefield 3",
+    "platform": "PS3",
+    "year": "2011",
+    "genre": "Shooter",
+    "publisher": "Electronic Arts",
+    "naSales": 2.85,
+    "euSales": 2.93,
+    "jpSales": 0.35,
+    "otherSales": 1.1,
+    "globalSales": 7.23
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d756e"
+    },
+    "name": "Crash Bandicoot 3: Warped",
+    "platform": "PS",
+    "year": "1998",
+    "genre": "platform",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 3.68,
+    "euSales": 1.75,
+    "jpSales": 1.42,
+    "otherSales": 0.28,
+    "globalSales": 7.13
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d756c"
+    },
+    "name": "Tekken 3",
+    "platform": "PS",
+    "year": "1998",
+    "genre": "Fighting",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 3.27,
+    "euSales": 2.22,
+    "jpSales": 1.4,
+    "otherSales": 0.29,
+    "globalSales": 7.16
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7571"
+    },
+    "name": "Mario Kart: Double Dash!!",
+    "platform": "GC",
+    "year": "2003",
+    "genre": "Racing",
+    "publisher": "Nintendo",
+    "naSales": 4.12,
+    "euSales": 1.77,
+    "jpSales": 0.87,
+    "otherSales": 0.19,
+    "globalSales": 6.95
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d756f"
+    },
+    "name": "Mario Kart 8",
+    "platform": "WiiU",
+    "year": "2014",
+    "genre": "Racing",
+    "publisher": "Nintendo",
+    "naSales": 3.15,
+    "euSales": 2.15,
+    "jpSales": 1.28,
+    "otherSales": 0.51,
+    "globalSales": 7.09
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7570"
+    },
+    "name": "Super Smash Bros. Melee",
+    "platform": "GC",
+    "year": "2001",
+    "genre": "Fighting",
+    "publisher": "Nintendo",
+    "naSales": 4.41,
+    "euSales": 1.04,
+    "jpSales": 1.39,
+    "otherSales": 0.22,
+    "globalSales": 7.07
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7572"
+    },
+    "name": "Just Dance 4",
+    "platform": "Wii",
+    "year": "2012",
+    "genre": "Misc",
+    "publisher": "Ubisoft",
+    "naSales": 4.14,
+    "euSales": 2.21,
+    "jpSales": 0,
+    "otherSales": 0.56,
+    "globalSales": 6.91
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7573"
+    },
+    "name": "FIFA 14",
+    "platform": "PS3",
+    "year": "2013",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 0.78,
+    "euSales": 4.32,
+    "jpSales": 0.07,
+    "otherSales": 1.73,
+    "globalSales": 6.9
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7574"
+    },
+    "name": "Need for Speed Underground 2",
+    "platform": "PS2",
+    "year": "2004",
+    "genre": "Racing",
+    "publisher": "Electronic Arts",
+    "naSales": 2.71,
+    "euSales": 3.02,
+    "jpSales": 0.08,
+    "otherSales": 1.09,
+    "globalSales": 6.9
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7578"
+    },
+    "name": "Zumba Fitness",
+    "platform": "Wii",
+    "year": "2010",
+    "genre": "Sports",
+    "publisher": "505 Games",
+    "naSales": 3.5,
+    "euSales": 2.64,
+    "jpSales": 0,
+    "otherSales": 0.67,
+    "globalSales": 6.81
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7577"
+    },
+    "name": "Crash Bandicoot",
+    "platform": "PS",
+    "year": "1996",
+    "genre": "platform",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 3.23,
+    "euSales": 2.35,
+    "jpSales": 0.94,
+    "otherSales": 0.3,
+    "globalSales": 6.82
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7576"
+    },
+    "name": "Medal of Honor: Frontline",
+    "platform": "PS2",
+    "year": "2002",
+    "genre": "Shooter",
+    "publisher": "Electronic Arts",
+    "naSales": 2.93,
+    "euSales": 2.75,
+    "jpSales": 0.17,
+    "otherSales": 0.99,
+    "globalSales": 6.83
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7575"
+    },
+    "name": "Uncharted 3: Drake's Deception",
+    "platform": "PS3",
+    "year": "2011",
+    "genre": "Action",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 2.77,
+    "euSales": 2.8,
+    "jpSales": 0.19,
+    "otherSales": 1.06,
+    "globalSales": 6.83
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7579"
+    },
+    "name": "The Last of Us",
+    "platform": "PS4",
+    "year": "2014",
+    "genre": "Action-Adventure",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 2.7,
+    "euSales": 2.86,
+    "jpSales": 0.11,
+    "otherSales": 1.1,
+    "globalSales": 6.77
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d757d"
+    },
+    "name": "FIFA 12",
+    "platform": "PS3",
+    "year": "2011",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 0.84,
+    "euSales": 4.32,
+    "jpSales": 0.11,
+    "otherSales": 1.42,
+    "globalSales": 6.69
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d757b"
+    },
+    "name": "Uncharted 2: Among Thieves",
+    "platform": "PS3",
+    "year": "2009",
+    "genre": "Action",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 3.27,
+    "euSales": 2.25,
+    "jpSales": 0.21,
+    "otherSales": 1,
+    "globalSales": 6.73
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d757a"
+    },
+    "name": "Gears of War 2",
+    "platform": "X360",
+    "year": "2008",
+    "genre": "Shooter",
+    "publisher": "Microsoft Game Studios",
+    "naSales": 4.15,
+    "euSales": 1.92,
+    "jpSales": 0.06,
+    "otherSales": 0.64,
+    "globalSales": 6.76
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d757c"
+    },
+    "name": "Call of Duty 4: Modern Warfare",
+    "platform": "PS3",
+    "year": "2007",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 3.1,
+    "euSales": 2.3,
+    "jpSales": 0.28,
+    "otherSales": 1.04,
+    "globalSales": 6.72
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d757f"
+    },
+    "name": "Red Dead Redemption",
+    "platform": "PS3",
+    "year": "2010",
+    "genre": "Action",
+    "publisher": "Take-Two Interactive",
+    "naSales": 2.79,
+    "euSales": 2.61,
+    "jpSales": 0.17,
+    "otherSales": 1.03,
+    "globalSales": 6.6
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d757e"
+    },
+    "name": "Big Brain Academy",
+    "platform": "DS",
+    "year": "2005",
+    "genre": "Misc",
+    "publisher": "Nintendo",
+    "naSales": 1.67,
+    "euSales": 2.78,
+    "jpSales": 1.6,
+    "otherSales": 0.62,
+    "globalSales": 6.67
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7581"
+    },
+    "name": "Donkey Kong Country Returns",
+    "platform": "Wii",
+    "year": "2010",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 3.25,
+    "euSales": 1.84,
+    "jpSales": 1.03,
+    "otherSales": 0.47,
+    "globalSales": 6.59
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7582"
+    },
+    "name": "The Elder Scrolls V: Skyrim",
+    "platform": "PS3",
+    "year": "2011",
+    "genre": "Role-Playing",
+    "publisher": "Bethesda Softworks",
+    "naSales": 2.55,
+    "euSales": 2.71,
+    "jpSales": 0.25,
+    "otherSales": 1.05,
+    "globalSales": 6.56
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7580"
+    },
+    "name": "FIFA 15",
+    "platform": "PS4",
+    "year": "2014",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 0.79,
+    "euSales": 4.29,
+    "jpSales": 0.05,
+    "otherSales": 1.47,
+    "globalSales": 6.59
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7585"
+    },
+    "name": "Halo: Combat Evolved",
+    "platform": "XB",
+    "year": "2001",
+    "genre": "Shooter",
+    "publisher": "Microsoft Game Studios",
+    "naSales": 4.98,
+    "euSales": 1.3,
+    "jpSales": 0.08,
+    "otherSales": 0.07,
+    "globalSales": 6.43
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7583"
+    },
+    "name": "The Legend of Zelda",
+    "platform": "NES",
+    "year": "1986",
+    "genre": "Action",
+    "publisher": "Nintendo",
+    "naSales": 3.74,
+    "euSales": 0.93,
+    "jpSales": 1.69,
+    "otherSales": 0.14,
+    "globalSales": 6.51
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7586"
+    },
+    "name": "Pokémon Emerald Version",
+    "platform": "GBA",
+    "year": "2004",
+    "genre": "Role-Playing",
+    "publisher": "Nintendo",
+    "naSales": 2.57,
+    "euSales": 1.58,
+    "jpSales": 2.06,
+    "otherSales": 0.21,
+    "globalSales": 6.41
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7584"
+    },
+    "name": "Assassin's Creed III",
+    "platform": "PS3",
+    "year": "2012",
+    "genre": "Action",
+    "publisher": "Ubisoft",
+    "naSales": 2.64,
+    "euSales": 2.56,
+    "jpSales": 0.16,
+    "otherSales": 1.14,
+    "globalSales": 6.5
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7587"
+    },
+    "name": "Kingdom Hearts",
+    "platform": "PS2",
+    "year": "2002",
+    "genre": "Role-Playing",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 3.64,
+    "euSales": 1.2,
+    "jpSales": 1.49,
+    "otherSales": 0.07,
+    "globalSales": 6.4
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7588"
+    },
+    "name": "Pokémon Crystal Version",
+    "platform": "GB",
+    "year": "2000",
+    "genre": "Role-Playing",
+    "publisher": "Nintendo",
+    "naSales": 2.55,
+    "euSales": 1.56,
+    "jpSales": 1.29,
+    "otherSales": 0.99,
+    "globalSales": 6.39
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d758a"
+    },
+    "name": "Red Dead Redemption",
+    "platform": "X360",
+    "year": "2010",
+    "genre": "Action",
+    "publisher": "Take-Two Interactive",
+    "naSales": 3.7,
+    "euSales": 1.97,
+    "jpSales": 0.09,
+    "otherSales": 0.57,
+    "globalSales": 6.34
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7589"
+    },
+    "name": "Halo 3: ODST",
+    "platform": "X360",
+    "year": "2009",
+    "genre": "Shooter",
+    "publisher": "Microsoft Game Studios",
+    "naSales": 4.34,
+    "euSales": 1.35,
+    "jpSales": 0.06,
+    "otherSales": 0.61,
+    "globalSales": 6.36
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d758c"
+    },
+    "name": "FIFA 15",
+    "platform": "PS4",
+    "year": "2014",
+    "genre": "Sports",
+    "publisher": "EA Sports",
+    "naSales": 0.83,
+    "euSales": 4.49,
+    "jpSales": 0.05,
+    "otherSales": 0.94,
+    "globalSales": 6.32
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d758d"
+    },
+    "name": "Super Mario Sunshine",
+    "platform": "GC",
+    "year": "2002",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 4.01,
+    "euSales": 1.26,
+    "jpSales": 0.87,
+    "otherSales": 0.17,
+    "globalSales": 6.31
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d758b"
+    },
+    "name": "MineCraft",
+    "platform": "PS4",
+    "year": "2014",
+    "genre": "Misc",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 1.89,
+    "euSales": 3.13,
+    "jpSales": 0.35,
+    "otherSales": 0.96,
+    "globalSales": 6.33
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d758e"
+    },
+    "name": "Street Fighter II: The World Warrior",
+    "platform": "SNES",
+    "year": "1992",
+    "genre": "Fighting",
+    "publisher": "Capcom",
+    "naSales": 2.47,
+    "euSales": 0.83,
+    "jpSales": 2.87,
+    "otherSales": 0.12,
+    "globalSales": 6.3
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d758f"
+    },
+    "name": "World of Warcraft",
+    "platform": "PC",
+    "year": "2004",
+    "genre": "Role-Playing",
+    "publisher": "Activision",
+    "naSales": 0.08,
+    "euSales": 6.21,
+    "jpSales": 0,
+    "otherSales": 0,
+    "globalSales": 6.29
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7590"
+    },
+    "name": "Driver",
+    "platform": "PS",
+    "year": "1999",
+    "genre": "Action",
+    "publisher": "GT Interactive",
+    "naSales": 3.11,
+    "euSales": 2.8,
+    "jpSales": 0.02,
+    "otherSales": 0.33,
+    "globalSales": 6.27
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7591"
+    },
+    "name": "Kinect Sports",
+    "platform": "X360",
+    "year": "2010",
+    "genre": "Sports",
+    "publisher": "Microsoft Game Studios",
+    "naSales": 3.92,
+    "euSales": 1.78,
+    "jpSales": 0.03,
+    "otherSales": 0.51,
+    "globalSales": 6.24
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7593"
+    },
+    "name": "Call of Duty: WWII",
+    "platform": "XboxOne",
+    "year": "2017",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 3.75,
+    "euSales": 1.91,
+    "jpSales": 0,
+    "otherSales": 0.57,
+    "globalSales": 6.23
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7592"
+    },
+    "name": "Gears of War 3",
+    "platform": "X360",
+    "year": "2011",
+    "genre": "Shooter",
+    "publisher": "Microsoft Game Studios",
+    "naSales": 4.05,
+    "euSales": 1.62,
+    "jpSales": 0.07,
+    "otherSales": 0.49,
+    "globalSales": 6.24
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7596"
+    },
+    "name": "Metal Gear Solid 2: Sons of Liberty",
+    "platform": "PS2",
+    "year": "2001",
+    "genre": "Action",
+    "publisher": "Konami Digital Entertainment",
+    "naSales": 2.45,
+    "euSales": 2.01,
+    "jpSales": 0.87,
+    "otherSales": 0.72,
+    "globalSales": 6.05
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7594"
+    },
+    "name": "God of War (PS4)",
+    "platform": "PS4",
+    "year": "2018",
+    "genre": "Action",
+    "publisher": "Sony Interactive Entertainment",
+    "naSales": 2.83,
+    "euSales": 2.17,
+    "jpSales": 0.13,
+    "otherSales": 1.02,
+    "globalSales": 6.15
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7595"
+    },
+    "name": "Gears of War",
+    "platform": "X360",
+    "year": "2006",
+    "genre": "Shooter",
+    "publisher": "Microsoft Game Studios",
+    "naSales": 3.54,
+    "euSales": 1.9,
+    "jpSales": 0.07,
+    "otherSales": 0.6,
+    "globalSales": 6.11
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7597"
+    },
+    "name": "Metal Gear Solid",
+    "platform": "PS",
+    "year": "1998",
+    "genre": "Action",
+    "publisher": "Konami Digital Entertainment",
+    "naSales": 3.18,
+    "euSales": 1.83,
+    "jpSales": 0.78,
+    "otherSales": 0.24,
+    "globalSales": 6.03
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7598"
+    },
+    "name": "Metal Gear Solid 4: Guns of the Patriots",
+    "platform": "PS3",
+    "year": "2008",
+    "genre": "Action",
+    "publisher": "Konami Digital Entertainment",
+    "naSales": 2.63,
+    "euSales": 1.74,
+    "jpSales": 0.83,
+    "otherSales": 0.83,
+    "globalSales": 6.03
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7599"
+    },
+    "name": "Sonic the Hedgehog 2",
+    "platform": "GEN",
+    "year": "1992",
+    "genre": "platform",
+    "publisher": "Sega",
+    "naSales": 4.47,
+    "euSales": 1.2,
+    "jpSales": 0.16,
+    "otherSales": 0.19,
+    "globalSales": 6.03
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d759a"
+    },
+    "name": "The Last of Us",
+    "platform": "PS3",
+    "year": "2013",
+    "genre": "Action",
+    "publisher": "Sony Computer Entertainment Europe",
+    "naSales": 2.41,
+    "euSales": 2.28,
+    "jpSales": 0.28,
+    "otherSales": 1.01,
+    "globalSales": 5.99
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d759b"
+    },
+    "name": "Final Fantasy XII",
+    "platform": "PS2",
+    "year": "2006",
+    "genre": "Role-Playing",
+    "publisher": "Square Enix",
+    "naSales": 1.88,
+    "euSales": 0,
+    "jpSales": 2.33,
+    "otherSales": 1.74,
+    "globalSales": 5.95
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d759c"
+    },
+    "name": "LittleBigPlanet",
+    "platform": "PS3",
+    "year": "2008",
+    "genre": "platform",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 2.8,
+    "euSales": 2.05,
+    "jpSales": 0.17,
+    "otherSales": 0.9,
+    "globalSales": 5.92
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75a0"
+    },
+    "name": "Resident Evil 2",
+    "platform": "PS",
+    "year": "1998",
+    "genre": "Action",
+    "publisher": "Virgin Interactive",
+    "naSales": 1.88,
+    "euSales": 1.47,
+    "jpSales": 2.02,
+    "otherSales": 0.45,
+    "globalSales": 5.82
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d759f"
+    },
+    "name": "Horizon: Zero Dawn",
+    "platform": "PS4",
+    "year": "2017",
+    "genre": "Action",
+    "publisher": "Sony Interactive Entertainment",
+    "naSales": 2.2,
+    "euSales": 2.43,
+    "jpSales": 0.28,
+    "otherSales": 0.92,
+    "globalSales": 5.82
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d759e"
+    },
+    "name": "LEGO Star Wars: The Complete Saga",
+    "platform": "Wii",
+    "year": "2007",
+    "genre": "Action",
+    "publisher": "LucasArts",
+    "naSales": 3.66,
+    "euSales": 1.63,
+    "jpSales": 0,
+    "otherSales": 0.53,
+    "globalSales": 5.83
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d759d"
+    },
+    "name": "Dragon Quest IX: Sentinels of the Starry Skies",
+    "platform": "DS",
+    "year": "2009",
+    "genre": "Role-Playing",
+    "publisher": "Nintendo",
+    "naSales": 0.66,
+    "euSales": 0.69,
+    "jpSales": 4.35,
+    "otherSales": 0.15,
+    "globalSales": 5.84
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75a2"
+    },
+    "name": "Destiny",
+    "platform": "PS4",
+    "year": "2014",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 2.53,
+    "euSales": 2.13,
+    "jpSales": 0.16,
+    "otherSales": 0.94,
+    "globalSales": 5.76
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75a5"
+    },
+    "name": "Uncharted: The Nathan Drake Collection",
+    "platform": "PS4",
+    "year": "2015",
+    "genre": "Action",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 2.55,
+    "euSales": 2.11,
+    "jpSales": 0.1,
+    "otherSales": 0.94,
+    "globalSales": 5.7
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75a3"
+    },
+    "name": "Tekken 2",
+    "platform": "PS",
+    "year": "1996",
+    "genre": "Fighting",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 2.26,
+    "euSales": 1.89,
+    "jpSales": 1.36,
+    "otherSales": 0.23,
+    "globalSales": 5.74
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75a4"
+    },
+    "name": "Cooking Mama",
+    "platform": "DS",
+    "year": "2006",
+    "genre": "Simulation",
+    "publisher": "505 Games",
+    "naSales": 3.13,
+    "euSales": 1.94,
+    "jpSales": 0.07,
+    "otherSales": 0.58,
+    "globalSales": 5.72
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75a6"
+    },
+    "name": "Tetris",
+    "platform": "NES",
+    "year": "1988",
+    "genre": "Puzzle",
+    "publisher": "Nintendo",
+    "naSales": 2.97,
+    "euSales": 0.69,
+    "jpSales": 1.81,
+    "otherSales": 0.11,
+    "globalSales": 5.58
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75a1"
+    },
+    "name": "Red Dead Redemption 2",
+    "platform": "XboxOne",
+    "year": "2018",
+    "genre": "Action-Adventure",
+    "publisher": "Rockstar Games",
+    "naSales": 3.76,
+    "euSales": 1.47,
+    "jpSales": 0,
+    "otherSales": 0.54,
+    "globalSales": 5.77
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75a8"
+    },
+    "name": "Assassin's Creed",
+    "platform": "X360",
+    "year": "2007",
+    "genre": "Adventure",
+    "publisher": "Ubisoft",
+    "naSales": 3.28,
+    "euSales": 1.65,
+    "jpSales": 0.07,
+    "otherSales": 0.55,
+    "globalSales": 5.55
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75a7"
+    },
+    "name": "Assassin's Creed II",
+    "platform": "PS3",
+    "year": "2009",
+    "genre": "Action",
+    "publisher": "Ubisoft",
+    "naSales": 2.54,
+    "euSales": 1.95,
+    "jpSales": 0.21,
+    "otherSales": 0.87,
+    "globalSales": 5.57
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75aa"
+    },
+    "name": "Batman: Arkham City",
+    "platform": "PS3",
+    "year": "2011",
+    "genre": "Action",
+    "publisher": "Warner Bros. Interactive Entertainment",
+    "naSales": 2.7,
+    "euSales": 1.91,
+    "jpSales": 0.11,
+    "otherSales": 0.8,
+    "globalSales": 5.53
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75a9"
+    },
+    "name": "Super Smash Bros.",
+    "platform": "N64",
+    "year": "1999",
+    "genre": "Fighting",
+    "publisher": "Nintendo",
+    "naSales": 2.95,
+    "euSales": 0.6,
+    "jpSales": 1.97,
+    "otherSales": 0.04,
+    "globalSales": 5.55
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75ab"
+    },
+    "name": "Forza Motorsport 3",
+    "platform": "X360",
+    "year": "2009",
+    "genre": "Racing",
+    "publisher": "Microsoft Game Studios",
+    "naSales": 2.99,
+    "euSales": 1.92,
+    "jpSales": 0.1,
+    "otherSales": 0.51,
+    "globalSales": 5.51
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75ac"
+    },
+    "name": "Monster Hunter Freedom Unite",
+    "platform": "PSP",
+    "year": "2008",
+    "genre": "Role-Playing",
+    "publisher": "Capcom",
+    "naSales": 0.47,
+    "euSales": 0.57,
+    "jpSales": 4.13,
+    "otherSales": 0.34,
+    "globalSales": 5.5
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75ae"
+    },
+    "name": "Grand Theft Auto V",
+    "platform": "XOne",
+    "year": "2014",
+    "genre": "Action",
+    "publisher": "Take-Two Interactive",
+    "naSales": 2.81,
+    "euSales": 2.19,
+    "jpSales": 0,
+    "otherSales": 0.47,
+    "globalSales": 5.48
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75b1"
+    },
+    "name": "Pokemon Stadium",
+    "platform": "N64",
+    "year": "1999",
+    "genre": "Strategy",
+    "publisher": "Nintendo",
+    "naSales": 3.18,
+    "euSales": 1.24,
+    "jpSales": 0.94,
+    "otherSales": 0.09,
+    "globalSales": 5.45
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75ad"
+    },
+    "name": "Super Mario Advance",
+    "platform": "GBA",
+    "year": "2001",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 3.14,
+    "euSales": 1.24,
+    "jpSales": 0.91,
+    "otherSales": 0.2,
+    "globalSales": 5.49
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75b0"
+    },
+    "name": "Super Mario World",
+    "platform": "GBA",
+    "year": "2001",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 3.21,
+    "euSales": 1.11,
+    "jpSales": 0.95,
+    "otherSales": 0.2,
+    "globalSales": 5.46
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75b4"
+    },
+    "name": "Minecraft",
+    "platform": "PS3",
+    "year": "2014",
+    "genre": "Misc",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 1.97,
+    "euSales": 2.51,
+    "jpSales": 0,
+    "otherSales": 0.94,
+    "globalSales": 5.42
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75b5"
+    },
+    "name": "Crash Bandicoot: The Wrath of Cortex",
+    "platform": "PS2",
+    "year": "2001",
+    "genre": "platform",
+    "publisher": "Universal Interactive",
+    "naSales": 2.07,
+    "euSales": 2.29,
+    "jpSales": 0.24,
+    "otherSales": 0.82,
+    "globalSales": 5.42
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75b6"
+    },
+    "name": "The Witcher 3: Wild Hunt",
+    "platform": "PS4",
+    "year": "2015",
+    "genre": "Role-Playing",
+    "publisher": "Namco Bandai Games",
+    "naSales": 1.48,
+    "euSales": 2.82,
+    "jpSales": 0.28,
+    "otherSales": 0.81,
+    "globalSales": 5.39
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75af"
+    },
+    "name": "Mario Kart: Super Circuit",
+    "platform": "GBA",
+    "year": "2001",
+    "genre": "Racing",
+    "publisher": "Nintendo",
+    "naSales": 2.62,
+    "euSales": 1.64,
+    "jpSales": 0.99,
+    "otherSales": 0.23,
+    "globalSales": 5.47
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75b8"
+    },
+    "name": "Final Fantasy XIII",
+    "platform": "PS3",
+    "year": "2009",
+    "genre": "Role-Playing",
+    "publisher": "Square Enix",
+    "naSales": 1.74,
+    "euSales": 1.24,
+    "jpSales": 1.87,
+    "otherSales": 0.52,
+    "globalSales": 5.36
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75b7"
+    },
+    "name": "Uncharted 4: A Thief's End",
+    "platform": "PS4",
+    "year": "2016",
+    "genre": "Shooter",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 1.85,
+    "euSales": 2.5,
+    "jpSales": 0.19,
+    "otherSales": 0.85,
+    "globalSales": 5.38
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75bb"
+    },
+    "name": "Assassin's Creed III",
+    "platform": "X360",
+    "year": "2012",
+    "genre": "Action",
+    "publisher": "Ubisoft",
+    "naSales": 3.13,
+    "euSales": 1.71,
+    "jpSales": 0.03,
+    "otherSales": 0.44,
+    "globalSales": 5.3
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75bc"
+    },
+    "name": "Final Fantasy IX",
+    "platform": "PS",
+    "year": "2000",
+    "genre": "Role-Playing",
+    "publisher": "SquareSoft",
+    "naSales": 1.62,
+    "euSales": 0.77,
+    "jpSales": 2.78,
+    "otherSales": 0.14,
+    "globalSales": 5.3
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75ba"
+    },
+    "name": "Pokemon Pinball",
+    "platform": "GB",
+    "year": "1999",
+    "genre": "Misc",
+    "publisher": "Nintendo",
+    "naSales": 3.02,
+    "euSales": 1.12,
+    "jpSales": 1.01,
+    "otherSales": 0.16,
+    "globalSales": 5.31
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75bf"
+    },
+    "name": "Call of Duty: Advanced Warfare",
+    "platform": "XOne",
+    "year": "2014",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 3.22,
+    "euSales": 1.55,
+    "jpSales": 0.01,
+    "otherSales": 0.48,
+    "globalSales": 5.27
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75c2"
+    },
+    "name": "Tomb Raider II",
+    "platform": "PS",
+    "year": "1997",
+    "genre": "Action",
+    "publisher": "Eidos Interactive",
+    "naSales": 2.3,
+    "euSales": 2.46,
+    "jpSales": 0.2,
+    "otherSales": 0.28,
+    "globalSales": 5.24
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75be"
+    },
+    "name": "Assassin's Creed II",
+    "platform": "X360",
+    "year": "2009",
+    "genre": "Action",
+    "publisher": "Ubisoft",
+    "naSales": 3.1,
+    "euSales": 1.56,
+    "jpSales": 0.08,
+    "otherSales": 0.51,
+    "globalSales": 5.27
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75c4"
+    },
+    "name": "Madden NFL 2004",
+    "platform": "PS2",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 4.26,
+    "euSales": 0.26,
+    "jpSales": 0.01,
+    "otherSales": 0.71,
+    "globalSales": 5.23
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75c5"
+    },
+    "name": "Call of Duty: Advanced Warfare",
+    "platform": "XboxOne",
+    "year": "2014",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 3.25,
+    "euSales": 1.49,
+    "jpSales": 0.01,
+    "otherSales": 0.48,
+    "globalSales": 5.22
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75b2"
+    },
+    "name": "Call of Duty: World at War",
+    "platform": "PS3",
+    "year": "2008",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 2.72,
+    "euSales": 1.87,
+    "jpSales": 0,
+    "otherSales": 0.84,
+    "globalSales": 5.43
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75c7"
+    },
+    "name": "Dragon Quest VIII: Journey of the Cursed King",
+    "platform": "PS2",
+    "year": "2004",
+    "genre": "Role-Playing",
+    "publisher": "Square Enix",
+    "naSales": 0.65,
+    "euSales": 0.75,
+    "jpSales": 3.61,
+    "otherSales": 0.2,
+    "globalSales": 5.21
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75c8"
+    },
+    "name": "Diablo III",
+    "platform": "PC",
+    "year": "2012",
+    "genre": "Role-Playing",
+    "publisher": "Activision",
+    "naSales": 2.43,
+    "euSales": 2.15,
+    "jpSales": 0,
+    "otherSales": 0.62,
+    "globalSales": 5.2
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75b9"
+    },
+    "name": "Dr. Mario",
+    "platform": "GB",
+    "year": "1989",
+    "genre": "Puzzle",
+    "publisher": "Nintendo",
+    "naSales": 2.18,
+    "euSales": 0.96,
+    "jpSales": 2,
+    "otherSales": 0.2,
+    "globalSales": 5.34
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75c0"
+    },
+    "name": "Donkey Kong 64",
+    "platform": "N64",
+    "year": "1999",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 3.33,
+    "euSales": 0.79,
+    "jpSales": 1.09,
+    "otherSales": 0.06,
+    "globalSales": 5.27
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75c9"
+    },
+    "name": "Super Mario Bros. 3",
+    "platform": "GBA",
+    "year": "2003",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 2.93,
+    "euSales": 1.25,
+    "jpSales": 0.83,
+    "otherSales": 0.2,
+    "globalSales": 5.2
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75ca"
+    },
+    "name": "Super Mario Land 3: Wario Land",
+    "platform": "GB",
+    "year": "1994",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 2.49,
+    "euSales": 0.98,
+    "jpSales": 1.57,
+    "otherSales": 0.15,
+    "globalSales": 5.19
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75cb"
+    },
+    "name": "FIFA Soccer 13",
+    "platform": "X360",
+    "year": "2012",
+    "genre": "Action",
+    "publisher": "Electronic Arts",
+    "naSales": 1.08,
+    "euSales": 3.48,
+    "jpSales": 0.03,
+    "otherSales": 0.58,
+    "globalSales": 5.18
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75c3"
+    },
+    "name": "Tomodachi Life",
+    "platform": "3DS",
+    "year": "2013",
+    "genre": "Simulation",
+    "publisher": "Nintendo",
+    "naSales": 0.97,
+    "euSales": 2.11,
+    "jpSales": 1.9,
+    "otherSales": 0.24,
+    "globalSales": 5.23
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75bd"
+    },
+    "name": "Final Fantasy X-2",
+    "platform": "PS2",
+    "year": "2003",
+    "genre": "Role-Playing",
+    "publisher": "Electronic Arts",
+    "naSales": 1.92,
+    "euSales": 1.08,
+    "jpSales": 2.11,
+    "otherSales": 0.17,
+    "globalSales": 5.29
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75b3"
+    },
+    "name": "MineCraft",
+    "platform": "XboxOne",
+    "year": "2014",
+    "genre": "Misc",
+    "publisher": "Microsoft Studios",
+    "naSales": 3.23,
+    "euSales": 1.71,
+    "jpSales": 0,
+    "otherSales": 0.49,
+    "globalSales": 5.43
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75c1"
+    },
+    "name": "Professor Layton and the Curious Village",
+    "platform": "DS",
+    "year": "2007",
+    "genre": "Puzzle",
+    "publisher": "Nintendo",
+    "naSales": 1.22,
+    "euSales": 2.48,
+    "jpSales": 1.03,
+    "otherSales": 0.52,
+    "globalSales": 5.26
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75cc"
+    },
+    "name": "The Legend of Zelda: Phantom Hourglass",
+    "platform": "DS",
+    "year": "2007",
+    "genre": "Action",
+    "publisher": "Nintendo",
+    "naSales": 1.9,
+    "euSales": 1.83,
+    "jpSales": 0.95,
+    "otherSales": 0.49,
+    "globalSales": 5.17
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75d0"
+    },
+    "name": "Battlefield 1",
+    "platform": "XboxOne",
+    "year": "2016",
+    "genre": "Shooter",
+    "publisher": "Electronic Arts",
+    "naSales": 3.37,
+    "euSales": 1.26,
+    "jpSales": 0.02,
+    "otherSales": 0.48,
+    "globalSales": 5.13
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75d1"
+    },
+    "name": "Fable III",
+    "platform": "X360",
+    "year": "2010",
+    "genre": "Role-Playing",
+    "publisher": "Microsoft Game Studios",
+    "naSales": 3.59,
+    "euSales": 1.11,
+    "jpSales": 0.05,
+    "otherSales": 0.38,
+    "globalSales": 5.13
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75d3"
+    },
+    "name": "Microsoft Flight Simulator",
+    "platform": "PC",
+    "year": "1996",
+    "genre": "Simulation",
+    "publisher": "Microsoft Game Studios",
+    "naSales": 3.22,
+    "euSales": 1.69,
+    "jpSales": 0,
+    "otherSales": 0.2,
+    "globalSales": 5.12
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75ce"
+    },
+    "name": "Mario & Sonic at the Olympic Games",
+    "platform": "DS",
+    "year": "2008",
+    "genre": "Sports",
+    "publisher": "Sega",
+    "naSales": 1.64,
+    "euSales": 2.48,
+    "jpSales": 0.44,
+    "otherSales": 0.58,
+    "globalSales": 5.14
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75d2"
+    },
+    "name": "Kirby's Dream Land",
+    "platform": "GB",
+    "year": "1992",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 2.71,
+    "euSales": 0.61,
+    "jpSales": 1.7,
+    "otherSales": 0.11,
+    "globalSales": 5.13
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75c6"
+    },
+    "name": "New Super Mario Bros. U",
+    "platform": "WiiU",
+    "year": "2012",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 2.3,
+    "euSales": 1.34,
+    "jpSales": 1.27,
+    "otherSales": 0.32,
+    "globalSales": 5.22
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75cf"
+    },
+    "name": "Medal of Honor: Rising Sun",
+    "platform": "PS2",
+    "year": "2003",
+    "genre": "Shooter",
+    "publisher": "Electronic Arts",
+    "naSales": 1.98,
+    "euSales": 2.23,
+    "jpSales": 0.13,
+    "otherSales": 0.8,
+    "globalSales": 5.13
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75d7"
+    },
+    "name": "Grand Theft Auto: Vice City Stories",
+    "platform": "PSP",
+    "year": "2006",
+    "genre": "Action",
+    "publisher": "Take-Two Interactive",
+    "naSales": 1.7,
+    "euSales": 2.02,
+    "jpSales": 0.16,
+    "otherSales": 1.21,
+    "globalSales": 5.08
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75d5"
+    },
+    "name": "Resident Evil 5",
+    "platform": "PS3",
+    "year": "2009",
+    "genre": "Action",
+    "publisher": "Capcom",
+    "naSales": 1.96,
+    "euSales": 1.43,
+    "jpSales": 1.08,
+    "otherSales": 0.65,
+    "globalSales": 5.11
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75d4"
+    },
+    "name": "Guitar Hero II",
+    "platform": "PS2",
+    "year": "2006",
+    "genre": "Misc",
+    "publisher": "RedOctane",
+    "naSales": 3.81,
+    "euSales": 0.63,
+    "jpSales": 0,
+    "otherSales": 0.68,
+    "globalSales": 5.12
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75d8"
+    },
+    "name": "Final Fantasy XV",
+    "platform": "PS4",
+    "year": "2016",
+    "genre": "Role-Playing",
+    "publisher": "Square Enix",
+    "naSales": 1.81,
+    "euSales": 1.53,
+    "jpSales": 1.05,
+    "otherSales": 0.68,
+    "globalSales": 5.07
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75cd"
+    },
+    "name": "Donkey Kong Country 2: Diddy's Kong Quest",
+    "platform": "SNES",
+    "year": "1995",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 2.1,
+    "euSales": 0.74,
+    "jpSales": 2.2,
+    "otherSales": 0.11,
+    "globalSales": 5.15
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75da"
+    },
+    "name": "Resident Evil",
+    "platform": "PS",
+    "year": "1996",
+    "genre": "Action",
+    "publisher": "Virgin Interactive",
+    "naSales": 2.05,
+    "euSales": 1.16,
+    "jpSales": 1.11,
+    "otherSales": 0.73,
+    "globalSales": 5.05
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75d6"
+    },
+    "name": "FIFA Soccer 11",
+    "platform": "PS3",
+    "year": "2010",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 0.6,
+    "euSales": 3.29,
+    "jpSales": 0.06,
+    "otherSales": 1.13,
+    "globalSales": 5.08
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75db"
+    },
+    "name": "Fallout 4",
+    "platform": "XboxOne",
+    "year": "2015",
+    "genre": "Role-Playing",
+    "publisher": "Bethesda Softworks",
+    "naSales": 2.94,
+    "euSales": 1.62,
+    "jpSales": 0.02,
+    "otherSales": 0.45,
+    "globalSales": 5.03
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75dd"
+    },
+    "name": "Super Smash Bros. for Wii U and 3DS",
+    "platform": "WiiU",
+    "year": "2014",
+    "genre": "Fighting",
+    "publisher": "Nintendo",
+    "naSales": 2.59,
+    "euSales": 1.06,
+    "jpSales": 0.8,
+    "otherSales": 0.57,
+    "globalSales": 5.02
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75dc"
+    },
+    "name": "Tony Hawk's Pro Skater",
+    "platform": "PS",
+    "year": "1999",
+    "genre": "Sports",
+    "publisher": "Activision",
+    "naSales": 3.42,
+    "euSales": 1.38,
+    "jpSales": 0.02,
+    "otherSales": 0.2,
+    "globalSales": 5.02
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75e0"
+    },
+    "name": "Link's Crossbow Training",
+    "platform": "Wii",
+    "year": "2007",
+    "genre": "Shooter",
+    "publisher": "Nintendo",
+    "naSales": 3.06,
+    "euSales": 1.18,
+    "jpSales": 0.29,
+    "otherSales": 0.46,
+    "globalSales": 5
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75de"
+    },
+    "name": "Warzone 2100",
+    "platform": "PS",
+    "year": "1999",
+    "genre": "Strategy",
+    "publisher": "Eidos Interactive",
+    "naSales": 2.79,
+    "euSales": 1.89,
+    "jpSales": 0,
+    "otherSales": 0.33,
+    "globalSales": 5.01
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75e6"
+    },
+    "name": "Madden NFL 06",
+    "platform": "PS2",
+    "year": "2005",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 3.98,
+    "euSales": 0.26,
+    "jpSales": 0.01,
+    "otherSales": 0.66,
+    "globalSales": 4.91
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75df"
+    },
+    "name": "Spyro the Dragon",
+    "platform": "PS",
+    "year": "1998",
+    "genre": "platform",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 3.36,
+    "euSales": 1.36,
+    "jpSales": 0.07,
+    "otherSales": 0.21,
+    "globalSales": 5
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75d9"
+    },
+    "name": "Super Mario Bros.",
+    "platform": "GB",
+    "year": "1999",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 3.4,
+    "euSales": 1.3,
+    "jpSales": 0.15,
+    "otherSales": 0.22,
+    "globalSales": 5.07
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75e7"
+    },
+    "name": "LEGO Star Wars: The Complete Saga",
+    "platform": "DS",
+    "year": "2007",
+    "genre": "Action",
+    "publisher": "LucasArts",
+    "naSales": 2.89,
+    "euSales": 1.54,
+    "jpSales": 0,
+    "otherSales": 0.46,
+    "globalSales": 4.9
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75ea"
+    },
+    "name": "Dr. Mario",
+    "platform": "NES",
+    "year": "1990",
+    "genre": "Puzzle",
+    "publisher": "Nintendo",
+    "naSales": 2.62,
+    "euSales": 0.6,
+    "jpSales": 1.52,
+    "otherSales": 0.1,
+    "globalSales": 4.85
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75e5"
+    },
+    "name": "Halo 5: Guardians",
+    "platform": "XboxOne",
+    "year": "2015",
+    "genre": "Shooter",
+    "publisher": "Microsoft Studios",
+    "naSales": 2.94,
+    "euSales": 1.49,
+    "jpSales": 0.03,
+    "otherSales": 0.45,
+    "globalSales": 4.92
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d75e8"
+    },
+    "name": "Diddy Kong Racing",
+    "platform": "N64",
+    "year": "1997",
+    "genre": "Racing",
+    "publisher": "Nintendo",
+    "naSales": 2.91,
+    "euSales": 0.99,
+    "jpSales": 0.89,
+    "otherSales": 0.1,
+    "globalSales": 4.88
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7660"
+    },
+    "name": "Namco Museum Vol.1",
+    "platform": "PS",
+    "year": "1995",
+    "genre": "Misc",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 2.12,
+    "euSales": 1.44,
+    "jpSales": 0.22,
+    "otherSales": 0.06,
+    "globalSales": 3.84
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7661"
+    },
+    "name": "The Legend of Zelda: Link's Awakening",
+    "platform": "GB",
+    "year": "1992",
+    "genre": "Action",
+    "publisher": "Nintendo",
+    "naSales": 2.21,
+    "euSales": 0.96,
+    "jpSales": 0.54,
+    "otherSales": 0.13,
+    "globalSales": 3.83
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7664"
+    },
+    "name": "Mario & Sonic at the London 2012 Olympic Games",
+    "platform": "Wii",
+    "year": "2011",
+    "genre": "Sports",
+    "publisher": "Sega",
+    "naSales": 1.14,
+    "euSales": 1.91,
+    "jpSales": 0.27,
+    "otherSales": 0.46,
+    "globalSales": 3.78
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7662"
+    },
+    "name": "Mario & Luigi: Bowser's Inside Story",
+    "platform": "DS",
+    "year": "2009",
+    "genre": "Role-Playing",
+    "publisher": "Nintendo",
+    "naSales": 2.26,
+    "euSales": 0.48,
+    "jpSales": 0.81,
+    "otherSales": 0.27,
+    "globalSales": 3.83
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7663"
+    },
+    "name": "Big Brain Academy: Wii Degree",
+    "platform": "Wii",
+    "year": "2007",
+    "genre": "Misc",
+    "publisher": "Nintendo",
+    "naSales": 1.06,
+    "euSales": 1.93,
+    "jpSales": 0.41,
+    "otherSales": 0.43,
+    "globalSales": 3.82
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7665"
+    },
+    "name": "LEGO Indiana Jones: The Original Adventures",
+    "platform": "X360",
+    "year": "2008",
+    "genre": "Action",
+    "publisher": "Activision",
+    "naSales": 2.4,
+    "euSales": 1.03,
+    "jpSales": 0,
+    "otherSales": 0.36,
+    "globalSales": 3.78
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7669"
+    },
+    "name": "The Sims: Unleashed",
+    "platform": "PC",
+    "year": "2002",
+    "genre": "Simulation",
+    "publisher": "Electronic Arts",
+    "naSales": 2.03,
+    "euSales": 1.56,
+    "jpSales": 0,
+    "otherSales": 0.17,
+    "globalSales": 3.76
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7668"
+    },
+    "name": "Resident Evil Director's Cut",
+    "platform": "PS",
+    "year": "1996",
+    "genre": "Action",
+    "publisher": "Virgin Interactive",
+    "naSales": 1.82,
+    "euSales": 1.24,
+    "jpSales": 0.47,
+    "otherSales": 0.25,
+    "globalSales": 3.77
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7666"
+    },
+    "name": "Gran Turismo Sport",
+    "platform": "PS4",
+    "year": "2017",
+    "genre": "Racing",
+    "publisher": "Sony Interactive Entertainment",
+    "naSales": 0.63,
+    "euSales": 2.35,
+    "jpSales": 0.24,
+    "otherSales": 0.54,
+    "globalSales": 3.77
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7667"
+    },
+    "name": "Ratchet & Clank: Size Matters",
+    "platform": "PSP",
+    "year": "2007",
+    "genre": "platform",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 1.4,
+    "euSales": 1.4,
+    "jpSales": 0.1,
+    "otherSales": 0.87,
+    "globalSales": 3.77
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d766a"
+    },
+    "name": "Just Dance 2014",
+    "platform": "Wii",
+    "year": "2013",
+    "genre": "Misc",
+    "publisher": "Ubisoft",
+    "naSales": 1.98,
+    "euSales": 1.47,
+    "jpSales": 0,
+    "otherSales": 0.32,
+    "globalSales": 3.76
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d766b"
+    },
+    "name": "Super Paper Mario",
+    "platform": "Wii",
+    "year": "2007",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 1.98,
+    "euSales": 0.88,
+    "jpSales": 0.59,
+    "otherSales": 0.32,
+    "globalSales": 3.76
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d766d"
+    },
+    "name": "Resident Evil 3: Nemesis",
+    "platform": "PS",
+    "year": "1999",
+    "genre": "Action",
+    "publisher": "Eidos Interactive",
+    "naSales": 1.3,
+    "euSales": 0.77,
+    "jpSales": 1.54,
+    "otherSales": 0.11,
+    "globalSales": 3.72
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d766c"
+    },
+    "name": "Harry Potter and the Sorcerer's Stone",
+    "platform": "PS",
+    "year": "2001",
+    "genre": "Action",
+    "publisher": "Electronic Arts",
+    "naSales": 1.37,
+    "euSales": 2,
+    "jpSales": 0.14,
+    "otherSales": 0.22,
+    "globalSales": 3.73
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d766f"
+    },
+    "name": "Spyro: year of the Dragon",
+    "platform": "PS",
+    "year": "2000",
+    "genre": "platform",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 1.93,
+    "euSales": 1.58,
+    "jpSales": 0,
+    "otherSales": 0.19,
+    "globalSales": 3.71
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d766e"
+    },
+    "name": "FIFA 17",
+    "platform": "XboxOne",
+    "year": "2016",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 1.04,
+    "euSales": 2.4,
+    "jpSales": 0,
+    "otherSales": 0.27,
+    "globalSales": 3.71
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7672"
+    },
+    "name": "MySims",
+    "platform": "DS",
+    "year": "2007",
+    "genre": "Simulation",
+    "publisher": "Electronic Arts",
+    "naSales": 1.59,
+    "euSales": 1.61,
+    "jpSales": 0.08,
+    "otherSales": 0.41,
+    "globalSales": 3.69
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7670"
+    },
+    "name": "FIFA Soccer 2005",
+    "platform": "PS2",
+    "year": "2004",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 0.58,
+    "euSales": 2.48,
+    "jpSales": 0.04,
+    "otherSales": 0.59,
+    "globalSales": 3.7
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7671"
+    },
+    "name": "Pokémon Trading Card Game",
+    "platform": "GB",
+    "year": "1998",
+    "genre": "Strategy",
+    "publisher": "Nintendo",
+    "naSales": 1.49,
+    "euSales": 0.73,
+    "jpSales": 1.38,
+    "otherSales": 0.1,
+    "globalSales": 3.7
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7673"
+    },
+    "name": "Battlefield 4",
+    "platform": "PS3",
+    "year": "2013",
+    "genre": "Shooter",
+    "publisher": "Electronic Arts",
+    "naSales": 1.3,
+    "euSales": 1.51,
+    "jpSales": 0.27,
+    "otherSales": 0.61,
+    "globalSales": 3.69
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7674"
+    },
+    "name": "Tony Hawk's Pro Skater 4",
+    "platform": "PS2",
+    "year": "2002",
+    "genre": "Sports",
+    "publisher": "Activision",
+    "naSales": 2.13,
+    "euSales": 1.18,
+    "jpSales": 0.01,
+    "otherSales": 0.35,
+    "globalSales": 3.67
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7675"
+    },
+    "name": "Friend Collection",
+    "platform": "DS",
+    "year": "2009",
+    "genre": "Misc",
+    "publisher": "Nintendo",
+    "naSales": 0,
+    "euSales": 0,
+    "jpSales": 3.67,
+    "otherSales": 0,
+    "globalSales": 3.67
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7677"
+    },
+    "name": "Midnight Club 3: DUB Edition",
+    "platform": "PSP",
+    "year": "2005",
+    "genre": "Racing",
+    "publisher": "Take-Two Interactive",
+    "naSales": 1.65,
+    "euSales": 1.22,
+    "jpSales": 0,
+    "otherSales": 0.79,
+    "globalSales": 3.66
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7676"
+    },
+    "name": "Star Wars Battlefront (2015)",
+    "platform": "XOne",
+    "year": "2015",
+    "genre": "Shooter",
+    "publisher": "Electronic Arts",
+    "naSales": 2.04,
+    "euSales": 1.28,
+    "jpSales": 0.02,
+    "otherSales": 0.32,
+    "globalSales": 3.66
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7678"
+    },
+    "name": "Banjo-Kazooie",
+    "platform": "N64",
+    "year": "1998",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 1.87,
+    "euSales": 1.13,
+    "jpSales": 0.55,
+    "otherSales": 0.1,
+    "globalSales": 3.65
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d767a"
+    },
+    "name": "SOCOM: U.S. Navy SEALs",
+    "platform": "PS2",
+    "year": "2002",
+    "genre": "Shooter",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 2.53,
+    "euSales": 0.81,
+    "jpSales": 0.06,
+    "otherSales": 0.24,
+    "globalSales": 3.65
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d767b"
+    },
+    "name": "Gran Turismo 6",
+    "platform": "PS3",
+    "year": "2013",
+    "genre": "Racing",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 0.71,
+    "euSales": 1.8,
+    "jpSales": 0.4,
+    "otherSales": 0.74,
+    "globalSales": 3.64
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7679"
+    },
+    "name": "Guitar Hero: World Tour",
+    "platform": "Wii",
+    "year": "2008",
+    "genre": "Misc",
+    "publisher": "Activision",
+    "naSales": 2.33,
+    "euSales": 0.97,
+    "jpSales": 0,
+    "otherSales": 0.35,
+    "globalSales": 3.65
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d767d"
+    },
+    "name": "FIFA Soccer 10",
+    "platform": "PS3",
+    "year": "2009",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 0.6,
+    "euSales": 2.46,
+    "jpSales": 0.05,
+    "otherSales": 0.52,
+    "globalSales": 3.63
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7681"
+    },
+    "name": "Gears of War: Ultimate Edition",
+    "platform": "XboxOne",
+    "year": "2015",
+    "genre": "Shooter",
+    "publisher": "Microsoft Studios",
+    "naSales": 2.88,
+    "euSales": 0.37,
+    "jpSales": 0,
+    "otherSales": 0.37,
+    "globalSales": 3.62
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7682"
+    },
+    "name": "Cooking Mama 2: Dinner With Friends",
+    "platform": "DS",
+    "year": "2007",
+    "genre": "Simulation",
+    "publisher": "505 Games",
+    "naSales": 1.61,
+    "euSales": 1.5,
+    "jpSales": 0.1,
+    "otherSales": 0.39,
+    "globalSales": 3.61
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d767c"
+    },
+    "name": "Jak and Daxter: The Precursor Legacy",
+    "platform": "PS2",
+    "year": "2001",
+    "genre": "platform",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 2.08,
+    "euSales": 1.09,
+    "jpSales": 0.15,
+    "otherSales": 0.33,
+    "globalSales": 3.64
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7680"
+    },
+    "name": "Resident Evil 4",
+    "platform": "PS2",
+    "year": "2005",
+    "genre": "Action",
+    "publisher": "Capcom",
+    "naSales": 2.08,
+    "euSales": 0.83,
+    "jpSales": 0.46,
+    "otherSales": 0.25,
+    "globalSales": 3.62
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d767e"
+    },
+    "name": "Pokemon Snap",
+    "platform": "N64",
+    "year": "1999",
+    "genre": "Simulation",
+    "publisher": "Nintendo",
+    "naSales": 2.23,
+    "euSales": 0.68,
+    "jpSales": 0.66,
+    "otherSales": 0.06,
+    "globalSales": 3.63
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d767f"
+    },
+    "name": "Pro Evolution Soccer 2008",
+    "platform": "PS2",
+    "year": "2007",
+    "genre": "Sports",
+    "publisher": "Konami Digital Entertainment",
+    "naSales": 0.05,
+    "euSales": 0,
+    "jpSales": 0.64,
+    "otherSales": 2.93,
+    "globalSales": 3.63
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7684"
+    },
+    "name": "Star Wars: Battlefront",
+    "platform": "PS2",
+    "year": "2004",
+    "genre": "Shooter",
+    "publisher": "LucasArts",
+    "naSales": 1.93,
+    "euSales": 1.22,
+    "jpSales": 0.03,
+    "otherSales": 0.44,
+    "globalSales": 3.61
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7686"
+    },
+    "name": "Assassin's Creed Syndicate",
+    "platform": "PS4",
+    "year": "2015",
+    "genre": "Action",
+    "publisher": "Ubisoft",
+    "naSales": 0.9,
+    "euSales": 2.06,
+    "jpSales": 0.08,
+    "otherSales": 0.55,
+    "globalSales": 3.6
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7685"
+    },
+    "name": "The Simpsons: Road Rage",
+    "platform": "PS2",
+    "year": "2001",
+    "genre": "Racing",
+    "publisher": "Electronic Arts",
+    "naSales": 2.02,
+    "euSales": 1.17,
+    "jpSales": 0,
+    "otherSales": 0.42,
+    "globalSales": 3.61
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7687"
+    },
+    "name": "Luigi's Mansion",
+    "platform": "GC",
+    "year": "2001",
+    "genre": "Action",
+    "publisher": "Nintendo",
+    "naSales": 2.38,
+    "euSales": 0.67,
+    "jpSales": 0.46,
+    "otherSales": 0.1,
+    "globalSales": 3.6
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7689"
+    },
+    "name": "WWF SmackDown!",
+    "platform": "PS",
+    "year": "2000",
+    "genre": "Fighting",
+    "publisher": "THQ",
+    "naSales": 2.01,
+    "euSales": 1.35,
+    "jpSales": 0.06,
+    "otherSales": 0.16,
+    "globalSales": 3.58
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7683"
+    },
+    "name": "Doom II: Hell on Earth",
+    "platform": "PC",
+    "year": "1994",
+    "genre": "Shooter",
+    "publisher": "Virgin Interactive",
+    "naSales": 2.05,
+    "euSales": 1.4,
+    "jpSales": 0,
+    "otherSales": 0.16,
+    "globalSales": 3.61
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7688"
+    },
+    "name": "Star Wars: Battlefront II",
+    "platform": "PS2",
+    "year": "2005",
+    "genre": "Shooter",
+    "publisher": "LucasArts",
+    "naSales": 2.18,
+    "euSales": 1.02,
+    "jpSales": 0.03,
+    "otherSales": 0.37,
+    "globalSales": 3.59
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d768a"
+    },
+    "name": "Assassin's Creed: Unity",
+    "platform": "XboxOne",
+    "year": "2014",
+    "genre": "Action",
+    "publisher": "Ubisoft",
+    "naSales": 2.34,
+    "euSales": 0.9,
+    "jpSales": 0,
+    "otherSales": 0.34,
+    "globalSales": 3.58
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d768d"
+    },
+    "name": "Tomb Raider III: Adventures of Lara Croft",
+    "platform": "PS",
+    "year": "1997",
+    "genre": "Action",
+    "publisher": "Eidos Interactive",
+    "naSales": 1.66,
+    "euSales": 1.58,
+    "jpSales": 0.12,
+    "otherSales": 0.18,
+    "globalSales": 3.54
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d768b"
+    },
+    "name": "Croc: Legend of the Gobbos",
+    "platform": "PS",
+    "year": "1997",
+    "genre": "platform",
+    "publisher": "Fox Interactive",
+    "naSales": 1.57,
+    "euSales": 1.79,
+    "jpSales": 0,
+    "otherSales": 0.2,
+    "globalSales": 3.56
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d768c"
+    },
+    "name": "The Getaway",
+    "platform": "PS2",
+    "year": "2002",
+    "genre": "Action",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 1.23,
+    "euSales": 1.77,
+    "jpSales": 0.05,
+    "otherSales": 0.49,
+    "globalSales": 3.54
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d768f"
+    },
+    "name": "FIFA Soccer 11",
+    "platform": "X360",
+    "year": "2010",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 0.71,
+    "euSales": 2.4,
+    "jpSales": 0.02,
+    "otherSales": 0.4,
+    "globalSales": 3.53
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d768e"
+    },
+    "name": "Grand Theft Auto: Liberty City Stories",
+    "platform": "PS2",
+    "year": "2006",
+    "genre": "Action",
+    "publisher": "Take-Two Interactive",
+    "naSales": 1.56,
+    "euSales": 1.4,
+    "jpSales": 0.07,
+    "otherSales": 0.5,
+    "globalSales": 3.54
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7690"
+    },
+    "name": "LEGO Star Wars: The Video Game",
+    "platform": "PS2",
+    "year": "2005",
+    "genre": "Action",
+    "publisher": "Eidos Interactive",
+    "naSales": 1.98,
+    "euSales": 1.14,
+    "jpSales": 0.01,
+    "otherSales": 0.41,
+    "globalSales": 3.53
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7694"
+    },
+    "name": "Rugrats in Paris: The Movie",
+    "platform": "PS",
+    "year": "2000",
+    "genre": "Action",
+    "publisher": "THQ",
+    "naSales": 1.96,
+    "euSales": 1.33,
+    "jpSales": 0,
+    "otherSales": 0.23,
+    "globalSales": 3.52
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7693"
+    },
+    "name": "Mario & Sonic at the Olympic Winter Games",
+    "platform": "DS",
+    "year": "2009",
+    "genre": "Sports",
+    "publisher": "Sega",
+    "naSales": 1.22,
+    "euSales": 1.66,
+    "jpSales": 0.27,
+    "otherSales": 0.38,
+    "globalSales": 3.52
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7692"
+    },
+    "name": "Battlefield 4",
+    "platform": "X360",
+    "year": "2013",
+    "genre": "Shooter",
+    "publisher": "Electronic Arts",
+    "naSales": 2.14,
+    "euSales": 1.08,
+    "jpSales": 0.02,
+    "otherSales": 0.29,
+    "globalSales": 3.53
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7695"
+    },
+    "name": "Spyro 2: Ripto's Rage!",
+    "platform": "PS",
+    "year": "1999",
+    "genre": "platform",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 2.14,
+    "euSales": 1.21,
+    "jpSales": 0.01,
+    "otherSales": 0.17,
+    "globalSales": 3.52
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7691"
+    },
+    "name": "James Bond 007: Agent Under Fire",
+    "platform": "PS2",
+    "year": "2001",
+    "genre": "Shooter",
+    "publisher": "Electronic Arts",
+    "naSales": 1.9,
+    "euSales": 1.13,
+    "jpSales": 0.1,
+    "otherSales": 0.41,
+    "globalSales": 3.53
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7696"
+    },
+    "name": "NBA 2K17",
+    "platform": "PS4",
+    "year": "2016",
+    "genre": "Sports",
+    "publisher": "2K Sports",
+    "naSales": 2.28,
+    "euSales": 0.59,
+    "jpSales": 0.03,
+    "otherSales": 0.63,
+    "globalSales": 3.52
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7698"
+    },
+    "name": "Resident Evil 5",
+    "platform": "X360",
+    "year": "2009",
+    "genre": "Action",
+    "publisher": "Capcom",
+    "naSales": 2.11,
+    "euSales": 0.94,
+    "jpSales": 0.12,
+    "otherSales": 0.34,
+    "globalSales": 3.51
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7697"
+    },
+    "name": "Left 4 Dead",
+    "platform": "X360",
+    "year": "2008",
+    "genre": "Shooter",
+    "publisher": "Electronic Arts",
+    "naSales": 2.66,
+    "euSales": 0.5,
+    "jpSales": 0.05,
+    "otherSales": 0.3,
+    "globalSales": 3.52
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d769c"
+    },
+    "name": "Assassin's Creed: Unity",
+    "platform": "XOne",
+    "year": "2014",
+    "genre": "Action",
+    "publisher": "Ubisoft",
+    "naSales": 2.27,
+    "euSales": 0.9,
+    "jpSales": 0,
+    "otherSales": 0.33,
+    "globalSales": 3.5
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7699"
+    },
+    "name": "Donkey Kong Country 3: Dixie Kong's Double Trouble!",
+    "platform": "SNES",
+    "year": "1996",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 1.17,
+    "euSales": 0.5,
+    "jpSales": 1.75,
+    "otherSales": 0.08,
+    "globalSales": 3.51
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d769d"
+    },
+    "name": "Assassin's Creed: Brotherhood",
+    "platform": "X360",
+    "year": "2010",
+    "genre": "Action",
+    "publisher": "Ubisoft",
+    "naSales": 2.84,
+    "euSales": 0.39,
+    "jpSales": 0.03,
+    "otherSales": 0.24,
+    "globalSales": 3.5
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d769b"
+    },
+    "name": "Batman: Arkham Asylum",
+    "platform": "X360",
+    "year": "2009",
+    "genre": "Action",
+    "publisher": "Eidos Interactive",
+    "naSales": 2.2,
+    "euSales": 0.97,
+    "jpSales": 0.02,
+    "otherSales": 0.31,
+    "globalSales": 3.5
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d769a"
+    },
+    "name": "Clubhouse Games",
+    "platform": "DS",
+    "year": "2006",
+    "genre": "Misc",
+    "publisher": "Nintendo",
+    "naSales": 0.59,
+    "euSales": 1.83,
+    "jpSales": 0.73,
+    "otherSales": 0.35,
+    "globalSales": 3.5
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76a1"
+    },
+    "name": "Battlefield: Bad Company 2",
+    "platform": "X360",
+    "year": "2010",
+    "genre": "Shooter",
+    "publisher": "Electronic Arts",
+    "naSales": 2.09,
+    "euSales": 1.02,
+    "jpSales": 0.04,
+    "otherSales": 0.32,
+    "globalSales": 3.48
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d769f"
+    },
+    "name": "FIFA Soccer 2004",
+    "platform": "PS2",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 0.59,
+    "euSales": 2.36,
+    "jpSales": 0.04,
+    "otherSales": 0.51,
+    "globalSales": 3.49
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76a0"
+    },
+    "name": "Mortal Kombat X",
+    "platform": "PS4",
+    "year": "2015",
+    "genre": "Fighting",
+    "publisher": "Warner Bros. Interactive Entertainment",
+    "naSales": 1.94,
+    "euSales": 0.94,
+    "jpSales": 0,
+    "otherSales": 0.61,
+    "globalSales": 3.49
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d769e"
+    },
+    "name": "Kung Fu",
+    "platform": "NES",
+    "year": "1985",
+    "genre": "Action",
+    "publisher": "Nintendo",
+    "naSales": 1.64,
+    "euSales": 0.38,
+    "jpSales": 1.42,
+    "otherSales": 0.06,
+    "globalSales": 3.5
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76a2"
+    },
+    "name": "Guitar Hero: On Tour",
+    "platform": "DS",
+    "year": "2008",
+    "genre": "Misc",
+    "publisher": "Activision",
+    "naSales": 2.11,
+    "euSales": 1.01,
+    "jpSales": 0.01,
+    "otherSales": 0.35,
+    "globalSales": 3.48
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76a3"
+    },
+    "name": "Far Cry 3",
+    "platform": "PS3",
+    "year": "2012",
+    "genre": "Shooter",
+    "publisher": "Ubisoft",
+    "naSales": 0.88,
+    "euSales": 1.75,
+    "jpSales": 0.1,
+    "otherSales": 0.72,
+    "globalSales": 3.45
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76a4"
+    },
+    "name": "Tekken 4",
+    "platform": "PS2",
+    "year": "2002",
+    "genre": "Fighting",
+    "publisher": "Namco Bandai Games",
+    "naSales": 1.55,
+    "euSales": 1.27,
+    "jpSales": 0.33,
+    "otherSales": 0.29,
+    "globalSales": 3.44
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76a6"
+    },
+    "name": "Borderlands",
+    "platform": "X360",
+    "year": "2009",
+    "genre": "Shooter",
+    "publisher": "Take-Two Interactive",
+    "naSales": 2.39,
+    "euSales": 0.73,
+    "jpSales": 0.03,
+    "otherSales": 0.29,
+    "globalSales": 3.44
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76a5"
+    },
+    "name": "Halo: The Master Chief Collection",
+    "platform": "XboxOne",
+    "year": "2014",
+    "genre": "Shooter",
+    "publisher": "Microsoft Studios",
+    "naSales": 2.06,
+    "euSales": 1.04,
+    "jpSales": 0.03,
+    "otherSales": 0.31,
+    "globalSales": 3.44
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76a7"
+    },
+    "name": "Monster Hunter 4",
+    "platform": "3DS",
+    "year": "2013",
+    "genre": "Role-Playing",
+    "publisher": "Capcom",
+    "naSales": 0,
+    "euSales": 0,
+    "jpSales": 3.44,
+    "otherSales": 0,
+    "globalSales": 3.44
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76a9"
+    },
+    "name": "Grand Theft Auto 2",
+    "platform": "PS",
+    "year": "1998",
+    "genre": "Action",
+    "publisher": "Take-Two Interactive",
+    "naSales": 1.13,
+    "euSales": 2.07,
+    "jpSales": 0,
+    "otherSales": 0.22,
+    "globalSales": 3.42
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76a8"
+    },
+    "name": "FIFA Soccer 14",
+    "platform": "PS4",
+    "year": "2013",
+    "genre": "Sports",
+    "publisher": "EA Sports",
+    "naSales": 0.62,
+    "euSales": 2.18,
+    "jpSales": 0.12,
+    "otherSales": 0.51,
+    "globalSales": 3.43
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76ab"
+    },
+    "name": "Final Fantasy III",
+    "platform": "SNES",
+    "year": "1994",
+    "genre": "Role-Playing",
+    "publisher": "SquareSoft",
+    "naSales": 0.86,
+    "euSales": 0,
+    "jpSales": 2.55,
+    "otherSales": 0.02,
+    "globalSales": 3.42
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76aa"
+    },
+    "name": "LittleBigPlanet 2",
+    "platform": "PS3",
+    "year": "2011",
+    "genre": "platform",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 1.82,
+    "euSales": 1.07,
+    "jpSales": 0.06,
+    "otherSales": 0.47,
+    "globalSales": 3.42
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76b0"
+    },
+    "name": "FIFA Soccer 2003",
+    "platform": "PS2",
+    "year": "2002",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 0.46,
+    "euSales": 2.28,
+    "jpSales": 0.05,
+    "otherSales": 0.61,
+    "globalSales": 3.4
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76ac"
+    },
+    "name": "Metal Gear Solid V: The Phantom Pain",
+    "platform": "PS4",
+    "year": "2015",
+    "genre": "Action",
+    "publisher": "Konami Digital Entertainment",
+    "naSales": 1.09,
+    "euSales": 1.36,
+    "jpSales": 0.49,
+    "otherSales": 0.48,
+    "globalSales": 3.41
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76ad"
+    },
+    "name": "Spider-Man 2",
+    "platform": "PS2",
+    "year": "2004",
+    "genre": "Action",
+    "publisher": "Activision",
+    "naSales": 1.75,
+    "euSales": 1.2,
+    "jpSales": 0.02,
+    "otherSales": 0.43,
+    "globalSales": 3.41
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76ae"
+    },
+    "name": "Destiny",
+    "platform": "XboxOne",
+    "year": "2014",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 2.17,
+    "euSales": 0.92,
+    "jpSales": 0,
+    "otherSales": 0.32,
+    "globalSales": 3.41
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76af"
+    },
+    "name": "F-1 Race",
+    "platform": "GB",
+    "year": "1990",
+    "genre": "Racing",
+    "publisher": "Nintendo",
+    "naSales": 1.73,
+    "euSales": 0.69,
+    "jpSales": 0.59,
+    "otherSales": 0.4,
+    "globalSales": 3.41
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76b2"
+    },
+    "name": "LEGO Batman: The Videogame",
+    "platform": "X360",
+    "year": "2008",
+    "genre": "Action",
+    "publisher": "Warner Bros. Interactive Entertainment",
+    "naSales": 2.03,
+    "euSales": 1.03,
+    "jpSales": 0,
+    "otherSales": 0.32,
+    "globalSales": 3.38
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76b1"
+    },
+    "name": "Crash Bash",
+    "platform": "PS",
+    "year": "2000",
+    "genre": "Misc",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 1.56,
+    "euSales": 1.47,
+    "jpSales": 0.19,
+    "otherSales": 0.17,
+    "globalSales": 3.39
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76b3"
+    },
+    "name": "The Legend of Zelda: Spirit Tracks",
+    "platform": "DS",
+    "year": "2009",
+    "genre": "Action",
+    "publisher": "Nintendo",
+    "naSales": 1.43,
+    "euSales": 0.94,
+    "jpSales": 0.74,
+    "otherSales": 0.27,
+    "globalSales": 3.38
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76b4"
+    },
+    "name": "Gears of War 4",
+    "platform": "XboxOne",
+    "year": "2016",
+    "genre": "Shooter",
+    "publisher": "Microsoft Studios",
+    "naSales": 2.17,
+    "euSales": 0.9,
+    "jpSales": 0,
+    "otherSales": 0.32,
+    "globalSales": 3.38
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76b7"
+    },
+    "name": "Professor Layton and the Unwound Future",
+    "platform": "DS",
+    "year": "2008",
+    "genre": "Puzzle",
+    "publisher": "Nintendo",
+    "naSales": 0.65,
+    "euSales": 1.61,
+    "jpSales": 0.82,
+    "otherSales": 0.28,
+    "globalSales": 3.36
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76b6"
+    },
+    "name": "Watch Dogs 2",
+    "platform": "PS4",
+    "year": "2016",
+    "genre": "Action",
+    "publisher": "Ubisoft",
+    "naSales": 0.98,
+    "euSales": 1.74,
+    "jpSales": 0.12,
+    "otherSales": 0.52,
+    "globalSales": 3.36
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76b9"
+    },
+    "name": "WWF War Zone",
+    "platform": "PS",
+    "year": "1998",
+    "genre": "Fighting",
+    "publisher": "Acclaim Entertainment",
+    "naSales": 2.47,
+    "euSales": 0.76,
+    "jpSales": 0,
+    "otherSales": 0.13,
+    "globalSales": 3.36
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76b5"
+    },
+    "name": "Destiny",
+    "platform": "XOne",
+    "year": "2014",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 2.14,
+    "euSales": 0.92,
+    "jpSales": 0,
+    "otherSales": 0.31,
+    "globalSales": 3.37
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76b8"
+    },
+    "name": "The Elder Scrolls V: Skyrim",
+    "platform": "PS4",
+    "year": "2016",
+    "genre": "Role-Playing",
+    "publisher": "Bethesda Softworks",
+    "naSales": 1.24,
+    "euSales": 1.5,
+    "jpSales": 0.08,
+    "otherSales": 0.54,
+    "globalSales": 3.36
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76bd"
+    },
+    "name": "NBA 2K18",
+    "platform": "PS4",
+    "year": "2017",
+    "genre": "Sports",
+    "publisher": "2K Sports",
+    "naSales": 2.13,
+    "euSales": 0.57,
+    "jpSales": 0.04,
+    "otherSales": 0.59,
+    "globalSales": 3.34
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76bc"
+    },
+    "name": "Assassin's Creed IV: Black Flag",
+    "platform": "X360",
+    "year": "2013",
+    "genre": "Action",
+    "publisher": "Ubisoft",
+    "naSales": 1.9,
+    "euSales": 1.14,
+    "jpSales": 0.01,
+    "otherSales": 0.29,
+    "globalSales": 3.34
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76bb"
+    },
+    "name": "Rugrats: Search For Reptar",
+    "platform": "PS",
+    "year": "1998",
+    "genre": "Adventure",
+    "publisher": "THQ",
+    "naSales": 1.63,
+    "euSales": 1.53,
+    "jpSales": 0,
+    "otherSales": 0.18,
+    "globalSales": 3.34
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76ba"
+    },
+    "name": "The Legend of Zelda: Majora's Mask",
+    "platform": "N64",
+    "year": "2000",
+    "genre": "Action",
+    "publisher": "Nintendo",
+    "naSales": 1.9,
+    "euSales": 0.67,
+    "jpSales": 0.73,
+    "otherSales": 0.06,
+    "globalSales": 3.36
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76be"
+    },
+    "name": "James Bond 007: Nightfire",
+    "platform": "PS2",
+    "year": "2002",
+    "genre": "Shooter",
+    "publisher": "Electronic Arts",
+    "naSales": 1.45,
+    "euSales": 1.29,
+    "jpSales": 0.12,
+    "otherSales": 0.46,
+    "globalSales": 3.33
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76bf"
+    },
+    "name": "Ratchet & Clank",
+    "platform": "PS2",
+    "year": "2002",
+    "genre": "platform",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 1.44,
+    "euSales": 1.01,
+    "jpSales": 0.57,
+    "otherSales": 0.3,
+    "globalSales": 3.33
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76c2"
+    },
+    "name": "Mario Party 9",
+    "platform": "Wii",
+    "year": "2012",
+    "genre": "Misc",
+    "publisher": "Nintendo",
+    "naSales": 1.15,
+    "euSales": 1.17,
+    "jpSales": 0.76,
+    "otherSales": 0.24,
+    "globalSales": 3.32
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76c1"
+    },
+    "name": "Star Wars Episode III: Revenge of the Sith",
+    "platform": "PS2",
+    "year": "2005",
+    "genre": "Action",
+    "publisher": "LucasArts",
+    "naSales": 1.47,
+    "euSales": 1.39,
+    "jpSales": 0.03,
+    "otherSales": 0.43,
+    "globalSales": 3.32
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76c5"
+    },
+    "name": "Max Payne",
+    "platform": "PS2",
+    "year": "2001",
+    "genre": "Shooter",
+    "publisher": "Take-Two Interactive",
+    "naSales": 1.99,
+    "euSales": 1.05,
+    "jpSales": 0.05,
+    "otherSales": 0.22,
+    "globalSales": 3.31
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76c0"
+    },
+    "name": "English Training: Have Fun Improving Your Skills!",
+    "platform": "DS",
+    "year": "2006",
+    "genre": "Misc",
+    "publisher": "Nintendo",
+    "naSales": 0,
+    "euSales": 0.99,
+    "jpSales": 2.32,
+    "otherSales": 0.02,
+    "globalSales": 3.33
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76c3"
+    },
+    "name": "Monster Hunter X",
+    "platform": "3DS",
+    "year": "2015",
+    "genre": "Action",
+    "publisher": "Capcom",
+    "naSales": 0.27,
+    "euSales": 0.21,
+    "jpSales": 2.79,
+    "otherSales": 0.05,
+    "globalSales": 3.32
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76c8"
+    },
+    "name": "Madden NFL 17",
+    "platform": "PS4",
+    "year": "2016",
+    "genre": "Sports",
+    "publisher": "EA Sports",
+    "naSales": 2.3,
+    "euSales": 0.37,
+    "jpSales": 0,
+    "otherSales": 0.6,
+    "globalSales": 3.28
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76c4"
+    },
+    "name": "Resident Evil VII: Biohazard",
+    "platform": "PS4",
+    "year": "2017",
+    "genre": "Action",
+    "publisher": "Capcom",
+    "naSales": 0.88,
+    "euSales": 1.56,
+    "jpSales": 0.41,
+    "otherSales": 0.46,
+    "globalSales": 3.31
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76ca"
+    },
+    "name": "Yokai Watch 2 Ganso/Honke",
+    "platform": "3DS",
+    "year": "2014",
+    "genre": "Role-Playing",
+    "publisher": "Nintendo",
+    "naSales": 0.09,
+    "euSales": 0,
+    "jpSales": 3.18,
+    "otherSales": 0.01,
+    "globalSales": 3.28
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76cd"
+    },
+    "name": "True Crime: Streets of LA",
+    "platform": "PS2",
+    "year": "2003",
+    "genre": "Action",
+    "publisher": "Activision",
+    "naSales": 1.89,
+    "euSales": 1.05,
+    "jpSales": 0.02,
+    "otherSales": 0.31,
+    "globalSales": 3.27
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76c9"
+    },
+    "name": "Gears of War: Ultimate Edition",
+    "platform": "XOne",
+    "year": "2015",
+    "genre": "Shooter",
+    "publisher": "Microsoft Game Studios",
+    "naSales": 2.61,
+    "euSales": 0.33,
+    "jpSales": 0,
+    "otherSales": 0.34,
+    "globalSales": 3.28
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76c6"
+    },
+    "name": "Madden NFL 16",
+    "platform": "PS4",
+    "year": "2015",
+    "genre": "Sports",
+    "publisher": "EA Sports",
+    "naSales": 2.39,
+    "euSales": 0.31,
+    "jpSales": 0,
+    "otherSales": 0.61,
+    "globalSales": 3.3
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76c7"
+    },
+    "name": "The Lord of the Rings: The Return of the King",
+    "platform": "PS2",
+    "year": "2003",
+    "genre": "Action",
+    "publisher": "Electronic Arts",
+    "naSales": 1.5,
+    "euSales": 1.28,
+    "jpSales": 0.05,
+    "otherSales": 0.46,
+    "globalSales": 3.28
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76cc"
+    },
+    "name": "Wii Music",
+    "platform": "Wii",
+    "year": "2008",
+    "genre": "Misc",
+    "publisher": "Nintendo",
+    "naSales": 1.36,
+    "euSales": 1.13,
+    "jpSales": 0.46,
+    "otherSales": 0.32,
+    "globalSales": 3.27
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76cb"
+    },
+    "name": "Gran Turismo (PSP)",
+    "platform": "PSP",
+    "year": "2009",
+    "genre": "Racing",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 0.5,
+    "euSales": 1.59,
+    "jpSales": 0.31,
+    "otherSales": 0.87,
+    "globalSales": 3.27
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76cf"
+    },
+    "name": "FIFA 16",
+    "platform": "XboxOne",
+    "year": "2015",
+    "genre": "Sports",
+    "publisher": "EA Sports",
+    "naSales": 0.92,
+    "euSales": 2.1,
+    "jpSales": 0,
+    "otherSales": 0.24,
+    "globalSales": 3.25
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76ce"
+    },
+    "name": "FIFA 16",
+    "platform": "XOne",
+    "year": "2015",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 0.89,
+    "euSales": 2.12,
+    "jpSales": 0,
+    "otherSales": 0.24,
+    "globalSales": 3.25
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76d0"
+    },
+    "name": "Tekken",
+    "platform": "PS",
+    "year": "1995",
+    "genre": "Fighting",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 0.95,
+    "euSales": 1.3,
+    "jpSales": 0.77,
+    "otherSales": 0.22,
+    "globalSales": 3.24
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76d3"
+    },
+    "name": "Halo: The Master Chief Collection",
+    "platform": "XOne",
+    "year": "2014",
+    "genre": "Shooter",
+    "publisher": "Microsoft Game Studios",
+    "naSales": 1.91,
+    "euSales": 1,
+    "jpSales": 0.03,
+    "otherSales": 0.29,
+    "globalSales": 3.23
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76d1"
+    },
+    "name": "Madden NFL 16",
+    "platform": "PS4",
+    "year": "2015",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 2.34,
+    "euSales": 0.3,
+    "jpSales": 0,
+    "otherSales": 0.6,
+    "globalSales": 3.24
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76d2"
+    },
+    "name": "L.A. Noire",
+    "platform": "PS3",
+    "year": "2011",
+    "genre": "Adventure",
+    "publisher": "Take-Two Interactive",
+    "naSales": 1.27,
+    "euSales": 1.33,
+    "jpSales": 0.12,
+    "otherSales": 0.51,
+    "globalSales": 3.23
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76d8"
+    },
+    "name": "Baseball",
+    "platform": "NES",
+    "year": "1983",
+    "genre": "Sports",
+    "publisher": "Nintendo",
+    "naSales": 0.73,
+    "euSales": 0.1,
+    "jpSales": 2.35,
+    "otherSales": 0.02,
+    "globalSales": 3.2
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76d6"
+    },
+    "name": "WWF SmackDown! 2: Know Your Role",
+    "platform": "PS",
+    "year": "2000",
+    "genre": "Fighting",
+    "publisher": "THQ",
+    "naSales": 1.76,
+    "euSales": 1.21,
+    "jpSales": 0.07,
+    "otherSales": 0.16,
+    "globalSales": 3.2
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76d4"
+    },
+    "name": "007: Tomorrow Never Dies",
+    "platform": "PS",
+    "year": "1999",
+    "genre": "Shooter",
+    "publisher": "Electronic Arts",
+    "naSales": 1.72,
+    "euSales": 1.33,
+    "jpSales": 0,
+    "otherSales": 0.16,
+    "globalSales": 3.21
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76d9"
+    },
+    "name": "Middle-Earth: Shadow of Mordor",
+    "platform": "PS4",
+    "year": "2014",
+    "genre": "Action",
+    "publisher": "Warner Bros. Interactive Entertainment",
+    "naSales": 1.03,
+    "euSales": 1.6,
+    "jpSales": 0.05,
+    "otherSales": 0.51,
+    "globalSales": 3.19
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76d5"
+    },
+    "name": "Super Mario Maker",
+    "platform": "WiiU",
+    "year": "2015",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 1.18,
+    "euSales": 0.89,
+    "jpSales": 0.94,
+    "otherSales": 0.2,
+    "globalSales": 3.21
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76da"
+    },
+    "name": "Assassin's Creed IV: Black Flag",
+    "platform": "PS4",
+    "year": "2013",
+    "genre": "Action-Adventure",
+    "publisher": "Ubisoft",
+    "naSales": 1.07,
+    "euSales": 1.55,
+    "jpSales": 0.06,
+    "otherSales": 0.51,
+    "globalSales": 3.19
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76db"
+    },
+    "name": "God of War: Chains of Olympus",
+    "platform": "PSP",
+    "year": "2008",
+    "genre": "Action",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 1.48,
+    "euSales": 1.01,
+    "jpSales": 0.04,
+    "otherSales": 0.66,
+    "globalSales": 3.19
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76d7"
+    },
+    "name": "Killer Instinct",
+    "platform": "SNES",
+    "year": "1995",
+    "genre": "Fighting",
+    "publisher": "Nintendo",
+    "naSales": 2.26,
+    "euSales": 0.72,
+    "jpSales": 0.12,
+    "otherSales": 0.1,
+    "globalSales": 3.2
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76dc"
+    },
+    "name": "Dance Central",
+    "platform": "X360",
+    "year": "2010",
+    "genre": "Misc",
+    "publisher": "MTV Games",
+    "naSales": 2.15,
+    "euSales": 0.77,
+    "jpSales": 0.01,
+    "otherSales": 0.26,
+    "globalSales": 3.19
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76dd"
+    },
+    "name": "Crisis Core: Final Fantasy VII",
+    "platform": "PSP",
+    "year": "2007",
+    "genre": "Role-Playing",
+    "publisher": "Square Enix",
+    "naSales": 1.35,
+    "euSales": 0.6,
+    "jpSales": 0.8,
+    "otherSales": 0.44,
+    "globalSales": 3.19
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76e0"
+    },
+    "name": "Fallout: New Vegas",
+    "platform": "PS3",
+    "year": "2010",
+    "genre": "Role-Playing",
+    "publisher": "Bethesda Softworks",
+    "naSales": 1.52,
+    "euSales": 1.08,
+    "jpSales": 0.1,
+    "otherSales": 0.47,
+    "globalSales": 3.17
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76df"
+    },
+    "name": "Enter the Matrix",
+    "platform": "PS2",
+    "year": "2003",
+    "genre": "Action",
+    "publisher": "Atari",
+    "naSales": 1.78,
+    "euSales": 1.12,
+    "jpSales": 0.09,
+    "otherSales": 0.19,
+    "globalSales": 3.18
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76de"
+    },
+    "name": "Dragon Quest VI: Maboroshi no Daichi",
+    "platform": "SNES",
+    "year": "1995",
+    "genre": "Role-Playing",
+    "publisher": "Enix Corporation",
+    "naSales": 0,
+    "euSales": 0,
+    "jpSales": 3.19,
+    "otherSales": 0,
+    "globalSales": 3.19
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76e1"
+    },
+    "name": "LEGO Batman: The Videogame",
+    "platform": "Wii",
+    "genre": "Action",
+    "publisher": "Warner Bros. Interactive Entertainment",
+    "naSales": 1.86,
+    "euSales": 1.02,
+    "jpSales": 0,
+    "otherSales": 0.29,
+    "globalSales": 3.17
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76e2"
+    },
+    "name": "Ace Combat 04: Shattered Skies",
+    "platform": "PS2",
+    "year": "2001",
+    "genre": "Simulation",
+    "publisher": "Sony Computer Entertainment Europe",
+    "naSales": 2.06,
+    "euSales": 0.56,
+    "jpSales": 0.38,
+    "otherSales": 0.17,
+    "globalSales": 3.17
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76e3"
+    },
+    "name": "Rhythm Heaven",
+    "platform": "DS",
+    "year": "2008",
+    "genre": "Misc",
+    "publisher": "Nintendo",
+    "naSales": 0.58,
+    "euSales": 0.51,
+    "jpSales": 1.93,
+    "otherSales": 0.14,
+    "globalSales": 3.17
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76e4"
+    },
+    "name": "Club Penguin: Elite Penguin Force",
+    "platform": "DS",
+    "year": "2008",
+    "genre": "Adventure",
+    "publisher": "Disney Interactive Studios",
+    "naSales": 1.88,
+    "euSales": 0.98,
+    "jpSales": 0,
+    "otherSales": 0.3,
+    "globalSales": 3.16
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76e5"
+    },
+    "name": "Sonic Rush",
+    "platform": "DS",
+    "year": "2005",
+    "genre": "platform",
+    "publisher": "Sega",
+    "naSales": 1.22,
+    "euSales": 1.57,
+    "jpSales": 0.06,
+    "otherSales": 0.29,
+    "globalSales": 3.15
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76e7"
+    },
+    "name": "Resident Evil 6",
+    "platform": "PS3",
+    "year": "2012",
+    "genre": "Shooter",
+    "publisher": "Capcom",
+    "naSales": 0.88,
+    "euSales": 0.97,
+    "jpSales": 0.88,
+    "otherSales": 0.42,
+    "globalSales": 3.15
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76e8"
+    },
+    "name": "Animal Crossing",
+    "platform": "GC",
+    "year": "2001",
+    "genre": "Simulation",
+    "publisher": "Nintendo",
+    "naSales": 1.92,
+    "euSales": 0.16,
+    "jpSales": 0.99,
+    "otherSales": 0.09,
+    "globalSales": 3.15
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76eb"
+    },
+    "name": "Spider-Man",
+    "platform": "PS",
+    "year": "2000",
+    "genre": "Action",
+    "publisher": "Activision",
+    "naSales": 1.7,
+    "euSales": 1.25,
+    "jpSales": 0.02,
+    "otherSales": 0.16,
+    "globalSales": 3.13
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76ea"
+    },
+    "name": "FIFA Soccer 08",
+    "platform": "PS2",
+    "year": "2007",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 0.68,
+    "euSales": 0,
+    "jpSales": 0,
+    "otherSales": 2.46,
+    "globalSales": 3.14
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76e9"
+    },
+    "name": "FIFA 18",
+    "platform": "XboxOne",
+    "year": "2017",
+    "genre": "Sports",
+    "publisher": "EA Sports",
+    "naSales": 0.98,
+    "euSales": 1.92,
+    "jpSales": 0,
+    "otherSales": 0.23,
+    "globalSales": 3.14
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76ee"
+    },
+    "name": "Personal Trainer: Cooking",
+    "platform": "DS",
+    "year": "2006",
+    "genre": "Misc",
+    "publisher": "Nintendo",
+    "naSales": 0.91,
+    "euSales": 1,
+    "jpSales": 1.03,
+    "otherSales": 0.17,
+    "globalSales": 3.12
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76f0"
+    },
+    "name": "Need for Speed III: Hot Pursuit",
+    "platform": "PS",
+    "year": "1998",
+    "genre": "Racing",
+    "publisher": "Electronic Arts",
+    "naSales": 2.14,
+    "euSales": 0.86,
+    "jpSales": 0,
+    "otherSales": 0.13,
+    "globalSales": 3.12
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76e6"
+    },
+    "name": "LEGO Batman: The Videogame",
+    "platform": "DS",
+    "year": "2008",
+    "genre": "Action",
+    "publisher": "Warner Bros. Interactive Entertainment",
+    "naSales": 1.79,
+    "euSales": 1.06,
+    "jpSales": 0,
+    "otherSales": 0.29,
+    "globalSales": 3.15
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76ef"
+    },
+    "name": "The Elder Scrolls IV: Oblivion",
+    "platform": "PS3",
+    "year": "2007",
+    "genre": "Role-Playing",
+    "publisher": "Ubisoft",
+    "naSales": 1.69,
+    "euSales": 0.87,
+    "jpSales": 0.14,
+    "otherSales": 0.42,
+    "globalSales": 3.12
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76f3"
+    },
+    "name": "FIFA 15",
+    "platform": "X360",
+    "year": "2014",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 0.78,
+    "euSales": 2.02,
+    "jpSales": 0,
+    "otherSales": 0.3,
+    "globalSales": 3.11
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76f2"
+    },
+    "name": "Dragon Warrior IV",
+    "platform": "NES",
+    "year": "1990",
+    "genre": "Role-Playing",
+    "publisher": "Enix Corporation",
+    "naSales": 0.08,
+    "euSales": 0,
+    "jpSales": 3.03,
+    "otherSales": 0.01,
+    "globalSales": 3.12
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76f4"
+    },
+    "name": "Bloodborne",
+    "platform": "PS4",
+    "year": "2015",
+    "genre": "Role-Playing",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 1.3,
+    "euSales": 1.05,
+    "jpSales": 0.28,
+    "otherSales": 0.48,
+    "globalSales": 3.11
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76f5"
+    },
+    "name": "Titanfall",
+    "platform": "XboxOne",
+    "year": "2014",
+    "genre": "Shooter",
+    "publisher": "Electronic Arts",
+    "naSales": 1.88,
+    "euSales": 0.91,
+    "jpSales": 0.04,
+    "otherSales": 0.28,
+    "globalSales": 3.11
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76f1"
+    },
+    "name": "Star Wars Episode I Racer",
+    "platform": "N64",
+    "year": "1999",
+    "genre": "Racing",
+    "publisher": "Nintendo",
+    "naSales": 2.31,
+    "euSales": 0.62,
+    "jpSales": 0.14,
+    "otherSales": 0.04,
+    "globalSales": 3.12
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76f7"
+    },
+    "name": "The Legend of Zelda: A Link Between Worlds",
+    "platform": "3DS",
+    "year": "2013",
+    "genre": "Action",
+    "publisher": "Nintendo",
+    "naSales": 1.4,
+    "euSales": 1.01,
+    "jpSales": 0.46,
+    "otherSales": 0.23,
+    "globalSales": 3.1
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76f6"
+    },
+    "name": "Mass Effect 2",
+    "platform": "X360",
+    "year": "2010",
+    "genre": "Role-Playing",
+    "publisher": "Electronic Arts",
+    "naSales": 1.99,
+    "euSales": 0.82,
+    "jpSales": 0.03,
+    "otherSales": 0.27,
+    "globalSales": 3.11
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76ec"
+    },
+    "name": "Tom Clancy's Ghost Recon Wildlands",
+    "platform": "PS4",
+    "year": "2017",
+    "genre": "Shooter",
+    "publisher": "Ubisoft",
+    "naSales": 1.07,
+    "euSales": 1.35,
+    "jpSales": 0.22,
+    "otherSales": 0.47,
+    "globalSales": 3.12
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76f9"
+    },
+    "name": "World Class Track Meet",
+    "platform": "NES",
+    "year": "1986",
+    "genre": "Sports",
+    "publisher": "Namco Bandai Games",
+    "naSales": 1.92,
+    "euSales": 0.45,
+    "jpSales": 0.64,
+    "otherSales": 0.07,
+    "globalSales": 3.08
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76f8"
+    },
+    "name": "Dragon Ball Z: Budokai",
+    "platform": "PS2",
+    "year": "2002",
+    "genre": "Fighting",
+    "publisher": "Atari",
+    "naSales": 2.17,
+    "euSales": 0.28,
+    "jpSales": 0.55,
+    "otherSales": 0.08,
+    "globalSales": 3.09
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76ed"
+    },
+    "name": "Heavy Rain",
+    "platform": "PS3",
+    "year": "2010",
+    "genre": "Adventure",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 1.29,
+    "euSales": 1.27,
+    "jpSales": 0.06,
+    "otherSales": 0.5,
+    "globalSales": 3.12
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76fd"
+    },
+    "name": "Mass Effect 3",
+    "platform": "X360",
+    "year": "2012",
+    "genre": "Role-Playing",
+    "publisher": "Electronic Arts",
+    "naSales": 1.94,
+    "euSales": 0.86,
+    "jpSales": 0.03,
+    "otherSales": 0.24,
+    "globalSales": 3.07
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76fb"
+    },
+    "name": "The Sims: Vacation",
+    "platform": "PC",
+    "year": "2002",
+    "genre": "Simulation",
+    "publisher": "Electronic Arts",
+    "naSales": 1.72,
+    "euSales": 1.21,
+    "jpSales": 0,
+    "otherSales": 0.14,
+    "globalSales": 3.07
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7700"
+    },
+    "name": "The Sims 4",
+    "platform": "PC",
+    "year": "2014",
+    "genre": "Simulation",
+    "publisher": "Electronic Arts",
+    "naSales": 1,
+    "euSales": 1.82,
+    "jpSales": 0,
+    "otherSales": 0.23,
+    "globalSales": 3.05
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76fa"
+    },
+    "name": "Madden NFL 2002",
+    "platform": "PS2",
+    "year": "2001",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 2.5,
+    "euSales": 0.16,
+    "jpSales": 0.01,
+    "otherSales": 0.42,
+    "globalSales": 3.08
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76fc"
+    },
+    "name": "Borderlands 2",
+    "platform": "X360",
+    "year": "2012",
+    "genre": "Shooter",
+    "publisher": "Take-Two Interactive",
+    "naSales": 1.89,
+    "euSales": 0.91,
+    "jpSales": 0.04,
+    "otherSales": 0.24,
+    "globalSales": 3.07
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7702"
+    },
+    "name": "Kung Fu Panda",
+    "platform": "X360",
+    "year": "2008",
+    "genre": "Action",
+    "publisher": "Activision",
+    "naSales": 1.91,
+    "euSales": 0.84,
+    "jpSales": 0,
+    "otherSales": 0.29,
+    "globalSales": 3.05
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7704"
+    },
+    "name": "Epic Mickey",
+    "platform": "Wii",
+    "year": "2010",
+    "genre": "platform",
+    "publisher": "Disney Interactive Studios",
+    "naSales": 2.06,
+    "euSales": 0.64,
+    "jpSales": 0.12,
+    "otherSales": 0.22,
+    "globalSales": 3.04
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7701"
+    },
+    "name": "Animal Crossing: Happy Home Designer",
+    "platform": "3DS",
+    "year": "2015",
+    "genre": "Simulation",
+    "publisher": "Nintendo",
+    "naSales": 0.51,
+    "euSales": 1.02,
+    "jpSales": 1.4,
+    "otherSales": 0.12,
+    "globalSales": 3.05
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76fe"
+    },
+    "name": "Call of Duty: Ghosts",
+    "platform": "XboxOne",
+    "year": "2013",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 1.92,
+    "euSales": 0.86,
+    "jpSales": 0,
+    "otherSales": 0.28,
+    "globalSales": 3.07
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7705"
+    },
+    "name": "Rayman",
+    "platform": "PS",
+    "year": "1995",
+    "genre": "platform",
+    "publisher": "Ubisoft",
+    "naSales": 1.54,
+    "euSales": 1.33,
+    "jpSales": 0,
+    "otherSales": 0.16,
+    "globalSales": 3.03
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7703"
+    },
+    "name": "Far Cry 3",
+    "platform": "X360",
+    "year": "2012",
+    "genre": "Shooter",
+    "publisher": "Ubisoft",
+    "naSales": 1.38,
+    "euSales": 1.35,
+    "jpSales": 0.02,
+    "otherSales": 0.28,
+    "globalSales": 3.04
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d76ff"
+    },
+    "name": "Donkey Kong",
+    "platform": "GB",
+    "year": "1994",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 1.57,
+    "euSales": 0.62,
+    "jpSales": 0.55,
+    "otherSales": 0.34,
+    "globalSales": 3.07
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7706"
+    },
+    "name": "Saints Row 2",
+    "platform": "X360",
+    "year": "2008",
+    "genre": "Action",
+    "publisher": "THQ",
+    "naSales": 1.94,
+    "euSales": 0.8,
+    "jpSales": 0.02,
+    "otherSales": 0.27,
+    "globalSales": 3.03
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7707"
+    },
+    "name": "Killzone: Shadow Fall",
+    "platform": "PS4",
+    "year": "2013",
+    "genre": "Shooter",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 0.89,
+    "euSales": 1.58,
+    "jpSales": 0.08,
+    "otherSales": 0.47,
+    "globalSales": 3.02
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d770b"
+    },
+    "name": "Mike Tyson's Punch-Out!!",
+    "platform": "NES",
+    "year": "1987",
+    "genre": "Fighting",
+    "publisher": "Nintendo",
+    "naSales": 2.03,
+    "euSales": 0.47,
+    "jpSales": 0.45,
+    "otherSales": 0.07,
+    "globalSales": 3.02
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7709"
+    },
+    "name": "Killzone 2",
+    "platform": "PS3",
+    "year": "2009",
+    "genre": "Shooter",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 1.4,
+    "euSales": 1.07,
+    "jpSales": 0.08,
+    "otherSales": 0.47,
+    "globalSales": 3.02
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d770c"
+    },
+    "name": "FIFA 14",
+    "platform": "PS4",
+    "year": "2013",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 0.61,
+    "euSales": 1.85,
+    "jpSales": 0.11,
+    "otherSales": 0.44,
+    "globalSales": 3.01
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7708"
+    },
+    "name": "WWE SmackDown! Shut Your Mouth",
+    "platform": "PS2",
+    "year": "2002",
+    "genre": "Sports",
+    "publisher": "THQ",
+    "naSales": 1.45,
+    "euSales": 1.13,
+    "jpSales": 0.07,
+    "otherSales": 0.38,
+    "globalSales": 3.02
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d770a"
+    },
+    "name": "Tom Clancy's Splinter Cell",
+    "platform": "XB",
+    "year": "2002",
+    "genre": "Action",
+    "publisher": "Ubisoft",
+    "naSales": 1.85,
+    "euSales": 1.04,
+    "jpSales": 0,
+    "otherSales": 0.13,
+    "globalSales": 3.02
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7710"
+    },
+    "name": "Dragon Ball Z: Budokai Tenkaichi 3",
+    "platform": "PS2",
+    "year": "2007",
+    "genre": "Fighting",
+    "publisher": "Atari",
+    "naSales": 1.15,
+    "euSales": 0,
+    "jpSales": 0.76,
+    "otherSales": 1.09,
+    "globalSales": 3
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d770f"
+    },
+    "name": "NBA 2K13",
+    "platform": "X360",
+    "year": "2012",
+    "genre": "Sports",
+    "publisher": "Take-Two Interactive",
+    "naSales": 2.6,
+    "euSales": 0.21,
+    "jpSales": 0.01,
+    "otherSales": 0.19,
+    "globalSales": 3
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d770d"
+    },
+    "name": "inFAMOUS: Second Son",
+    "platform": "PS4",
+    "year": "2014",
+    "genre": "Action-Adventure",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 1.35,
+    "euSales": 1.09,
+    "jpSales": 0.07,
+    "otherSales": 0.5,
+    "globalSales": 3.01
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d770e"
+    },
+    "name": "wwe Smackdown vs. Raw 2006",
+    "platform": "PS2",
+    "genre": "Fighting",
+    "naSales": 1.57,
+    "euSales": 1.02,
+    "jpSales": 0,
+    "otherSales": 0.41,
+    "globalSales": 3
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7711"
+    },
+    "name": "World Soccer Winning Eleven 6 International",
+    "platform": "PS2",
+    "year": "2002",
+    "genre": "Sports",
+    "publisher": "Konami Digital Entertainment",
+    "naSales": 0.12,
+    "euSales": 1.26,
+    "jpSales": 1.16,
+    "otherSales": 0.45,
+    "globalSales": 2.99
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7712"
+    },
+    "name": "The Sims: Livin Large",
+    "platform": "PC",
+    "year": "2000",
+    "genre": "Misc",
+    "publisher": "Electronic Arts",
+    "naSales": 1.67,
+    "euSales": 1.18,
+    "jpSales": 0,
+    "otherSales": 0.13,
+    "globalSales": 2.99
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7714"
+    },
+    "name": "Star Fox",
+    "platform": "SNES",
+    "year": "1993",
+    "genre": "Shooter",
+    "publisher": "Nintendo",
+    "naSales": 1.61,
+    "euSales": 0.51,
+    "jpSales": 0.8,
+    "otherSales": 0.07,
+    "globalSales": 2.99
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7715"
+    },
+    "name": "Battlefield: Bad Company 2",
+    "platform": "PS3",
+    "year": "2010",
+    "genre": "Shooter",
+    "publisher": "Electronic Arts",
+    "naSales": 1.33,
+    "euSales": 1.12,
+    "jpSales": 0.08,
+    "otherSales": 0.45,
+    "globalSales": 2.97
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7713"
+    },
+    "name": "Devil May Cry",
+    "platform": "PS2",
+    "year": "2001",
+    "genre": "Action",
+    "publisher": "Capcom",
+    "naSales": 1.36,
+    "euSales": 0.86,
+    "jpSales": 0.64,
+    "otherSales": 0.13,
+    "globalSales": 2.99
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7718"
+    },
+    "name": "Hitman 2: Silent Assassin",
+    "platform": "PS2",
+    "year": "2002",
+    "genre": "Action",
+    "publisher": "Eidos Interactive",
+    "naSales": 1.36,
+    "euSales": 1.15,
+    "jpSales": 0.04,
+    "otherSales": 0.41,
+    "globalSales": 2.96
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7719"
+    },
+    "name": "Kirby Super Star Ultra",
+    "platform": "DS",
+    "year": "2008",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 1.57,
+    "euSales": 0.04,
+    "jpSales": 1.19,
+    "otherSales": 0.15,
+    "globalSales": 2.96
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7717"
+    },
+    "name": "Sonic Heroes",
+    "platform": "PS2",
+    "year": "2003",
+    "genre": "platform",
+    "publisher": "Sega",
+    "naSales": 1.04,
+    "euSales": 1.37,
+    "jpSales": 0.06,
+    "otherSales": 0.49,
+    "globalSales": 2.96
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7716"
+    },
+    "name": "Star Wars: The Old Republic",
+    "platform": "PC",
+    "year": "2011",
+    "genre": "Role-Playing",
+    "publisher": "Electronic Arts",
+    "naSales": 1.58,
+    "euSales": 1.01,
+    "jpSales": 0,
+    "otherSales": 0.38,
+    "globalSales": 2.97
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d771c"
+    },
+    "name": "WWE SmackDown! vs. RAW 2006",
+    "platform": "PS2",
+    "year": "2005",
+    "genre": "Fighting",
+    "publisher": "THQ",
+    "naSales": 1.45,
+    "euSales": 1.11,
+    "jpSales": 0.04,
+    "otherSales": 0.33,
+    "globalSales": 2.94
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d771d"
+    },
+    "name": "Pac-Man Collection",
+    "platform": "GBA",
+    "year": "2001",
+    "genre": "Puzzle",
+    "publisher": "Atari",
+    "naSales": 2.07,
+    "euSales": 0.77,
+    "jpSales": 0.05,
+    "otherSales": 0.05,
+    "globalSales": 2.94
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d771b"
+    },
+    "name": "Street Fighter IV",
+    "platform": "X360",
+    "year": "2009",
+    "genre": "Fighting",
+    "publisher": "Capcom",
+    "naSales": 1.82,
+    "euSales": 0.71,
+    "jpSales": 0.15,
+    "otherSales": 0.26,
+    "globalSales": 2.95
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d771a"
+    },
+    "name": "Titanfall",
+    "platform": "XOne",
+    "year": "2014",
+    "genre": "Shooter",
+    "publisher": "Electronic Arts",
+    "naSales": 1.84,
+    "euSales": 0.8,
+    "jpSales": 0.04,
+    "otherSales": 0.27,
+    "globalSales": 2.95
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7720"
+    },
+    "name": "SOCOM II: U.S. Navy SEALs",
+    "platform": "PS2",
+    "year": "2003",
+    "genre": "Shooter",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 2.22,
+    "euSales": 0.51,
+    "jpSales": 0.06,
+    "otherSales": 0.15,
+    "globalSales": 2.94
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d771f"
+    },
+    "name": "Wave Race 64",
+    "platform": "N64",
+    "year": "1996",
+    "genre": "Racing",
+    "publisher": "Nintendo",
+    "naSales": 1.98,
+    "euSales": 0.58,
+    "jpSales": 0.34,
+    "otherSales": 0.04,
+    "globalSales": 2.94
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d771e"
+    },
+    "name": "inFAMOUS",
+    "platform": "PS3",
+    "year": "2009",
+    "genre": "Action",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 1.76,
+    "euSales": 0.69,
+    "jpSales": 0.12,
+    "otherSales": 0.37,
+    "globalSales": 2.94
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7721"
+    },
+    "name": "Mass Effect",
+    "platform": "X360",
+    "year": "2007",
+    "genre": "Role-Playing",
+    "publisher": "Microsoft Game Studios",
+    "naSales": 1.83,
+    "euSales": 0.8,
+    "jpSales": 0.03,
+    "otherSales": 0.27,
+    "globalSales": 2.93
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7723"
+    },
+    "name": "WarioWare: Smooth Moves",
+    "platform": "Wii",
+    "year": "2006",
+    "genre": "Puzzle",
+    "publisher": "Nintendo",
+    "naSales": 0.87,
+    "euSales": 1.06,
+    "jpSales": 0.73,
+    "otherSales": 0.26,
+    "globalSales": 2.92
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7725"
+    },
+    "name": "Cooking Mama: Cook Off",
+    "platform": "Wii",
+    "year": "2007",
+    "genre": "Simulation",
+    "publisher": "505 Games",
+    "naSales": 1.43,
+    "euSales": 1.13,
+    "jpSales": 0.05,
+    "otherSales": 0.3,
+    "globalSales": 2.91
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7724"
+    },
+    "name": "Call of Duty: Ghosts",
+    "platform": "XOne",
+    "year": "2013",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 1.88,
+    "euSales": 0.77,
+    "jpSales": 0,
+    "otherSales": 0.27,
+    "globalSales": 2.92
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7722"
+    },
+    "name": "Doom (2016)",
+    "platform": "PS4",
+    "year": "2016",
+    "genre": "Shooter",
+    "publisher": "Bethesda Softworks",
+    "naSales": 0.93,
+    "euSales": 1.48,
+    "jpSales": 0.04,
+    "otherSales": 0.46,
+    "globalSales": 2.92
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7729"
+    },
+    "name": "Sega Superstars Tennis",
+    "platform": "X360",
+    "year": "2008",
+    "genre": "Sports",
+    "publisher": "Sega",
+    "naSales": 1.75,
+    "euSales": 0.86,
+    "jpSales": 0,
+    "otherSales": 0.28,
+    "globalSales": 2.9
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7726"
+    },
+    "name": "Super Mario World 2: Yoshi's Island",
+    "platform": "GBA",
+    "year": "2002",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 1.75,
+    "euSales": 0.45,
+    "jpSales": 0.62,
+    "otherSales": 0.09,
+    "globalSales": 2.91
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d772a"
+    },
+    "name": "Need for Speed: Most Wanted",
+    "platform": "PS3",
+    "year": "2012",
+    "genre": "Racing",
+    "publisher": "Electronic Arts",
+    "naSales": 0.71,
+    "euSales": 1.51,
+    "jpSales": 0.06,
+    "otherSales": 0.61,
+    "globalSales": 2.89
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7728"
+    },
+    "name": "Sonic Mega Collection Plus",
+    "platform": "PS2",
+    "year": "2004",
+    "genre": "Misc",
+    "publisher": "Sega",
+    "naSales": 1.54,
+    "euSales": 1.14,
+    "jpSales": 0,
+    "otherSales": 0.22,
+    "globalSales": 2.9
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7727"
+    },
+    "name": "World Soccer Winning Eleven 7 International",
+    "platform": "PS2",
+    "year": "2003",
+    "genre": "Sports",
+    "publisher": "Konami Digital Entertainment",
+    "naSales": 0.08,
+    "euSales": 1.24,
+    "jpSales": 1.13,
+    "otherSales": 0.45,
+    "globalSales": 2.9
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d772c"
+    },
+    "name": "Hot Shots Golf 3",
+    "platform": "PS2",
+    "year": "2001",
+    "genre": "Sports",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 0.99,
+    "euSales": 0.32,
+    "jpSales": 1.38,
+    "otherSales": 0.2,
+    "globalSales": 2.89
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d772b"
+    },
+    "name": "Call of Duty: Finest Hour",
+    "platform": "PS2",
+    "year": "2004",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 1.51,
+    "euSales": 1.12,
+    "jpSales": 0.01,
+    "otherSales": 0.24,
+    "globalSales": 2.89
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d772f"
+    },
+    "name": "Syphon Filter",
+    "platform": "PS",
+    "year": "1999",
+    "genre": "Shooter",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 2.03,
+    "euSales": 0.72,
+    "jpSales": 0.02,
+    "otherSales": 0.11,
+    "globalSales": 2.88
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7732"
+    },
+    "name": "The Elder Scrolls III: Morrowind",
+    "platform": "XB",
+    "year": "2002",
+    "genre": "Role-Playing",
+    "publisher": "Ubisoft",
+    "naSales": 2.09,
+    "euSales": 0.63,
+    "jpSales": 0.03,
+    "otherSales": 0.11,
+    "globalSales": 2.86
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d772d"
+    },
+    "name": "Imagine: Babyz",
+    "platform": "DS",
+    "year": "2007",
+    "genre": "Simulation",
+    "publisher": "Ubisoft",
+    "naSales": 1.3,
+    "euSales": 1.27,
+    "jpSales": 0,
+    "otherSales": 0.31,
+    "globalSales": 2.88
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7731"
+    },
+    "name": "Mafia III",
+    "platform": "PS4",
+    "year": "2016",
+    "genre": "Action-Adventure",
+    "publisher": "2K Games",
+    "naSales": 0.72,
+    "euSales": 1.67,
+    "jpSales": 0.04,
+    "otherSales": 0.44,
+    "globalSales": 2.87
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7730"
+    },
+    "name": "Colin McRae Rally",
+    "platform": "PS",
+    "year": "1998",
+    "genre": "Racing",
+    "publisher": "Codemasters",
+    "naSales": 0.09,
+    "euSales": 2.43,
+    "jpSales": 0.12,
+    "otherSales": 0.22,
+    "globalSales": 2.87
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7735"
+    },
+    "name": "Command & Conquer: Red Alert",
+    "platform": "PC",
+    "year": "1996",
+    "genre": "Strategy",
+    "publisher": "Virgin Interactive",
+    "naSales": 1.37,
+    "euSales": 1.34,
+    "jpSales": 0,
+    "otherSales": 0.14,
+    "globalSales": 2.85
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7737"
+    },
+    "name": "Skylanders: Spyro's Adventure",
+    "platform": "Wii",
+    "year": "2011",
+    "genre": "Action",
+    "publisher": "Activision",
+    "naSales": 1.4,
+    "euSales": 1.14,
+    "jpSales": 0,
+    "otherSales": 0.31,
+    "globalSales": 2.85
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7739"
+    },
+    "name": "Yoshi's Story",
+    "platform": "N64",
+    "year": "1997",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 1.29,
+    "euSales": 0.53,
+    "jpSales": 0.98,
+    "otherSales": 0.05,
+    "globalSales": 2.85
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d773a"
+    },
+    "name": "F-Zero",
+    "platform": "SNES",
+    "year": "1990",
+    "genre": "Racing",
+    "publisher": "Nintendo",
+    "naSales": 1.37,
+    "euSales": 0.51,
+    "jpSales": 0.89,
+    "otherSales": 0.07,
+    "globalSales": 2.85
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7738"
+    },
+    "name": "Mortal Kombat",
+    "platform": "PS3",
+    "year": "2011",
+    "genre": "Fighting",
+    "publisher": "Warner Bros. Interactive Entertainment",
+    "naSales": 1.98,
+    "euSales": 0.55,
+    "jpSales": 0,
+    "otherSales": 0.32,
+    "globalSales": 2.85
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d773b"
+    },
+    "name": "Assassin's Creed: Brotherhood",
+    "platform": "PS3",
+    "year": "2010",
+    "genre": "Action",
+    "publisher": "Ubisoft",
+    "naSales": 1.87,
+    "euSales": 0.57,
+    "jpSales": 0.11,
+    "otherSales": 0.3,
+    "globalSales": 2.84
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d773f"
+    },
+    "name": "Madden NFL 10",
+    "platform": "X360",
+    "year": "2009",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 2.52,
+    "euSales": 0.09,
+    "jpSales": 0,
+    "otherSales": 0.22,
+    "globalSales": 2.83
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d773d"
+    },
+    "name": "Medal of Honor",
+    "platform": "PS3",
+    "year": "2010",
+    "genre": "Shooter",
+    "publisher": "Electronic Arts",
+    "naSales": 1.28,
+    "euSales": 1.05,
+    "jpSales": 0.07,
+    "otherSales": 0.43,
+    "globalSales": 2.83
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7741"
+    },
+    "name": "Finding Nemo",
+    "platform": "GBA",
+    "year": "2003",
+    "genre": "Action",
+    "publisher": "THQ",
+    "naSales": 1.59,
+    "euSales": 1.05,
+    "jpSales": 0.04,
+    "otherSales": 0.14,
+    "globalSales": 2.82
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7740"
+    },
+    "name": "Diablo III",
+    "platform": "PS4",
+    "year": "2014",
+    "genre": "Role-Playing",
+    "publisher": "Blizzard Entertainment",
+    "naSales": 0.83,
+    "euSales": 1.48,
+    "jpSales": 0.08,
+    "otherSales": 0.44,
+    "globalSales": 2.82
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d773c"
+    },
+    "name": "WWE SmackDown! vs. Raw",
+    "platform": "PS2",
+    "year": "2002",
+    "genre": "Fighting",
+    "publisher": "THQ",
+    "naSales": 1.32,
+    "euSales": 1.08,
+    "jpSales": 0.04,
+    "otherSales": 0.39,
+    "globalSales": 2.83
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7734"
+    },
+    "name": "FIFA 16",
+    "platform": "PS3",
+    "year": "2015",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 0.4,
+    "euSales": 1.98,
+    "jpSales": 0.05,
+    "otherSales": 0.42,
+    "globalSales": 2.85
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7742"
+    },
+    "name": "Metroid Prime",
+    "platform": "GC",
+    "year": "2002",
+    "genre": "Shooter",
+    "publisher": "Nintendo",
+    "naSales": 1.96,
+    "euSales": 0.67,
+    "jpSales": 0.1,
+    "otherSales": 0.09,
+    "globalSales": 2.82
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7743"
+    },
+    "name": "Myst",
+    "platform": "PC",
+    "year": "1994",
+    "genre": "Adventure",
+    "publisher": "Red Orb",
+    "naSales": 0.02,
+    "euSales": 2.79,
+    "jpSales": 0,
+    "otherSales": 0,
+    "globalSales": 2.81
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7736"
+    },
+    "name": "Assassin's Creed IV: Black Flag",
+    "platform": "PS4",
+    "year": "2013",
+    "genre": "Action",
+    "publisher": "Ubisoft",
+    "naSales": 1.07,
+    "euSales": 1.31,
+    "jpSales": 0.06,
+    "otherSales": 0.42,
+    "globalSales": 2.85
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7744"
+    },
+    "name": "Need for Speed: Hot Pursuit",
+    "platform": "PS3",
+    "year": "2010",
+    "genre": "Racing",
+    "publisher": "Electronic Arts",
+    "naSales": 1.05,
+    "euSales": 1.25,
+    "jpSales": 0.03,
+    "otherSales": 0.48,
+    "globalSales": 2.81
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7745"
+    },
+    "name": "Imagine: Fashion Designer",
+    "platform": "DS",
+    "year": "2007",
+    "genre": "Simulation",
+    "publisher": "Ubisoft",
+    "naSales": 1.32,
+    "euSales": 1.19,
+    "jpSales": 0,
+    "otherSales": 0.3,
+    "globalSales": 2.81
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7747"
+    },
+    "name": "Star Wars: The Force Unleashed",
+    "platform": "X360",
+    "year": "2008",
+    "genre": "Action",
+    "publisher": "LucasArts",
+    "naSales": 1.74,
+    "euSales": 0.8,
+    "jpSales": 0,
+    "otherSales": 0.26,
+    "globalSales": 2.8
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d772e"
+    },
+    "name": "Zumba Fitness 2",
+    "platform": "Wii",
+    "year": "2011",
+    "genre": "Sports",
+    "publisher": "Majesco Entertainment",
+    "naSales": 1.54,
+    "euSales": 1.07,
+    "jpSales": 0,
+    "otherSales": 0.28,
+    "globalSales": 2.88
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7746"
+    },
+    "name": "WWE SmackDown! Here Comes the Pain",
+    "platform": "PS2",
+    "year": "2003",
+    "genre": "Fighting",
+    "publisher": "THQ",
+    "naSales": 1.32,
+    "euSales": 1.06,
+    "jpSales": 0.04,
+    "otherSales": 0.38,
+    "globalSales": 2.8
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d774a"
+    },
+    "name": "Battlefield 3",
+    "platform": "PC",
+    "year": "2011",
+    "genre": "Shooter",
+    "publisher": "Electronic Arts",
+    "naSales": 0.89,
+    "euSales": 1.43,
+    "jpSales": 0,
+    "otherSales": 0.48,
+    "globalSales": 2.79
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7749"
+    },
+    "name": "Professor Layton and the Last Specter",
+    "platform": "DS",
+    "year": "2009",
+    "genre": "Puzzle",
+    "publisher": "Nintendo",
+    "naSales": 0.3,
+    "euSales": 1.47,
+    "jpSales": 0.68,
+    "otherSales": 0.34,
+    "globalSales": 2.79
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7748"
+    },
+    "name": "Yoshi's Island DS",
+    "platform": "DS",
+    "year": "2006",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 1.47,
+    "euSales": 0.07,
+    "jpSales": 1.1,
+    "otherSales": 0.15,
+    "globalSales": 2.8
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7733"
+    },
+    "name": "Madden NFL 13",
+    "platform": "X360",
+    "year": "2012",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 2.53,
+    "euSales": 0.16,
+    "jpSales": 0,
+    "otherSales": 0.17,
+    "globalSales": 2.86
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d773e"
+    },
+    "name": "BioShock",
+    "platform": "X360",
+    "year": "2007",
+    "genre": "Shooter",
+    "publisher": "Take-Two Interactive",
+    "naSales": 1.65,
+    "euSales": 0.86,
+    "jpSales": 0.05,
+    "otherSales": 0.28,
+    "globalSales": 2.83
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d774c"
+    },
+    "name": "inFAMOUS: Second Son",
+    "platform": "PS4",
+    "year": "2014",
+    "genre": "Action",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 1.28,
+    "euSales": 0.98,
+    "jpSales": 0.07,
+    "otherSales": 0.46,
+    "globalSales": 2.79
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d774b"
+    },
+    "name": "WWF SmackDown! Just Bring It",
+    "platform": "PS2",
+    "year": "2001",
+    "genre": "Fighting",
+    "publisher": "THQ",
+    "naSales": 1.19,
+    "euSales": 1.15,
+    "jpSales": 0.04,
+    "otherSales": 0.41,
+    "globalSales": 2.79
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d774d"
+    },
+    "name": "Killzone 3",
+    "platform": "PS3",
+    "year": "2011",
+    "genre": "Shooter",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 1.45,
+    "euSales": 0.88,
+    "jpSales": 0.09,
+    "otherSales": 0.38,
+    "globalSales": 2.79
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7755"
+    },
+    "name": "Ratchet & Clank: Going Commando",
+    "platform": "PS2",
+    "year": "2003",
+    "genre": "platform",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 1.44,
+    "euSales": 0.83,
+    "jpSales": 0.26,
+    "otherSales": 0.25,
+    "globalSales": 2.78
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7754"
+    },
+    "name": "Tekken 6",
+    "platform": "PS3",
+    "year": "2009",
+    "genre": "Fighting",
+    "publisher": "Namco Bandai Games",
+    "naSales": 1.2,
+    "euSales": 0.98,
+    "jpSales": 0.17,
+    "otherSales": 0.43,
+    "globalSales": 2.78
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7751"
+    },
+    "name": "NBA Street",
+    "platform": "PS2",
+    "year": "2001",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 2.19,
+    "euSales": 0.22,
+    "jpSales": 0,
+    "otherSales": 0.38,
+    "globalSales": 2.79
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7756"
+    },
+    "name": "Jak II",
+    "platform": "PS2",
+    "year": "2003",
+    "genre": "platform",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 1.68,
+    "euSales": 0.74,
+    "jpSales": 0,
+    "otherSales": 0.36,
+    "globalSales": 2.78
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7757"
+    },
+    "name": "Sonic and the Secret Rings",
+    "platform": "Wii",
+    "year": "2007",
+    "genre": "platform",
+    "publisher": "Sega",
+    "naSales": 1.24,
+    "euSales": 1.2,
+    "jpSales": 0.04,
+    "otherSales": 0.3,
+    "globalSales": 2.77
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7758"
+    },
+    "name": "Saints Row: The Third",
+    "platform": "X360",
+    "year": "2011",
+    "genre": "Action",
+    "publisher": "THQ",
+    "naSales": 1.25,
+    "euSales": 1.15,
+    "jpSales": 0.07,
+    "otherSales": 0.3,
+    "globalSales": 2.77
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7750"
+    },
+    "name": "Monster Hunter Tri",
+    "platform": "3DS",
+    "year": "2011",
+    "genre": "Role-Playing",
+    "publisher": "Nintendo",
+    "naSales": 0.46,
+    "euSales": 0.29,
+    "jpSales": 1.96,
+    "otherSales": 0.07,
+    "globalSales": 2.79
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7753"
+    },
+    "name": "Dragon Quest V: Tenkuu no Hanayome",
+    "platform": "SNES",
+    "year": "1992",
+    "genre": "Role-Playing",
+    "publisher": "Enix Corporation",
+    "naSales": 0,
+    "euSales": 0,
+    "jpSales": 2.78,
+    "otherSales": 0.01,
+    "globalSales": 2.79
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d775a"
+    },
+    "name": "Minecraft",
+    "platform": "XOne",
+    "year": "2014",
+    "genre": "Misc",
+    "publisher": "Microsoft Game Studios",
+    "naSales": 1.61,
+    "euSales": 0.9,
+    "jpSales": 0,
+    "otherSales": 0.25,
+    "globalSales": 2.76
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d774e"
+    },
+    "name": "A Bug's Life",
+    "platform": "PS",
+    "year": "1998",
+    "genre": "platform",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 1.96,
+    "euSales": 0.72,
+    "jpSales": 0,
+    "otherSales": 0.11,
+    "globalSales": 2.79
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7759"
+    },
+    "name": "The Sims",
+    "platform": "PS2",
+    "year": "2003",
+    "genre": "Simulation",
+    "publisher": "Electronic Arts",
+    "naSales": 1.41,
+    "euSales": 1.12,
+    "jpSales": 0,
+    "otherSales": 0.24,
+    "globalSales": 2.77
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d775b"
+    },
+    "name": "Missile Command",
+    "platform": "2600",
+    "year": "1980",
+    "genre": "Shooter",
+    "publisher": "Atari",
+    "naSales": 2.56,
+    "euSales": 0.17,
+    "jpSales": 0,
+    "otherSales": 0.03,
+    "globalSales": 2.76
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7752"
+    },
+    "name": "Hot Shots Golf",
+    "platform": "PS",
+    "year": "1997",
+    "genre": "Sports",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 0.29,
+    "euSales": 0.2,
+    "jpSales": 2.13,
+    "otherSales": 0.18,
+    "globalSales": 2.79
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d775e"
+    },
+    "name": "Pokémon Stadium 2",
+    "platform": "N64",
+    "year": "2000",
+    "genre": "Strategy",
+    "publisher": "Nintendo",
+    "naSales": 1.02,
+    "euSales": 0.36,
+    "jpSales": 1.13,
+    "otherSales": 0.23,
+    "globalSales": 2.73
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d775d"
+    },
+    "name": "Far Cry: Primal",
+    "platform": "PS4",
+    "year": "2016",
+    "genre": "Action-Adventure",
+    "publisher": "Ubisoft",
+    "naSales": 0.63,
+    "euSales": 1.61,
+    "jpSales": 0.07,
+    "otherSales": 0.41,
+    "globalSales": 2.73
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d774f"
+    },
+    "name": "Mortal Kombat Trilogy",
+    "platform": "PS",
+    "year": "1996",
+    "genre": "Fighting",
+    "publisher": "GT Interactive",
+    "naSales": 1.98,
+    "euSales": 0.7,
+    "jpSales": 0,
+    "otherSales": 0.11,
+    "globalSales": 2.79
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d775c"
+    },
+    "name": "Mario Paint",
+    "platform": "SNES",
+    "year": "1992",
+    "genre": "Misc",
+    "publisher": "Nintendo",
+    "naSales": 1.43,
+    "euSales": 0.54,
+    "jpSales": 0.71,
+    "otherSales": 0.07,
+    "globalSales": 2.75
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d775f"
+    },
+    "name": "Metroid",
+    "platform": "NES",
+    "year": "1986",
+    "genre": "Action",
+    "publisher": "Nintendo",
+    "naSales": 1.33,
+    "euSales": 0.31,
+    "jpSales": 1.04,
+    "otherSales": 0.05,
+    "globalSales": 2.73
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7762"
+    },
+    "name": "Overwatch",
+    "platform": "XboxOne",
+    "year": "2016",
+    "genre": "Shooter",
+    "publisher": "Blizzard Entertainment",
+    "naSales": 1.63,
+    "euSales": 0.84,
+    "jpSales": 0,
+    "otherSales": 0.25,
+    "globalSales": 2.72
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7761"
+    },
+    "name": "L.A. Noire",
+    "platform": "X360",
+    "year": "2011",
+    "genre": "Adventure",
+    "publisher": "Take-Two Interactive",
+    "naSales": 1.52,
+    "euSales": 0.94,
+    "jpSales": 0.02,
+    "otherSales": 0.24,
+    "globalSales": 2.72
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7764"
+    },
+    "name": "Tom Clancy's Rainbow Six: Siege",
+    "platform": "XboxOne",
+    "year": "2015",
+    "genre": "Shooter",
+    "publisher": "Ubisoft",
+    "naSales": 1.62,
+    "euSales": 0.84,
+    "jpSales": 0,
+    "otherSales": 0.25,
+    "globalSales": 2.71
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7760"
+    },
+    "name": "Need for Speed (2015)",
+    "platform": "PS4",
+    "year": "2015",
+    "genre": "Racing",
+    "publisher": "Electronic Arts",
+    "naSales": 0.59,
+    "euSales": 1.66,
+    "jpSales": 0.06,
+    "otherSales": 0.41,
+    "globalSales": 2.72
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7763"
+    },
+    "name": "Call of Duty 3",
+    "platform": "X360",
+    "year": "2006",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 1.49,
+    "euSales": 0.93,
+    "jpSales": 0.02,
+    "otherSales": 0.27,
+    "globalSales": 2.71
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7768"
+    },
+    "name": "LEGO Star Wars II: The Original Trilogy",
+    "platform": "PS2",
+    "year": "2006",
+    "genre": "Action",
+    "publisher": "LucasArts",
+    "naSales": 1.85,
+    "euSales": 0.64,
+    "jpSales": 0.01,
+    "otherSales": 0.19,
+    "globalSales": 2.69
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7766"
+    },
+    "name": "The Legend of Zelda: A Link to the Past",
+    "platform": "GBA",
+    "year": "2002",
+    "genre": "Action",
+    "publisher": "Nintendo",
+    "naSales": 1.75,
+    "euSales": 0.52,
+    "jpSales": 0.33,
+    "otherSales": 0.1,
+    "globalSales": 2.7
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7765"
+    },
+    "name": "Mario Party",
+    "platform": "N64",
+    "year": "1998",
+    "genre": "Misc",
+    "publisher": "Nintendo",
+    "naSales": 1.25,
+    "euSales": 0.53,
+    "jpSales": 0.87,
+    "otherSales": 0.05,
+    "globalSales": 2.7
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7767"
+    },
+    "name": "Onimusha: Warlords",
+    "platform": "PS2",
+    "year": "2001",
+    "genre": "Action",
+    "publisher": "Virgin Interactive",
+    "naSales": 0.99,
+    "euSales": 0.48,
+    "jpSales": 1.09,
+    "otherSales": 0.14,
+    "globalSales": 2.7
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7769"
+    },
+    "name": "Mario vs. Donkey Kong: Mini-Land Mayhem!",
+    "platform": "DS",
+    "year": "2010",
+    "genre": "Puzzle",
+    "publisher": "Nintendo",
+    "naSales": 1.63,
+    "euSales": 0.52,
+    "jpSales": 0.35,
+    "otherSales": 0.18,
+    "globalSales": 2.69
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d776a"
+    },
+    "name": "Madden NFL 11",
+    "platform": "X360",
+    "year": "2010",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 2.38,
+    "euSales": 0.12,
+    "jpSales": 0,
+    "otherSales": 0.18,
+    "globalSales": 2.69
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d776b"
+    },
+    "name": "Madden NFL 12",
+    "platform": "X360",
+    "year": "2011",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 2.42,
+    "euSales": 0.11,
+    "jpSales": 0,
+    "otherSales": 0.16,
+    "globalSales": 2.69
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d776d"
+    },
+    "name": "Burnout 3: Takedown",
+    "platform": "PS2",
+    "year": "2004",
+    "genre": "Racing",
+    "publisher": "Electronic Arts",
+    "naSales": 1.23,
+    "euSales": 1.11,
+    "jpSales": 0,
+    "otherSales": 0.34,
+    "globalSales": 2.68
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d776c"
+    },
+    "name": "Need for Speed: Shift",
+    "platform": "PS3",
+    "year": "2009",
+    "genre": "Racing",
+    "publisher": "Electronic Arts",
+    "naSales": 0.69,
+    "euSales": 1.41,
+    "jpSales": 0.04,
+    "otherSales": 0.53,
+    "globalSales": 2.68
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d776f"
+    },
+    "name": "Final Fantasy XIII-2",
+    "platform": "PS3",
+    "year": "2011",
+    "genre": "Role-Playing",
+    "publisher": "Square Enix",
+    "naSales": 0.78,
+    "euSales": 0.75,
+    "jpSales": 0.89,
+    "otherSales": 0.26,
+    "globalSales": 2.68
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7770"
+    },
+    "name": "Yokai Watch 2 Shinuchi",
+    "platform": "3DS",
+    "year": "2014",
+    "genre": "Role-Playing",
+    "publisher": "Level 5",
+    "naSales": 0,
+    "euSales": 0,
+    "jpSales": 2.68,
+    "otherSales": 0,
+    "globalSales": 2.68
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d776e"
+    },
+    "name": "Skate 3",
+    "platform": "X360",
+    "year": "2010",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 1.46,
+    "euSales": 0.98,
+    "jpSales": 0,
+    "otherSales": 0.24,
+    "globalSales": 2.68
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7771"
+    },
+    "name": "Medal of Honor",
+    "platform": "PS",
+    "year": "1998",
+    "genre": "Shooter",
+    "publisher": "Electronic Arts",
+    "naSales": 1.44,
+    "euSales": 1.09,
+    "jpSales": 0,
+    "otherSales": 0.14,
+    "globalSales": 2.67
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7776"
+    },
+    "name": "FIFA 17",
+    "platform": "XOne",
+    "year": "2016",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 0.43,
+    "euSales": 2.05,
+    "jpSales": 0,
+    "otherSales": 0.17,
+    "globalSales": 2.65
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7773"
+    },
+    "name": "Guitar Hero: World Tour",
+    "platform": "X360",
+    "year": "2008",
+    "genre": "Misc",
+    "publisher": "Activision",
+    "naSales": 1.78,
+    "euSales": 0.64,
+    "jpSales": 0,
+    "otherSales": 0.25,
+    "globalSales": 2.67
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7775"
+    },
+    "name": "Fable",
+    "platform": "XB",
+    "year": "2004",
+    "genre": "Role-Playing",
+    "publisher": "Microsoft Game Studios",
+    "naSales": 1.99,
+    "euSales": 0.58,
+    "jpSales": 0,
+    "otherSales": 0.09,
+    "globalSales": 2.66
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7774"
+    },
+    "name": "Mortal Kombat",
+    "platform": "GEN",
+    "year": "1992",
+    "genre": "Fighting",
+    "publisher": "Arena Entertainment",
+    "naSales": 1.95,
+    "euSales": 0.63,
+    "jpSales": 0,
+    "otherSales": 0.09,
+    "globalSales": 2.67
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7772"
+    },
+    "name": "Call Of Duty 2: Big Red One",
+    "platform": "PS2",
+    "year": "2005",
+    "genre": "Shooter",
+    "publisher": "Activision",
+    "naSales": 1.48,
+    "euSales": 0.92,
+    "jpSales": 0.01,
+    "otherSales": 0.26,
+    "globalSales": 2.67
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7778"
+    },
+    "name": "Medal of Honor Heroes",
+    "platform": "PSP",
+    "year": "2006",
+    "genre": "Shooter",
+    "publisher": "Electronic Arts",
+    "naSales": 0.86,
+    "euSales": 1.11,
+    "jpSales": 0.01,
+    "otherSales": 0.66,
+    "globalSales": 2.65
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7779"
+    },
+    "name": "Skylanders Giants",
+    "platform": "Wii",
+    "year": "2012",
+    "genre": "Action",
+    "publisher": "Activision",
+    "naSales": 1.56,
+    "euSales": 0.88,
+    "jpSales": 0,
+    "otherSales": 0.22,
+    "globalSales": 2.65
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7777"
+    },
+    "name": "Tom Clancy's Splinter Cell",
+    "platform": "PS2",
+    "year": "2003",
+    "genre": "Action",
+    "publisher": "Ubisoft",
+    "naSales": 1.15,
+    "euSales": 1.11,
+    "jpSales": 0,
+    "otherSales": 0.4,
+    "globalSales": 2.65
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d777a"
+    },
+    "name": "Hannah Montana",
+    "platform": "DS",
+    "year": "2006",
+    "genre": "Action",
+    "publisher": "Disney Interactive Studios",
+    "naSales": 1.59,
+    "euSales": 0.8,
+    "jpSales": 0,
+    "otherSales": 0.26,
+    "globalSales": 2.65
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d777d"
+    },
+    "name": "LEGO Star Wars: The Complete Saga",
+    "platform": "X360",
+    "year": "2007",
+    "genre": "Action",
+    "publisher": "LucasArts",
+    "naSales": 1.53,
+    "euSales": 0.87,
+    "jpSales": 0,
+    "otherSales": 0.24,
+    "globalSales": 2.64
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d777e"
+    },
+    "name": "Pac-Man: Adventures in Time",
+    "platform": "PSP",
+    "year": "2006",
+    "genre": "Fighting",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 0.76,
+    "euSales": 1.1,
+    "jpSales": 0.12,
+    "otherSales": 0.65,
+    "globalSales": 2.63
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d777b"
+    },
+    "name": "Star Wars: Shadows of the Empire",
+    "platform": "N64",
+    "year": "1996",
+    "genre": "Action",
+    "publisher": "Nintendo",
+    "naSales": 2,
+    "euSales": 0.5,
+    "jpSales": 0.12,
+    "otherSales": 0.03,
+    "globalSales": 2.65
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d777c"
+    },
+    "name": "Super Mario Bros.: The Lost Levels",
+    "platform": "NES",
+    "year": "1986",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 0,
+    "euSales": 0,
+    "jpSales": 2.65,
+    "otherSales": 0,
+    "globalSales": 2.65
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7783"
+    },
+    "name": "Mario Strikers Charged",
+    "platform": "Wii",
+    "year": "2007",
+    "genre": "Sports",
+    "publisher": "Nintendo",
+    "naSales": 1.07,
+    "euSales": 1.06,
+    "jpSales": 0.24,
+    "otherSales": 0.25,
+    "globalSales": 2.62
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d777f"
+    },
+    "name": "Halo Wars",
+    "platform": "X360",
+    "year": "2009",
+    "genre": "Strategy",
+    "publisher": "Microsoft Game Studios",
+    "naSales": 1.53,
+    "euSales": 0.82,
+    "jpSales": 0.04,
+    "otherSales": 0.24,
+    "globalSales": 2.63
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7781"
+    },
+    "name": "God of War Collection",
+    "platform": "PS3",
+    "year": "2009",
+    "genre": "Action",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 1.7,
+    "euSales": 0.46,
+    "jpSales": 0.06,
+    "otherSales": 0.41,
+    "globalSales": 2.63
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7780"
+    },
+    "name": "Midnight Club: Street Racing",
+    "platform": "PS2",
+    "year": "2000",
+    "genre": "Racing",
+    "publisher": "Take-Two Interactive",
+    "naSales": 2,
+    "euSales": 0.47,
+    "jpSales": 0.02,
+    "otherSales": 0.14,
+    "globalSales": 2.63
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7782"
+    },
+    "name": "FIFA Soccer 10",
+    "platform": "X360",
+    "year": "2009",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 0.59,
+    "euSales": 1.79,
+    "jpSales": 0.01,
+    "otherSales": 0.23,
+    "globalSales": 2.62
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7785"
+    },
+    "name": "Madden NFL 18",
+    "platform": "PS4",
+    "year": "2017",
+    "genre": "Sports",
+    "publisher": "EA Sports",
+    "naSales": 1.73,
+    "euSales": 0.42,
+    "jpSales": 0,
+    "otherSales": 0.47,
+    "globalSales": 2.62
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7784"
+    },
+    "name": "Medal of Honor",
+    "platform": "X360",
+    "year": "2010",
+    "genre": "Shooter",
+    "publisher": "Electronic Arts",
+    "naSales": 1.55,
+    "euSales": 0.81,
+    "jpSales": 0.04,
+    "otherSales": 0.21,
+    "globalSales": 2.62
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7786"
+    },
+    "name": "NBA 2K12",
+    "platform": "X360",
+    "year": "2011",
+    "genre": "Sports",
+    "publisher": "Take-Two Interactive",
+    "naSales": 2.31,
+    "euSales": 0.14,
+    "jpSales": 0.01,
+    "otherSales": 0.16,
+    "globalSales": 2.62
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7787"
+    },
+    "name": "ESPN NFL 2K5",
+    "platform": "PS2",
+    "year": "2004",
+    "genre": "Sports",
+    "publisher": "Sega",
+    "naSales": 2.15,
+    "euSales": 0.12,
+    "jpSales": 0,
+    "otherSales": 0.36,
+    "globalSales": 2.62
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7789"
+    },
+    "name": "Style Savvy",
+    "platform": "DS",
+    "year": "2008",
+    "genre": "Simulation",
+    "publisher": "Nintendo",
+    "naSales": 0.63,
+    "euSales": 0.84,
+    "jpSales": 0.96,
+    "otherSales": 0.19,
+    "globalSales": 2.61
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d778b"
+    },
+    "name": "Super Mario All-Stars: Limited Edition",
+    "platform": "Wii",
+    "year": "2010",
+    "genre": "platform",
+    "publisher": "Nintendo",
+    "naSales": 1.02,
+    "euSales": 0.52,
+    "jpSales": 0.92,
+    "otherSales": 0.14,
+    "globalSales": 2.6
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7788"
+    },
+    "name": "Harry Potter and the Chamber of Secrets",
+    "platform": "PS2",
+    "year": "2002",
+    "genre": "Action",
+    "publisher": "Electronic Arts",
+    "naSales": 0.9,
+    "euSales": 1.22,
+    "jpSales": 0.04,
+    "otherSales": 0.44,
+    "globalSales": 2.61
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d778a"
+    },
+    "name": "Streets of Rage",
+    "platform": "GEN",
+    "year": "1990",
+    "genre": "Action",
+    "publisher": "Sega",
+    "naSales": 1.86,
+    "euSales": 0.55,
+    "jpSales": 0.11,
+    "otherSales": 0.08,
+    "globalSales": 2.6
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d778c"
+    },
+    "name": "FIFA Soccer 09",
+    "platform": "PS3",
+    "year": "2008",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 0.48,
+    "euSales": 1.63,
+    "jpSales": 0.04,
+    "otherSales": 0.43,
+    "globalSales": 2.59
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d778f"
+    },
+    "name": "NBA Live 2005",
+    "platform": "PS2",
+    "year": "2004",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 2.03,
+    "euSales": 0.21,
+    "jpSales": 0,
+    "otherSales": 0.35,
+    "globalSales": 2.59
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d778e"
+    },
+    "name": "Tom Clancy's The Division",
+    "platform": "XboxOne",
+    "year": "2016",
+    "genre": "Shooter",
+    "publisher": "Ubisoft",
+    "naSales": 1.54,
+    "euSales": 0.82,
+    "jpSales": 0,
+    "otherSales": 0.24,
+    "globalSales": 2.59
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d778d"
+    },
+    "name": "Ratchet & Clank Future: Tools of Destruction",
+    "platform": "PS3",
+    "year": "2007",
+    "genre": "platform",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 0.93,
+    "euSales": 1.12,
+    "jpSales": 0.08,
+    "otherSales": 0.45,
+    "globalSales": 2.59
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7791"
+    },
+    "name": "Ghostbusters: The Video Game (DS Version)",
+    "platform": "X360",
+    "year": "2009",
+    "genre": "Action",
+    "publisher": "Take-Two Interactive",
+    "naSales": 1.04,
+    "euSales": 1.24,
+    "jpSales": 0.03,
+    "otherSales": 0.27,
+    "globalSales": 2.58
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7790"
+    },
+    "name": "LittleBigPlanet",
+    "platform": "PSP",
+    "year": "2009",
+    "genre": "platform",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 0.64,
+    "euSales": 1.24,
+    "jpSales": 0.01,
+    "otherSales": 0.69,
+    "globalSales": 2.58
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7792"
+    },
+    "name": "WWE SmackDown vs. RAW 2007",
+    "platform": "PS2",
+    "year": "2006",
+    "genre": "Fighting",
+    "publisher": "THQ",
+    "naSales": 1.4,
+    "euSales": 0.88,
+    "jpSales": 0.03,
+    "otherSales": 0.26,
+    "globalSales": 2.58
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7793"
+    },
+    "name": "Monster Hunter Freedom 2",
+    "platform": "PSP",
+    "year": "2007",
+    "genre": "Role-Playing",
+    "publisher": "Capcom",
+    "naSales": 0.37,
+    "euSales": 0.27,
+    "jpSales": 1.75,
+    "otherSales": 0.18,
+    "globalSales": 2.58
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7796"
+    },
+    "name": "Dragon Age: Origins",
+    "platform": "X360",
+    "year": "2009",
+    "genre": "Role-Playing",
+    "publisher": "Electronic Arts",
+    "naSales": 1.76,
+    "euSales": 0.56,
+    "jpSales": 0.03,
+    "otherSales": 0.22,
+    "globalSales": 2.57
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7794"
+    },
+    "name": "Art Academy",
+    "platform": "DS",
+    "year": "2010",
+    "genre": "Misc",
+    "publisher": "Nintendo",
+    "naSales": 0.28,
+    "euSales": 1.68,
+    "jpSales": 0.33,
+    "otherSales": 0.28,
+    "globalSales": 2.57
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7795"
+    },
+    "name": "Ratchet & Clank: Up Your Arsenal",
+    "platform": "PS2",
+    "year": "2004",
+    "genre": "platform",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 1.31,
+    "euSales": 0.74,
+    "jpSales": 0.31,
+    "otherSales": 0.22,
+    "globalSales": 2.57
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7799"
+    },
+    "name": "Madden NFL 13",
+    "platform": "PS3",
+    "year": "2012",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 2.11,
+    "euSales": 0.23,
+    "jpSales": 0,
+    "otherSales": 0.22,
+    "globalSales": 2.56
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7798"
+    },
+    "name": "Sonic Adventure 2 Battle",
+    "platform": "GC",
+    "year": "2001",
+    "genre": "platform",
+    "publisher": "Sega",
+    "naSales": 1.7,
+    "euSales": 0.59,
+    "jpSales": 0.21,
+    "otherSales": 0.07,
+    "globalSales": 2.56
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d779a"
+    },
+    "name": "Dragon Warrior II",
+    "platform": "NES",
+    "year": "1987",
+    "genre": "Role-Playing",
+    "publisher": "Enix Corporation",
+    "naSales": 0.15,
+    "euSales": 0,
+    "jpSales": 2.41,
+    "otherSales": 0,
+    "globalSales": 2.56
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d7797"
+    },
+    "name": "Madden NFL 08",
+    "platform": "PS2",
+    "year": "2007",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 2.14,
+    "euSales": 0.08,
+    "jpSales": 0,
+    "otherSales": 0.35,
+    "globalSales": 2.57
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d779b"
+    },
+    "name": "Deca Sports",
+    "platform": "Wii",
+    "year": "2008",
+    "genre": "Sports",
+    "publisher": "Konami Digital Entertainment",
+    "naSales": 1.13,
+    "euSales": 0.87,
+    "jpSales": 0.29,
+    "otherSales": 0.25,
+    "globalSales": 2.54
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d779d"
+    },
+    "name": "Madden NFL 09",
+    "platform": "X360",
+    "year": "2008",
+    "genre": "Sports",
+    "publisher": "Electronic Arts",
+    "naSales": 2.21,
+    "euSales": 0.12,
+    "jpSales": 0,
+    "otherSales": 0.2,
+    "globalSales": 2.54
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d779e"
+    },
+    "name": "Space Invaders",
+    "platform": "2600",
+    "genre": "Shooter",
+    "publisher": "Atari",
+    "naSales": 2.36,
+    "euSales": 0.14,
+    "jpSales": 0,
+    "otherSales": 0.03,
+    "globalSales": 2.53
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d779c"
+    },
+    "name": "Pokémon Colosseum",
+    "platform": "GC",
+    "year": "2003",
+    "genre": "Role-Playing",
+    "publisher": "Nintendo",
+    "naSales": 1.21,
+    "euSales": 0.57,
+    "jpSales": 0.7,
+    "otherSales": 0.07,
+    "globalSales": 2.54
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d779f"
+    },
+    "name": "Crazy Taxi",
+    "platform": "PS2",
+    "year": "2001",
+    "genre": "Racing",
+    "publisher": "Acclaim Entertainment",
+    "naSales": 1.13,
+    "euSales": 1.12,
+    "jpSales": 0.06,
+    "otherSales": 0.22,
+    "globalSales": 2.52
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d77a2"
+    },
+    "name": "NBA 2K14",
+    "platform": "X360",
+    "year": "2013",
+    "genre": "Sports",
+    "publisher": "Take-Two Interactive",
+    "naSales": 2.1,
+    "euSales": 0.19,
+    "jpSales": 0,
+    "otherSales": 0.23,
+    "globalSales": 2.52
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d77a0"
+    },
+    "name": "Game Party",
+    "platform": "Wii",
+    "year": "2007",
+    "genre": "Misc",
+    "publisher": "Midway Games",
+    "naSales": 1.5,
+    "euSales": 0.78,
+    "jpSales": 0,
+    "otherSales": 0.24,
+    "globalSales": 2.52
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d77a5"
+    },
+    "name": "Mario Party 2",
+    "platform": "N64",
+    "year": "1999",
+    "genre": "Misc",
+    "publisher": "Nintendo",
+    "naSales": 1.28,
+    "euSales": 0.14,
+    "jpSales": 1.08,
+    "otherSales": 0.01,
+    "globalSales": 2.5
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d77a1"
+    },
+    "name": "Perfect Dark",
+    "platform": "N64",
+    "year": "2000",
+    "genre": "Action",
+    "publisher": "Nintendo",
+    "naSales": 1.55,
+    "euSales": 0.75,
+    "jpSales": 0.16,
+    "otherSales": 0.06,
+    "globalSales": 2.52
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d77a4"
+    },
+    "name": "Tomb Raider (2013)",
+    "platform": "PS3",
+    "year": "2013",
+    "genre": "Action",
+    "publisher": "Square Enix",
+    "naSales": 0.6,
+    "euSales": 1.31,
+    "jpSales": 0.08,
+    "otherSales": 0.52,
+    "globalSales": 2.51
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d77a3"
+    },
+    "name": "Dragon Warrior",
+    "platform": "NES",
+    "year": "1986",
+    "genre": "Role-Playing",
+    "publisher": "Capcom",
+    "naSales": 0.49,
+    "euSales": 0,
+    "jpSales": 0.52,
+    "otherSales": 1.51,
+    "globalSales": 2.52
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d77a6"
+    },
+    "name": "PES 2009: Pro Evolution Soccer",
+    "platform": "PS2",
+    "year": "2008",
+    "genre": "Sports",
+    "publisher": "Konami Digital Entertainment",
+    "naSales": 0.13,
+    "euSales": 0.07,
+    "jpSales": 0.26,
+    "otherSales": 2.05,
+    "globalSales": 2.5
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d77a8"
+    },
+    "name": "Saints Row: The Third",
+    "platform": "PS3",
+    "year": "2011",
+    "genre": "Action",
+    "publisher": "THQ",
+    "naSales": 0.86,
+    "euSales": 1.06,
+    "jpSales": 0.18,
+    "otherSales": 0.39,
+    "globalSales": 2.49
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d77a9"
+    },
+    "name": "LEGO Harry Potter: years 1-4",
+    "platform": "Wii",
+    "year": "2010",
+    "genre": "Action",
+    "publisher": "Warner Bros. Interactive Entertainment",
+    "naSales": 1.29,
+    "euSales": 0.97,
+    "jpSales": 0,
+    "otherSales": 0.23,
+    "globalSales": 2.49
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d77ad"
+    },
+    "name": "Tomb Raider: The Last Revelation",
+    "platform": "PS",
+    "year": "1998",
+    "genre": "Action",
+    "publisher": "Eidos Interactive",
+    "naSales": 1.15,
+    "euSales": 1.14,
+    "jpSales": 0.06,
+    "otherSales": 0.13,
+    "globalSales": 2.48
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d77ab"
+    },
+    "name": "NBA 2K15",
+    "platform": "PS4",
+    "year": "2014",
+    "genre": "Sports",
+    "publisher": "2K Sports",
+    "naSales": 1.49,
+    "euSales": 0.55,
+    "jpSales": 0.01,
+    "otherSales": 0.44,
+    "globalSales": 2.49
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d77aa"
+    },
+    "name": "Rockstar Games Double Pack: Grand Theft Auto III & Grand Theft Auto Vice City",
+    "platform": "XB",
+    "year": "2003",
+    "genre": "Action",
+    "publisher": "Take-Two Interactive",
+    "naSales": 1.84,
+    "euSales": 0.56,
+    "jpSales": 0,
+    "otherSales": 0.09,
+    "globalSales": 2.49
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d77b0"
+    },
+    "name": "Bloodborne",
+    "platform": "PS4",
+    "year": "2015",
+    "genre": "Action",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 1.03,
+    "euSales": 0.81,
+    "jpSales": 0.26,
+    "otherSales": 0.38,
+    "globalSales": 2.48
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d77af"
+    },
+    "name": "Pure",
+    "platform": "X360",
+    "year": "2008",
+    "genre": "Racing",
+    "publisher": "Disney Interactive Studios",
+    "naSales": 1.38,
+    "euSales": 0.85,
+    "jpSales": 0,
+    "otherSales": 0.25,
+    "globalSales": 2.48
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d77ae"
+    },
+    "name": "Resistance 2",
+    "platform": "PS3",
+    "year": "2008",
+    "genre": "Shooter",
+    "publisher": "Sony Computer Entertainment",
+    "naSales": 1.15,
+    "euSales": 0.85,
+    "jpSales": 0.1,
+    "otherSales": 0.39,
+    "globalSales": 2.48
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d77a7"
+    },
+    "name": "Marvel: Ultimate Alliance",
+    "platform": "X360",
+    "year": "2006",
+    "genre": "Role-Playing",
+    "publisher": "Activision",
+    "naSales": 2.29,
+    "euSales": 0.02,
+    "jpSales": 0,
+    "otherSales": 0.19,
+    "globalSales": 2.5
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d77ac"
+    },
+    "name": "Mortal Kombat: Deadly Alliance",
+    "platform": "PS2",
+    "year": "2002",
+    "genre": "Fighting",
+    "publisher": "Midway Games",
+    "naSales": 1.81,
+    "euSales": 0.52,
+    "jpSales": 0,
+    "otherSales": 0.15,
+    "globalSales": 2.49
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d77b4"
+    },
+    "name": "Mario Party 4",
+    "platform": "GC",
+    "year": "2002",
+    "genre": "Misc",
+    "publisher": "Nintendo",
+    "naSales": 1.13,
+    "euSales": 0.36,
+    "jpSales": 0.92,
+    "otherSales": 0.07,
+    "globalSales": 2.47
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d77b1"
+    },
+    "name": "NBA 2K13",
+    "platform": "PS3",
+    "year": "2012",
+    "genre": "Sports",
+    "publisher": "Take-Two Interactive",
+    "naSales": 1.72,
+    "euSales": 0.44,
+    "jpSales": 0.05,
+    "otherSales": 0.27,
+    "globalSales": 2.48
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d77b5"
+    },
+    "name": "Madden NFL 16",
+    "platform": "XboxOne",
+    "year": "2015",
+    "genre": "Sports",
+    "publisher": "EA Sports",
+    "naSales": 2.13,
+    "euSales": 0.08,
+    "jpSales": 0,
+    "otherSales": 0.26,
+    "globalSales": 2.47
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d77b8"
+    },
+    "name": "Midnight Club: Los Angeles",
+    "platform": "PS3",
+    "year": "2008",
+    "genre": "Racing",
+    "publisher": "Take-Two Interactive",
+    "naSales": 1.55,
+    "euSales": 0.54,
+    "jpSales": 0.05,
+    "otherSales": 0.31,
+    "globalSales": 2.45
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d77b6"
+    },
+    "name": "uDraw Studio",
+    "platform": "Wii",
+    "year": "2010",
+    "genre": "Misc",
+    "publisher": "THQ",
+    "naSales": 1.67,
+    "euSales": 0.58,
+    "jpSales": 0,
+    "otherSales": 0.2,
+    "globalSales": 2.46
+  },
+  {
+    "_id": {
+      "$oid": "65f807ab50827a0c488d77b9"
+    },
+    "name": "NBA 2K15",
+    "platform": "PS4",
+    "year": "2014",
+    "genre": "Sports",
+    "publisher": "Take-Two Interactive",
+    "naSales": 1.47,
+    "euSales": 0.54,
+    "jpSales": 0.01,
+    "otherSales": 0.43,
+    "globalSales": 2.45
+  }
+]

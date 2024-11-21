@@ -1,0 +1,107 @@
+html {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.816);
+  overflow-x: hidden;
+}
+.app-header {
+  min-height: 20vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+body {
+  font-size: 1.1rem;
+}
+h1 {
+  font-size: 2rem;
+  margin-block: 2rem;
+  padding: 0;
+  color: #0d208d;
+}
+
+table {
+  border-collapse: collapse;
+  width: 98%;
+  justify-content: center;
+}
+thead {
+  background-color: #192da0;
+  color: #ffffff;
+  font-weight: bold;
+}
+th {
+  text-align: left;
+  padding: 10px;
+  padding-left: 13px;
+}
+td {
+  padding: 13px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+td.name {
+  max-width: 23rem !important;
+  text-align: left;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+tr:hover {
+  background-color: rgba(191, 101, 207, 0.39);
+  font-weight: 600;
+  cursor: pointer;
+}
+td.publisher {
+  max-width: 10rem !important;
+  text-align: left;
+}
+td.genre {
+  max-width: 5rem !important;
+  text-align: left;
+}
+button {
+  background-color: #5c5c628b;
+  color: #ffffff;
+  border: none;
+  padding: 13px 20px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0px 0px 3px #000000;
+  box-shadow: 0px 0px 2px #413838;
+  display: inline-block;
+  font-size: 1.1rem;
+  margin: 7px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-block: 2rem;
+  /* transition: transform 0.1s ease-in-out; */
+}
+
+button:hover {
+  background-color: #9bbcffdc;
+  color: rgb(0, 8, 255);
+  text-shadow: 0px 0px 1px #68c0ff;
+}
+
+.button-active {
+  background-color: #9bbcffdc;
+  color: rgb(0, 8, 255);
+  text-shadow: 0px 0px 1px #68c0ff;
+}
+
+button:active {
+  background-color: #9bbcffdc;
+  color: rgb(0, 8, 255);
+  text-shadow: 0px 0px 1px #68c0ff;
+  transform: translateY(2px);
+}
