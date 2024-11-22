@@ -24,9 +24,25 @@ body {
 }
 h1 {
   font-size: 2rem;
-  margin-block: 2rem;
+  margin: 1.1rem;
   padding: 0;
-  color: #0d208d;
+  color: #3f4047;
+}
+h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-block: 1.3rem;
+  text-decoration: underline;
+  text-decoration-thickness: 1.3px;
+  text-underline-offset: 6px;
+  padding: 0;
+  color: #3f4047;
+}
+h3 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 table {
@@ -35,8 +51,8 @@ table {
   justify-content: center;
 }
 thead {
-  background-color: #192da0;
-  color: #ffffff;
+  background-color: #b6c8ebc8;
+  color: #535353;
   font-weight: bold;
 }
 th {
@@ -57,7 +73,7 @@ td.name {
   overflow: hidden;
 }
 tr:hover {
-  background-color: rgba(191, 101, 207, 0.39);
+  background-color: rgba(165, 170, 181, 0.536);
   font-weight: 600;
   cursor: pointer;
 }
@@ -73,7 +89,7 @@ button {
   background-color: #5c5c628b;
   color: #ffffff;
   border: none;
-  padding: 13px 20px;
+  padding: 7px 13px;
   text-align: center;
   text-decoration: none;
   text-shadow: 0px 0px 3px #000000;
@@ -83,7 +99,7 @@ button {
   margin: 7px 5px;
   cursor: pointer;
   border-radius: 5px;
-  margin-block: 2rem;
+  margin-block: 1rem;
   /* transition: transform 0.1s ease-in-out; */
 }
 
@@ -104,4 +120,127 @@ button:active {
   color: rgb(0, 8, 255);
   text-shadow: 0px 0px 1px #68c0ff;
   transform: translateY(2px);
+}
+.newGame-btn {
+  background-color: #e9e5e5dc;
+  color: rgb(0, 0, 0);
+  text-shadow: 0px 0px 1px #68c0ff;
+  border: none;
+  position: relative;
+}
+
+/* Texte au survol */
+.newGame-btn:hover::after {
+  content: "Ajouter un nouveau jeu";
+  position: absolute;
+  top: 10%;
+  left: 130%;
+  background-color: rgb(244, 244, 244);
+  color: rgba(0, 0, 0, 0.719);
+  padding: 6px;
+  border-radius: 5px;
+  white-space: nowrap;
+  font-size: 13px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.game-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.game-sales {
+  display: flex;
+  width: 60vw;
+  height: 30vh;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.game-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #e8e8e8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 20px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+label {
+  margin: 10px 0 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.button-newGame {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-newGame:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* Masquer les flèches dans les champs de type number */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none; /* Masque les flèches dans Chrome, Safari et Opera */
+  margin: 0; /* Réduit les marges si nécessaire */
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Masque les flèches dans Firefox */
+}
+
+.message {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border-radius: 5px;
+  margin-inline-end: 20px;
+  margin-block-end: 20px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  color: #00b315;
 }

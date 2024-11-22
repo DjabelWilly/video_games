@@ -2,6 +2,8 @@
 import "./App.css";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import Game from "./components/Game";
+import AddNewGame from "./components/AddNewGame";
 
 
 
@@ -10,6 +12,8 @@ function App() {
   const [games, setGames] = useState([]); // Etat pour stocker les jeux
   const [activeButton, setActiveButton] = useState(null); // État pour suivre le bouton actif
   const [gameToDisplayed, setGameToDisplayed] = useState(null); // Etat pour stocker le Jeu sélectionné pour affichage détails
+  const [isAddingGame, setIsAddingGame] = useState(false);
+
 
   /**
    * Fetches games from the server, optionally filtered by a specified criteria.
@@ -40,9 +44,9 @@ function App() {
    *
    * @param {Object} games - The game object that was clicked.
    */
-  const handleGameClick = (games) => {
-    console.log(games);
-    setGameToDisplayed(games);
+  const handleGameClick = (jeu) => {
+    console.log(jeu);
+    setGameToDisplayed(jeu); // Met à jour l'état qui contient le jeu sélectionné à afficher
   };
 
 
@@ -57,6 +61,8 @@ function App() {
             onClick={() => {
               fetchGames();
               setActiveButton("all");
+              setGameToDisplayed(null);
+              setIsAddingGame(false); // Désactive le mode ajout de jeu
             }}
           >
             Afficher tous les jeux
@@ -68,6 +74,8 @@ function App() {
             onClick={() => {
               fetchGames("/action/nintendo");
               setActiveButton("nintendo");
+              setGameToDisplayed(null);
+              setIsAddingGame(false); // quitte la page ajout de jeu
             }}
           >
             Nintendo
@@ -79,6 +87,8 @@ function App() {
             onClick={() => {
               fetchGames("/action/playstation");
               setActiveButton("playstation");
+              setGameToDisplayed(null);
+              setIsAddingGame(false); // quitte la page ajout de jeu
             }}
           >
             PlayStation
@@ -90,6 +100,8 @@ function App() {
             onClick={() => {
               fetchGames("/action/sega");
               setActiveButton("sega");
+              setGameToDisplayed(null);
+              setIsAddingGame(false); // quitte la page ajout de jeu
             }}
           >
             Sega
@@ -101,67 +113,75 @@ function App() {
             onClick={() => {
               fetchGames("/action/pc");
               setActiveButton("pc");
+              setGameToDisplayed(null);
+              setIsAddingGame(false); // quitte la page ajout de jeu
             }}
           >
             PC
           </button>
+          <button
+            className="newGame-btn"
+            onClick={() => {
+              setGameToDisplayed(null); // Réinitialise la sélection d'un jeu
+              setIsAddingGame(true); // Affiche formulaire ajout de jeu
+            }}
+          >
+            +
+          </button>
 
         </div>
-
-
-
       </div >
 
-      <p>A FAIRE</p>
-      <p>Barre de recherche</p>
-      <p>Page pour ajouter un jeu</p>
-      <p>Page pour voir le détail des ventes d'un jeu sous forme d'un graphique</p>
+      <p style={{ color: "red" }}>A FAIRE : Barre de recherche / update / delete / </p>
 
+      {isAddingGame ? (
+        <AddNewGame />
+      ) :
+        gameToDisplayed ? (
+          <Game gameToDisplayed={gameToDisplayed} />
+        ) : (
 
-      {/* <Search gameToDisplayed={setGames} /> */}
-
-      <table>
-        <thead>
-          <tr>
-            <th>Nom</th>
-            <th>plateforme</th>
-            <th>annee</th>
-            <th>genre</th>
-            <th>editeur</th>
-            <th>ventes EU</th>
-            <th>ventes US</th>
-            <th>ventes JP</th>
-            <th>ventes autres</th>
-            <th>ventes global</th>
-          </tr>
-        </thead>
-        <tbody>
-          {games.length > 0 ? (
-            games.map((jeu) => (
-              <tr key={jeu._id}
-                onClick={() => {
-                  handleGameClick(jeu);
-                }}
-              >
-                <td className="name">{jeu.name}</td>
-                <td>{jeu.platform}</td>
-                <td>{jeu.year}</td>
-                <td className="genre">{jeu.genre}</td>
-                <td className="publisher">{jeu.publisher}</td>
-                <td>{jeu.euSales}</td>
-                <td>{jeu.naSales}</td>
-                <td>{jeu.jpSales}</td>
-                <td>{jeu.otherSales}</td>
-                <td>{jeu.globalSales}</td>
+          <table>
+            <thead>
+              <tr>
+                <th>Nom</th>
+                <th>Plateforme</th>
+                <th>Année</th>
+                <th>Genre</th>
+                <th>Editeur</th>
+                <th>ventes EU</th>
+                <th>ventes US</th>
+                <th>ventes JP</th>
+                <th>ventes autres</th>
+                <th>Total</th>
               </tr>
-            ))
-          ) : (
-            <tr>
-              <td colSpan="10">Aucun jeu trouvé</td>
-            </tr>
-          )}
-        </tbody>
-      </table>
+            </thead>
+            <tbody>
+              {games.length > 0 ? (
+                games.map((jeu) => (
+                  <tr key={jeu._id}
+                    onClick={() => { handleGameClick(jeu) }} // passe le jeu à la fonction handleGameClick
+                  >
+                    <td className="name">{jeu.name}</td>
+                    <td>{jeu.platform}</td>
+                    <td>{jeu.year}</td>
+                    <td className="genre">{jeu.genre}</td>
+                    <td className="publisher">{jeu.publisher}</td>
+                    <td>{jeu.euSales}</td>
+                    <td>{jeu.naSales}</td>
+                    <td>{jeu.jpSales}</td>
+                    <td>{jeu.otherSales}</td>
+                    <td>{jeu.globalSales}</td>
+                  </tr>
+                ))
+              ) : (
+                <tr>
+                  <td colSpan="10">Aucun jeu trouvé</td>
+                </tr>
+              )}
+            </tbody>
+          </table>
+        )}
     </>
   );
 }
