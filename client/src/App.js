@@ -44,102 +44,80 @@ function App() {
    *
    * @param {Object} games - The game object that was clicked.
    */
-  const handleGameClick = (jeu) => {
+  const handleClickGame = (jeu) => {
     console.log(jeu);
     setGameToDisplayed(jeu); // Met à jour l'état qui contient le jeu sélectionné à afficher
   };
 
+  // Tableau des filtres pour creer des boutons de manière dynamique
+  const filters = [
+    { label: "Afficher tous les jeux", filter: "", key: "all" },
+    { label: "Nintendo", filter: "/action/nintendo", key: "nintendo" },
+    { label: "PlayStation", filter: "/action/playstation", key: "playstation" },
+    { label: "Sega", filter: "/action/sega", key: "sega" },
+    { label: "PC", filter: "/action/pc", key: "pc" },
+  ];
 
   return (
     <>
       <div className="app-header">
         <h1>Sales Dashboard</h1>
-        <div>
-          {/* Afficher tous les jeux */}
-          <button
-            className={activeButton === "all" ? "button-active" : "button-basic"}
-            onClick={() => {
-              fetchGames();
-              setActiveButton("all");
-              setGameToDisplayed(null);
-              setIsAddingGame(false); // Désactive le mode ajout de jeu
-            }}
-          >
-            Afficher tous les jeux
-          </button>
 
-          {/* Afficher les jeux Nintendo */}
-          <button
-            className={activeButton === "nintendo" ? "button-active" : "button-basic"}
-            onClick={() => {
-              fetchGames("/action/nintendo");
-              setActiveButton("nintendo");
-              setGameToDisplayed(null);
-              setIsAddingGame(false); // quitte la page ajout de jeu
-            }}
-          >
-            Nintendo
-          </button>
+        {!isAddingGame && // Enlève les boutons si isAddingGame est true (bouton "+" cliqué)
+          <div>
+            {/*------- Affiche les boutons dynamiquement-------------- */}
+            {filters.map(({ label, filter, key }) => (
+              <button
+                key={key}
+                className={activeButton === key ? "button-active" : "button-basic"}
+                onClick={() => {
+                  fetchGames(filter); // Met à jour la route de la requête selon le bouton cliqué
+                  setActiveButton(key); // Met à jour la classe CSS du bouton actif
+                  setGameToDisplayed(null); // Réinitialise la sélection d'un jeu
+                  setIsAddingGame(false); // Affiche formulaire ajout de jeu
+                }}
+              >
+                {label}
+              </button>
+            ))}
 
-          {/* Afficher les jeux Playstation */}
-          <button
-            className={activeButton === "playstation" ? "button-active" : "button-basic"}
-            onClick={() => {
-              fetchGames("/action/playstation");
-              setActiveButton("playstation");
-              setGameToDisplayed(null);
-              setIsAddingGame(false); // quitte la page ajout de jeu
-            }}
-          >
-            PlayStation
-          </button>
+            <button
+              className="newGame-btn"
+              onClick={() => {
+                setGameToDisplayed(null);
+                setIsAddingGame(true);
+              }}
+            >
+              +
+            </button>
+          </div>
+        }
+        {/*------------- fin div bouttons---------------- */}
 
-          {/* Afficher les jeux Sega */}
-          <button
-            className={activeButton === "sega" ? "button-active" : "button-basic"}
-            onClick={() => {
-              fetchGames("/action/sega");
-              setActiveButton("sega");
-              setGameToDisplayed(null);
-              setIsAddingGame(false); // quitte la page ajout de jeu
-            }}
-          >
-            Sega
-          </button>
-
-          {/* Afficher les jeux PC */}
-          <button
-            className={activeButton === "pc" ? "button-active" : "button-basic"}
-            onClick={() => {
-              fetchGames("/action/pc");
-              setActiveButton("pc");
-              setGameToDisplayed(null);
-              setIsAddingGame(false); // quitte la page ajout de jeu
-            }}
-          >
-            PC
-          </button>
-          <button
-            className="newGame-btn"
-            onClick={() => {
-              setGameToDisplayed(null); // Réinitialise la sélection d'un jeu
-              setIsAddingGame(true); // Affiche formulaire ajout de jeu
-            }}
-          >
-            +
-          </button>
-
-        </div>
       </div >
 
       <p style={{ color: "red" }}>A FAIRE : Barre de recherche / update / delete / </p>
 
-      {isAddingGame ? (
-        <AddNewGame />
-      ) :
+
+      {isAddingGame ? ( // Affiche le formulaire d'ajout de jeu si isAddingGame est vrai (bouton "+" cliqué)
+        <>
+          <button
+            onClick={() => {
+              fetchGames(""); // retourne la liste des jeux
+              setIsAddingGame(false);
+              setActiveButton("all");
+            }}
+          >
+            retour
+          </button>
+
+          <AddNewGame />
+        </>
+      ) :  // Sinon affiche les details du jeu qui à été selectionné
         gameToDisplayed ? (
           <Game gameToDisplayed={gameToDisplayed} />
-        ) : (
+
+        ) : (  // Sinon affiche la liste comprenant tous des jeux
 
           <table>
             <thead>
@@ -160,7 +138,7 @@ function App() {
               {games.length > 0 ? (
                 games.map((jeu) => (
                   <tr key={jeu._id}
-                    onClick={() => { handleGameClick(jeu) }} // passe le jeu à la fonction handleGameClick
+                    onClick={() => { handleClickGame(jeu) }} // passe le jeu à la fonction handleGameClick
                   >
                     <td className="name">{jeu.name}</td>
                     <td>{jeu.platform}</td>

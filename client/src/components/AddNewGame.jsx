@@ -1,6 +1,14 @@
 import React, { useState } from "react";
 import axios from "axios";
 
+/**
+ * AddNewGame component.
+ *
+ * This component allows users to add new games to the database.
+ * It handles form submission, validation, and error handling.
+ *
+ * @return {JSX.Element} The AddNewGame component.
+ */
 const AddNewGame = () => {
   const [message, setMessage] = useState("");
   const [formData, setFormData] = useState({
