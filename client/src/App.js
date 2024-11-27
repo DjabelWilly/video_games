@@ -1,4 +1,3 @@
-
 import "./App.css";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
@@ -25,7 +24,7 @@ function App() {
    */
   const fetchGames = async (filter) => {
     try {
-      // on envoie la requete a l'api avec un param dynamique optionnel "filter"
+      // on envoie la requete à l'api avec un param dynamique optionnel "filter"
       const response = await axios.get(`http://localhost:5000/api/games${filter ? filter : ""}`);
       console.log(response.data);
       setGames(response.data);
@@ -82,7 +81,7 @@ function App() {
             ))}
 
             <button
-              className="newGame-btn"
+              className="button-newGame"
               onClick={() => {
                 setGameToDisplayed(null);
                 setIsAddingGame(true);
@@ -96,7 +95,7 @@ function App() {
 
       </div >
 
-      <p style={{ color: "red" }}>A FAIRE : Barre de recherche / update / delete / </p>
+      <p style={{ color: "red" }}>A FAIRE : Barre de recherche / update JEU </p>
 
 
       {isAddingGame ? ( // Affiche le formulaire d'ajout de jeu si isAddingGame est vrai (bouton "+" cliqué)

@@ -73,7 +73,7 @@ td.name {
   overflow: hidden;
 }
 tr:hover {
-  background-color: rgba(165, 170, 181, 0.536);
+  background-color: rgba(202, 209, 223, 0.375);
   font-weight: 600;
   cursor: pointer;
 }
@@ -88,7 +88,7 @@ td.genre {
 button {
   background-color: #5c5c628b;
   color: #ffffff;
-  border: none;
+  border: solid 1px #5b5656;
   padding: 7px 13px;
   text-align: center;
   text-decoration: none;
@@ -100,7 +100,6 @@ button {
   cursor: pointer;
   border-radius: 5px;
   margin-block: 1rem;
-  /* transition: transform 0.1s ease-in-out; */
 }
 
 button:hover {
@@ -121,16 +120,14 @@ button:active {
   text-shadow: 0px 0px 1px #68c0ff;
   transform: translateY(2px);
 }
-.newGame-btn {
+.button-newGame {
   background-color: #e9e5e5dc;
   color: rgb(0, 0, 0);
   text-shadow: 0px 0px 1px #68c0ff;
   border: none;
   position: relative;
 }
-
-/* Texte au survol */
-.newGame-btn:hover::after {
+.button-newGame:hover::after {
   content: "Ajouter un nouveau jeu";
   position: absolute;
   top: 10%;
@@ -209,14 +206,57 @@ input[type="number"] {
   padding: 10px 15px;
   font-size: 16px;
   color: #fff;
-  background-color: #007bff;
+  background-color: #14b911;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
 .button-newGame:hover {
-  background-color: #0056b3;
+  background-color: #11960a;
+  color: #fff;
+}
+
+.button-delete {
+  position: relative;
+  padding: 6px 8px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-delete:hover {
+  background-color: #c70707;
+  color: #fff;
+}
+.button-delete:hover::after {
+  content: "Supprimer le jeu";
+  position: absolute;
+  top: 10%;
+  left: 130%;
+  background-color: rgb(244, 244, 244);
+  color: rgba(0, 0, 0, 0.719);
+  padding: 6px;
+  border-radius: 5px;
+  white-space: nowrap;
+  font-size: 13px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.button-submitNewGame {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #0a27ff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button-submitNewGame:hover {
+  background-color: #0303a8;
   color: #fff;
 }
 
@@ -235,12 +275,25 @@ input[type="number"] {
   position: fixed;
   bottom: 0;
   right: 0;
-  border-radius: 5px;
+  border-radius: 2px;
   margin-inline-end: 20px;
   margin-block-end: 20px;
   padding: 10px 20px;
-  background-color: #ffffff;
+  background-color: #6ef858a8;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   font-size: 1rem;
-  color: #00b315;
+  color: #079c18;
+}
+.delete-message {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border-radius: 2px;
+  margin-inline-end: 20px;
+  margin-block-end: 20px;
+  padding: 10px 20px;
+  background-color: #ff9191a8;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  color: #b10606;
 }

@@ -187,7 +187,7 @@ const AddNewGame = () => {
           onChange={handleChange}
           required
         />
-        <button className="button-newGame" type="submit">
+        <button className="button-submitNewGame" type="submit">
           Ajouter
         </button>
       </form>
