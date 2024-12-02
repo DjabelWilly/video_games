@@ -10,7 +10,7 @@ html {
   overflow-x: hidden;
 }
 .app-header {
-  min-height: 20vh;
+  min-height: 10vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -24,17 +24,15 @@ body {
 }
 h1 {
   font-size: 2rem;
-  margin: 1.1rem;
+  margin: 1rem;
   padding: 0;
   color: #3f4047;
 }
 h2 {
-  font-size: 1.6rem;
+  color: rgb(14, 14, 236) !important;
+  font-size: 1.4rem;
   font-weight: 700;
   margin-block: 1.3rem;
-  text-decoration: underline;
-  text-decoration-thickness: 1.3px;
-  text-underline-offset: 6px;
   padding: 0;
   color: #3f4047;
 }
@@ -47,8 +45,9 @@ h3 {
 
 table {
   border-collapse: collapse;
-  width: 98%;
+  width: 99%;
   justify-content: center;
+  margin-top: 2rem;
 }
 thead {
   background-color: #b6c8ebc8;
@@ -57,32 +56,46 @@ thead {
 }
 th {
   text-align: left;
-  padding: 10px;
-  padding-left: 13px;
+  padding: 8px;
+  padding-left: 10px;
+  max-width: 3rem !important;
+  width: 3rem !important;
+  overflow: hidden; /* Empêche le texte de se casser sur plusieurs lignes*/
+  text-overflow: ellipsis; /* Ajoute des points de suspension (...) si le texte est trop long */
 }
 td {
-  padding: 13px;
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
+  padding: 12px;
+  text-align: left;
+  white-space: nowrap; /* Empêche le texte de se casser sur plusieurs lignes */
+  overflow: hidden; /* Cache les textes qui dépassent */
+  text-overflow: ellipsis; /* Affiche "..." si le texte est trop long */
 }
+
 td.name {
-  max-width: 23rem !important;
+  max-width: 10rem !important;
   text-align: left;
   flex-wrap: nowrap;
   overflow: hidden;
+  text-overflow: ellipsis;
 }
 tr:hover {
   background-color: rgba(202, 209, 223, 0.375);
   font-weight: 600;
   cursor: pointer;
 }
-td.publisher {
-  max-width: 10rem !important;
+td.year {
+  width: 2rem !important;
+  max-width: 2rem !important;
   text-align: left;
 }
+td.publisher {
+  max-width: 4rem !important;
+  text-align: left;
+  overflow: hidden; /* Empêche le texte de se casser sur plusieurs lignes*/
+  text-overflow: ellipsis; /* Ajoute des points de suspension (...) si le texte est trop long */
+}
 td.genre {
-  max-width: 5rem !important;
+  max-width: 4rem !important;
   text-align: left;
 }
 button {
@@ -145,8 +158,12 @@ button:active {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 1rem;
 }
+.game-details h3 {
+  margin-inline-end: 2rem;
+}
+
 .game-sales {
   display: flex;
   width: 60vw;
@@ -219,6 +236,7 @@ input[type="number"] {
 
 .button-delete {
   position: relative;
+  margin-inline: 0;
   padding: 6px 8px;
   font-size: 16px;
   color: #fff;
@@ -234,6 +252,36 @@ input[type="number"] {
 }
 .button-delete:hover::after {
   content: "Supprimer le jeu";
+  z-index: 999;
+  position: absolute;
+  top: 10%;
+  left: 130%;
+  background-color: rgb(244, 244, 244);
+  color: rgba(0, 0, 0, 0.719);
+  padding: 6px;
+  border-radius: 5px;
+  white-space: nowrap;
+  font-size: 13px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.button-update {
+  margin-inline: 0;
+  position: relative;
+  padding: 6px 8px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #e8aa00ce;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button-update:hover {
+  background-color: #c98807;
+  color: #fff;
+}
+.button-update:hover::after {
+  content: "Modifier les données";
+  z-index: 999;
   position: absolute;
   top: 10%;
   left: 130%;
@@ -246,7 +294,7 @@ input[type="number"] {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.button-submitNewGame {
+.button-submitGame {
   padding: 10px 15px;
   font-size: 16px;
   color: #fff;
@@ -255,9 +303,10 @@ input[type="number"] {
   border-radius: 4px;
   cursor: pointer;
 }
-.button-submitNewGame:hover {
-  background-color: #0303a8;
-  color: #fff;
+.button-submitGame:hover {
+  background-color: #ffffff;
+  color: #0044ff;
+  border: 1px solid #0044ff;
 }
 
 /* Masquer les flèches dans les champs de type number */
@@ -296,4 +345,17 @@ input[type="number"] {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   font-size: 1rem;
   color: #b10606;
+}
+.update-message {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border-radius: 2px;
+  margin-inline-end: 20px;
+  margin-block-end: 20px;
+  padding: 10px 20px;
+  background-color: #6ef858a8;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  color: #079c18;
 }

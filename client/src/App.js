@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Game from "./components/Game";
 import AddNewGame from "./components/AddNewGame";
+import UpdateGame from "./components/UpdateGame";
 
 
 
@@ -10,9 +11,9 @@ function App() {
 
   const [games, setGames] = useState([]); // Etat pour stocker les jeux
   const [activeButton, setActiveButton] = useState(null); // État pour suivre le bouton actif
-  const [gameToDisplayed, setGameToDisplayed] = useState(null); // Etat pour stocker le Jeu sélectionné pour affichage détails
-  const [isAddingGame, setIsAddingGame] = useState(false);
-
+  const [gameToDisplayed, setGameToDisplayed] = useState(null); // Stocke le Jeu sélectionné pour affichage sous forme graphique
+  const [isAddingGame, setIsAddingGame] = useState(false); // Stocke le booléen si bouton "+" (ajouter un jeu) est cliqué
+  const [isUpdatingGame, setIsUpdatingGame] = useState(false); // Stocke le booléen si bouton "modifier" est cliqué
 
   /**
    * Fetches games from the server, optionally filtered by a specified criteria.
@@ -62,7 +63,7 @@ function App() {
       <div className="app-header">
         <h1>Sales Dashboard</h1>
 
-        {!isAddingGame && // Enlève les boutons si isAddingGame est true (bouton "+" cliqué)
+        {!isAddingGame && !isUpdatingGame && // Enlève les boutons si isAddingGame est true (bouton "+" cliqué)
           <div>
             {/*------- Affiche les boutons dynamiquement-------------- */}
             {filters.map(({ label, filter, key }) => (
@@ -95,70 +96,85 @@ function App() {
 
       </div >
 
-      <p style={{ color: "red" }}>A FAIRE : Barre de recherche / update JEU </p>
-
-
-      {isAddingGame ? ( // Affiche le formulaire d'ajout de jeu si isAddingGame est vrai (bouton "+" cliqué)
+      {/* affiche le formulaire d'ajout de jeu si isAddingGame est vrai (bouton "+" cliqué) */}
+      {isAddingGame && (
         <>
           <button
             onClick={() => {
-              fetchGames(""); // retourne la liste des jeux
+              fetchGames("");
               setIsAddingGame(false);
-              setActiveButton("all");
             }}
           >
             retour
           </button>
-
           <AddNewGame />
         </>
-      ) :  // Sinon affiche les details du jeu qui à été selectionné
-        gameToDisplayed ? (
-          <Game gameToDisplayed={gameToDisplayed} />
+      )}
 
-        ) : (  // Sinon affiche la liste comprenant tous des jeux
+      {/* affiche le formulaire de MODIFICATION si isUpdatingGame est vrai (bouton "STYLO" cliqué) */}
+      {isUpdatingGame && (
+        <>
+          <button
+            onClick={() => {
+              fetchGames("");
+              setIsUpdatingGame(false);
+            }}
+          >
+            retour
+          </button>
+          <UpdateGame gameToDisplayed={gameToDisplayed} setGameToDisplayed={setGameToDisplayed} setIsUpdatingGame={setIsUpdatingGame} />
+        </>
+      )}
 
-          <table>
-            <thead>
-              <tr>
-                <th>Nom</th>
-                <th>Plateforme</th>
-                <th>Année</th>
-                <th>Genre</th>
-                <th>Editeur</th>
-                <th>ventes EU</th>
-                <th>ventes US</th>
-                <th>ventes JP</th>
-                <th>ventes autres</th>
-                <th>Total</th>
-              </tr>
-            </thead>
-            <tbody>
-              {games.length > 0 ? (
-                games.map((jeu) => (
-                  <tr key={jeu._id}
-                    onClick={() => { handleClickGame(jeu) }} // passe le jeu à la fonction handleGameClick
-                  >
-                    <td className="name">{jeu.name}</td>
-                    <td>{jeu.platform}</td>
-                    <td>{jeu.year}</td>
-                    <td className="genre">{jeu.genre}</td>
-                    <td className="publisher">{jeu.publisher}</td>
-                    <td>{jeu.euSales}</td>
-                    <td>{jeu.naSales}</td>
-                    <td>{jeu.jpSales}</td>
-                    <td>{jeu.otherSales}</td>
-                    <td>{jeu.globalSales}</td>
-                  </tr>
-                ))
-              ) : (
-                <tr>
-                  <td colSpan="10">Aucun jeu trouvé</td>
+
+      {/* affiche les details du jeu qui à été selectionné */}
+      {!isAddingGame && !isUpdatingGame && gameToDisplayed && (
+        <Game gameToDisplayed={gameToDisplayed} setGameToDisplayed={setGameToDisplayed} setIsUpdatingGame={setIsUpdatingGame} />
+      )}
+
+      {/* sinon affiche la liste de tous des jeux */}
+      {!isAddingGame && !gameToDisplayed && (
+        <table>
+          <thead>
+            <tr>
+              <th>Nom</th>
+              <th>Plateforme</th>
+              <th>Année</th>
+              <th>Genre</th>
+              <th>Editeur</th>
+              <th>ventes EU</th>
+              <th>ventes US</th>
+              <th>ventes JP</th>
+              <th>autres</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            {games.length > 0 ? (
+              games.map((jeu) => (
+                <tr key={jeu._id}
+                  onClick={() => { handleClickGame(jeu) }} // passe le jeu à la fonction handleGameClick
+                >
+                  <td className="name">{jeu.name}</td>
+                  <td>{jeu.platform}</td>
+                  <td className="year">{jeu.year}</td>
+                  <td className="genre">{jeu.genre}</td>
+                  <td className="publisher">{jeu.publisher}</td>
+                  <td>{jeu.euSales}</td>
+                  <td>{jeu.naSales}</td>
+                  <td>{jeu.jpSales}</td>
+                  <td>{jeu.otherSales}</td>
+                  <td>{jeu.globalSales}</td>
                 </tr>
-              )}
-            </tbody>
-          </table>
-        )}
+              ))
+            ) : (
+              <tr>
+                <td colSpan="10">Aucun jeu trouvé</td>
+              </tr>
+            )}
+          </tbody>
+        </table>
+      )}
     </>
   );
 }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { React, useState } from "react";
 import axios from "axios";
 
 /**
@@ -75,7 +75,7 @@ const AddNewGame = () => {
       });
 
       // Message de succès
-      setMessage("Le jeu a bien été ajouté.");
+      setMessage("Le jeu a bien été ajouté !");
     } catch (error) {
       console.error("Erreur lors de l'ajout du jeu :", error);
       // Message d'erreur
@@ -97,7 +97,7 @@ const AddNewGame = () => {
 
       {/* Formulaire d'ajout de jeu */}
       <form onSubmit={handleSubmit}>
-        <label htmlFor="name">Nom du jeu:</label>
+        <label htmlFor="name">Nom:</label>
         <input
           type="text"
           id="name"
@@ -115,9 +115,11 @@ const AddNewGame = () => {
           onChange={handleChange}
           required
         />
-        <label htmlFor="year">Année de sortie:</label>
+        <label htmlFor="year">Année:</label>
         <input
           type="number"
+          min="1980" // Année minimale
+          max={new Date().getFullYear()} // Année maximale autorisée inf. ou égale à la date actuelle
           id="year"
           name="year"
           value={formData.year}
@@ -187,7 +189,7 @@ const AddNewGame = () => {
           onChange={handleChange}
           required
         />
-        <button className="button-submitNewGame" type="submit">
+        <button className="button-submitGame" type="submit">
           Ajouter
         </button>
       </form>
