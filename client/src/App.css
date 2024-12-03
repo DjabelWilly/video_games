@@ -8,6 +8,7 @@ html {
   justify-content: center;
   color: rgba(0, 0, 0, 0.816);
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 .app-header {
   min-height: 10vh;
@@ -299,7 +300,7 @@ input[type="number"] {
   font-size: 16px;
   color: #fff;
   background-color: #0a27ff;
-  border: none;
+  border: 1px solid transparent;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -358,4 +359,31 @@ input[type="number"] {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   font-size: 1rem;
   color: #079c18;
+}
+
+.search-bar {
+  min-width: 20vw;
+  max-width: 25vw;
+  margin-block: 1.5rem;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+.search-bar:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.3);
+}
+i.fas.fa-arrow-up {
+  position: fixed;
+  bottom: 30%;
+  right: 10px;
+  font-size: 28px;
+  width: 32px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #c7bdbb74;
+  cursor: pointer;
+  z-index: 999;
 }

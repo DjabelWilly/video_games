@@ -4,6 +4,8 @@ import axios from "axios";
 import Game from "./components/Game";
 import AddNewGame from "./components/AddNewGame";
 import UpdateGame from "./components/UpdateGame";
+import SearchGame from "./components/SearchGame";
+import ScrollUpArrow from "./components/ScrollUpArrow";
 
 
 
@@ -14,6 +16,29 @@ function App() {
   const [gameToDisplayed, setGameToDisplayed] = useState(null); // Stocke le Jeu sélectionné pour affichage sous forme graphique
   const [isAddingGame, setIsAddingGame] = useState(false); // Stocke le booléen si bouton "+" (ajouter un jeu) est cliqué
   const [isUpdatingGame, setIsUpdatingGame] = useState(false); // Stocke le booléen si bouton "modifier" est cliqué
+  const [ShowScrollArrow, setShowScrollArrow] = useState(false); //Stocke le booléen pour afficher la fleche de scroll vers le haut
+
+
+  /**
+   * Handles the window scroll event.
+   * If the vertical scroll position is greater than 600 pixels, sets the ShowScrollArrow state to true.
+   * Otherwise, sets it to false.
+   */
+  const handleScroll = () => {
+    if (window.scrollY > 600) {
+      setShowScrollArrow(true); // Passe la valeur de ShowScrollArrow à true lorsque window.scrollY > 600 px
+    } else {
+      setShowScrollArrow(false); // Passe la valeur de ShowScrollArrow à false lorsque window.scrollY <= 600 px
+    }
+  };
+  // Ajoute un gestionnaire d'événement pour le scroll
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
 
   /**
    * Fetches games from the server, optionally filtered by a specified criteria.
@@ -58,6 +83,7 @@ function App() {
     { label: "PC", filter: "/action/pc", key: "pc" },
   ];
 
+
   return (
     <>
       <div className="app-header">
@@ -95,7 +121,9 @@ function App() {
         {/*------------- fin div bouttons---------------- */}
 
       </div >
-
+      {!isAddingGame && !isUpdatingGame && !gameToDisplayed && // Affiche le formulaire de recherche de jeu seulement à l'accueil
+        <SearchGame />
+      }
       {/* affiche le formulaire d'ajout de jeu si isAddingGame est vrai (bouton "+" cliqué) */}
       {isAddingGame && (
         <>
@@ -175,6 +203,11 @@ function App() {
           </tbody>
         </table>
       )}
+
+      {handleScroll && ShowScrollArrow && !isAddingGame && !isUpdatingGame && !gameToDisplayed &&
+        <ScrollUpArrow />
+      }
+
     </>
   );
 }
