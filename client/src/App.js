@@ -9,6 +9,7 @@ import ScrollUpArrow from "./components/ScrollUpArrow";
 
 
 
+
 function App() {
 
   const [games, setGames] = useState([]); // Etat pour stocker les jeux
@@ -121,8 +122,8 @@ function App() {
         {/*------------- fin div bouttons---------------- */}
 
       </div >
-      {!isAddingGame && !isUpdatingGame && !gameToDisplayed && // Affiche le formulaire de recherche de jeu seulement à l'accueil
-        <SearchGame />
+      {!isAddingGame && !isUpdatingGame && !gameToDisplayed && // Affiche la barre de recherche seulement à l'accueil
+        <SearchGame setGames={setGames} />
       }
       {/* affiche le formulaire d'ajout de jeu si isAddingGame est vrai (bouton "+" cliqué) */}
       {isAddingGame && (

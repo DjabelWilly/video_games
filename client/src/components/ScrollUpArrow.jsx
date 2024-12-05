@@ -1,7 +1,21 @@
 import React from "react";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 
+/**
+ * ScrollUpArrow component.
+ *
+ * This component renders an arrow icon that, when clicked, smoothly scrolls the window
+ * to the top of the page. It calculates the scroll distance and animates the scroll
+ * over a fixed duration using the requestAnimationFrame method.
+ *
+ * @return {JSX.Element} The ScrollUpArrow component.
+ */
 const ScrollUpArrow = () => {
+  /**
+   * Handles a click event on the scroll up arrow.
+   * Smoothly scrolls the window to the top of the page over a fixed duration.
+   * Uses the requestAnimationFrame method to animate the scroll.
+   */
   const handleClick = () => {
     // Variables pour la position actuelle du scroll et la position cible
     const targetPosition = 0;

@@ -1,5 +1,5 @@
 const express = require('express');
-const { getGames, addGame, updateGame, deleteGame, getGameById, getGameByName, getNintendoGames, getPlaystationGames, getSegaGames, getPcGames } = require('../controllers/gameController');
+const { getGames, addGame, updateGame, deleteGame, getGameById, getGameByName, getNintendoGames, getPlaystationGames, getSegaGames, getPcGames, getTotalSorted } = require('../controllers/gameController');
 const router = express.Router();
 
 
