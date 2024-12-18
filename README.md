@@ -13,7 +13,7 @@ Il permet de visualiser les données de vente, d'ajouter de nouvelles données d
 * Serveur : Node.js
 * Base de données : MongoDB
 * Langages de programmation : JavaScript, HTML, CSS
-* Frameworks et bibliothèques : React, Express.js, Axios
+* Frameworks et bibliothèques : React, Express.js, Axios, chart.js
 
 ## Installation
 
@@ -31,7 +31,8 @@ Il permet de visualiser les données de vente, d'ajouter de nouvelles données d
 ## Fonctionnalités
 
 * Visualisation des données de vente
-* Rechercher jeu en entrant le nom dans un champ
+* Visualisation spécifique des ventes d'un jeu sous la forme graphique
+* Rechercher un jeu en entrant le nom dans un champ
 * Filter les jeux par plateforme 
 * Ajout d'un nouveau jeu en base de donnée
 * Modifier des données 
