@@ -47,7 +47,8 @@ const SearchGame = ({ setGames }) => {
     try {
       // Effectue la requête API
       const response = await axios.get(
-        `http://localhost:5000/api/games/search/${searchTerm}`
+        // `http://localhost:5000/api/games/search/${searchTerm}`
+        `https://video-games-back-end.vercel.app/api/games/search/${searchTerm}`
       );
       console.log(response.data);
       setGames(response.data); // Met à jour la liste des jeux dans le composant parent

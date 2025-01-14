@@ -27,8 +27,10 @@ const UpdateGame = ({ gameToDisplayed, setIsUpdatingGame }) => {
     const updatedGame = Object.fromEntries(formData.entries()); // Convertir en objet JS
 
     try {
+      // requête PUT pour mettre à jour le jeu avec l'ID du jeu à modifier
       await axios.put(
-        `http://localhost:5000/api/games/${gameToDisplayed._id}`, // requête PUT pour mettre à jour le jeu avec l'ID du jeu à modifier
+        // `http://localhost:5000/api/games/${gameToDisplayed._id}`, updatedGame
+        `https://video-games-back-end.vercel.app/api/games/${gameToDisplayed._id}`,
         updatedGame
       );
 
