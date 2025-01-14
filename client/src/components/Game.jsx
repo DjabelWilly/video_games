@@ -27,7 +27,7 @@ const Game = ({ gameToDisplayed, setGameToDisplayed, setIsUpdatingGame }) => {
     try {
       await axios.delete(
         // `http://localhost:5000/api/games/${gameToDisplayed._id}`
-        `https://video-games-back-end.vercel.app/api/games/${gameToDisplayed._id}`
+        `${process.env.REACT_APP_BACKEND_URL}/api/games/${gameToDisplayed._id}`
       );
       // Message de succès
       setDeleteMessage("Le jeu a bien été supprimé !");

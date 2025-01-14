@@ -30,7 +30,7 @@ const UpdateGame = ({ gameToDisplayed, setIsUpdatingGame }) => {
       // requête PUT pour mettre à jour le jeu avec l'ID du jeu à modifier
       await axios.put(
         // `http://localhost:5000/api/games/${gameToDisplayed._id}`, updatedGame
-        `https://video-games-back-end.vercel.app/api/games/${gameToDisplayed._id}`,
+        `${process.env.REACT_APP_BACKEND_URL}/api/games/${gameToDisplayed._id}`,
         updatedGame
       );
 

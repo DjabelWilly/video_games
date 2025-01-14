@@ -51,7 +51,7 @@ function App() {
     try {
       // on envoie la requete à l'api avec un param dynamique optionnel "filter"
       // const response = await axios.get(`http://localhost:5000/api/games${filter ? filter : ""}`);
-      const response = await axios.get(`https://video-games-back-end.vercel.app/api/games${filter ? filter : ""}`);
+      const response = await axios.get(`${process.env.REACT_APP_BACKEND_URL}/api/games${filter ? filter : ""}`);
       console.log(response.data);
       setGames(response.data);
 

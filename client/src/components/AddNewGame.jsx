@@ -55,10 +55,11 @@ const AddNewGame = () => {
     try {
       // Envoi des données au serveur
       const response = await axios.post(
-        // "http://localhost:5000/api/games",
-        "https://video-games-back-end.vercel.app/api/games",
+        `${process.env.REACT_APP_BACKEND_URL}/api/games`,
         formData
       );
+      // "http://localhost:5000/api/games",
+
       console.log(response.data);
 
       // Réinitialisation des champs du formulaire après soumission
