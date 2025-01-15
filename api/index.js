@@ -11,6 +11,9 @@ connectDB().then(() => {
     app.use(express.json());
     app.use(express.urlencoded({ extended: false }));
 
+    // autoriser les requêtes provenant de l'URL frontend de vercel
+    app.use(cors({ origin: 'https://video-games-frontend.vercel.app' }));
+
     // Routes
     app.use("/api/games", require("./routes/gameRoutes"));
 
