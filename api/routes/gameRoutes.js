@@ -10,9 +10,6 @@ router.get('/', getGames);
 // Route pour rechercher un jeu par le nom
 router.get('/search/:name', getGameByName);
 
-// Route pour rechercher un jeu par l'ID
-router.get('/:id', getGameById);
-
 // Route pour sélectionner les jeux Nintendo
 router.get('/action/nintendo', getNintendoGames);
 
@@ -33,6 +30,9 @@ router.put('/:id', updateGame);
 
 // Route pour supprimer un jeu
 router.delete('/:id', deleteGame);
+
+// Route pour rechercher un jeu par l'ID
+router.get('/:id', getGameById);
 
 
 
