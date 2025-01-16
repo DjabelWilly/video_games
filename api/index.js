@@ -9,7 +9,7 @@ const app = express();
 // Configuration CORS
 const allowedOrigins = [
     'http://localhost:3000',              // Développement local
-    'https://cars-front-end.vercel.app'   // Production
+    'https://video-games-frontend.vercel.app'     // Production
 ];
 
 // Middleware CORS
