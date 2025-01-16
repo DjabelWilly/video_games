@@ -6,6 +6,7 @@ const port = process.env.PORT;
 
 //Connexion à la DB
 connectDB().then(() => {
+    console.log('Démarrage de l\'application...');
     const app = express();
 
     // Configuration CORS détaillée
@@ -14,6 +15,7 @@ connectDB().then(() => {
         methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
         allowedHeaders: ['Content-Type', 'Authorization']
     }));
+    console.log('CORS configuré');
 
     // Middleware pour les headers CORS
     app.use((req, res, next) => {
@@ -31,10 +33,14 @@ connectDB().then(() => {
 
     // Routes
     app.use("/api/games", require("./routes/gameRoutes")); // Remettre le préfixe /api
+    console.log('Routes configurées');
 
     // Lance le serveur
-    app.listen(port, () => console.log("le serveur est connecté sur le port " + port));
+    app.listen(port, () => {
+        console.log("Serveur démarré sur le port " + port);
+        console.log("URL de l'API: " + process.env.REACT_APP_BACKEND_URL);
+    });
 }).catch(error => {
-    console.error('Error connecting to MongoDB:', error);
+    console.error('Erreur au démarrage:', error);
     process.exit(1);
 });
