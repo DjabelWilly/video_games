@@ -8,11 +8,8 @@
   ],
   "routes": [
     {
-      "src": "/games/(.*)",
+      "src": "/(.*)",
       "dest": "api/index.js"
-    },
-    {
-      "handle": "filesystem"
     }
   ],
   "headers": [

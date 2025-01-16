@@ -59,7 +59,7 @@ function App() {
    */
   const fetchGames = async (filter) => {
     try {
-      const url = `${process.env.REACT_APP_BACKEND_URL}/games${filter ? filter : ""}`;
+      const url = `${process.env.REACT_APP_BACKEND_URL}/api/games${filter ? filter : ""}`;
       console.log('Tentative de connexion à:', url);
 
       const response = await axios.get(url, {

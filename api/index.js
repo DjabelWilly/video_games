@@ -30,7 +30,7 @@ connectDB().then(() => {
     app.use(express.urlencoded({ extended: false }));
 
     // Routes
-    app.use("/games", require("./routes/gameRoutes")); // Enlever le préfixe /api
+    app.use("/api/games", require("./routes/gameRoutes")); // Remettre le préfixe /api
 
     // Lance le serveur
     app.listen(port, () => console.log("le serveur est connecté sur le port " + port));
