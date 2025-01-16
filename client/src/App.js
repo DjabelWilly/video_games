@@ -60,6 +60,7 @@ function App() {
   const fetchGames = async (filter) => {
     try {
       const response = await axios.get(`${process.env.REACT_APP_BACKEND_URL}/api/games${filter ? filter : ""}`, {
+        timeout: 5000,
         headers: {
           'Content-Type': 'application/json'
         }
@@ -70,7 +71,7 @@ function App() {
       }
     } catch (error) {
       console.error("Erreur détaillée:", error);
-      setError(error.message);
+      setError("Erreur de connexion à l'API");
     }
   };
 
