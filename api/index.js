@@ -8,13 +8,8 @@ const port = process.env.PORT;
 connectDB().then(() => {
     const app = express();
 
-    // Configuration CORS - version simplifiée
-    app.use((req, res, next) => {
-        res.setHeader('Access-Control-Allow-Origin', '*');
-        res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
-        res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
-        next();
-    });
+    // Middleware CORS avant toutes les routes
+    app.use(cors());  // Autorise toutes les origines pour le débogage
 
     app.use(express.json());
     app.use(express.urlencoded({ extended: false }));
