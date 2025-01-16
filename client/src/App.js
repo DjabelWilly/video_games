@@ -59,16 +59,15 @@ function App() {
    */
   const fetchGames = async (filter) => {
     try {
-      // on envoie la requete à l'api avec un param dynamique optionnel "filter"
-      // const response = await axios.get(`http://localhost:5000/api/games${filter ? filter : ""}`);
-      const response = await axios.get(`${process.env.REACT_APP_BACKEND_URL}/api/games${filter ? filter : ""}`);
-      console.log('Envoi requête à:', `${process.env.REACT_APP_BACKEND_URL}/api/games${filter ? filter : ""}`);
-      console.log(response.data);
-      console.log('Réponse reçue:', response.data);
-      if (!response.data) {
-        throw new Error('Pas de données reçues');
+      const response = await axios.get(`${process.env.REACT_APP_BACKEND_URL}/api/games${filter ? filter : ""}`, {
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
+
+      if (response.data) {
+        setGames(response.data);
       }
-      setGames(response.data);
     } catch (error) {
       console.error("Erreur détaillée:", error);
       setError(error.message);
