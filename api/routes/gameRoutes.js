@@ -21,11 +21,7 @@ router.get('/action/sega', getSegaGames);
 router.get('/action/PC', getPcGames);
 
 // Route pour ajouter un jeu
-router.post('/', (req, res, next) => {
-    console.log('📥 Requête POST reçue sur /api/games');
-    console.log('Données reçues:', req.body);
-    next();
-}, addGame);
+router.post('/', addGame);
 
 // Route pour mettre à jour un jeu
 router.put('/:id', updateGame);

@@ -4,22 +4,35 @@ const dotenv = require("dotenv").config();
 const cors = require('cors');
 const port = process.env.PORT;
 
+const app = express();
+
+// Configuration CORS
+const allowedOrigins = [
+    'http://localhost:3000',              // Développement local
+    'https://cars-front-end.vercel.app'   // Production
+];
+
+// Middleware CORS
+app.use(cors({
+    origin: allowedOrigins  // Uniquement les origines listées
+}));
+app.use(express.json());
+// app.use(express.urlencoded({ extended: false }));
+
 //Connexion à la DB
-connectDB().then(() => {
-    const app = express();
+connectDB()
+    .then(() => console.log('Connecté à MongoDB'))
+    .catch(err => console.error('Erreur de connexion à MongoDB:', err));
 
-    // Configuration CORS
-    app.use(cors());
 
-    app.use(express.json());
-    app.use(express.urlencoded({ extended: false }));
+// Routes
+app.use('/api/games', require('./routes/gameRoutes'));
 
-    // Routes
-    app.use("/api/games", require("./routes/gameRoutes"));
 
-    // Lance le serveur
-    app.listen(port, () => console.log("le serveur est connecté sur le port " + port));
-}).catch(error => {
-    console.error('Error connecting to MongoDB:', error);
-    process.exit(1);
+// Lance le serveur
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+    console.log(`Serveur en cours d'exécution sur le port ${PORT}`);
 });
+
+
