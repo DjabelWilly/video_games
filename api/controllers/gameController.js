@@ -44,7 +44,14 @@ module.exports.getGames = async (req, res) => {
     try {
         console.log('🔍 Tentative de récupération des jeux...');
         const games = await gameModel.find();
-        console.log(`✅ ${games.length} jeux trouvés`);
+        console.log(`📊 Nombre de jeux trouvés: ${games.length}`);
+
+        if (!games || games.length === 0) {
+            console.log('⚠️ Aucun jeu trouvé dans la base');
+            return res.status(404).json({ message: "Aucun jeu trouvé" });
+        }
+
+        console.log('✅ Jeux récupérés avec succès');
         res.status(200).json(games);
     } catch (error) {
         console.error('❌ Erreur dans getGames:', error);
