@@ -5,7 +5,10 @@ const router = express.Router();
 
 
 // Route pour rechercher tous les jeux
-router.get('/', getGames);
+router.get('/', (req, res, next) => {
+    console.log('📥 Requête GET reçue sur /api/games');
+    next();
+}, getGames);
 
 // Route pour rechercher un jeu par le nom
 router.get('/search/:name', getGameByName);
@@ -23,7 +26,11 @@ router.get('/action/sega', getSegaGames);
 router.get('/action/PC', getPcGames);
 
 // Route pour ajouter un jeu
-router.post('/', addGame);
+router.post('/', (req, res, next) => {
+    console.log('📥 Requête POST reçue sur /api/games');
+    console.log('Données reçues:', req.body);
+    next();
+}, addGame);
 
 // Route pour mettre à jour un jeu
 router.put('/:id', updateGame);
