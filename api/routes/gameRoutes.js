@@ -34,6 +34,9 @@ router.delete('/:id', deleteGame);
 // Route pour rechercher un jeu par l'ID
 router.get('/:id', getGameById);
 
+// Route pour obtenir les jeux triés par ventes globales
+router.get('/sorted/total', getTotalSorted);
+
 
 
 

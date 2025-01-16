@@ -7,9 +7,22 @@ const port = process.env.PORT;
 //Connexion à la DB
 connectDB().then(() => {
     const app = express();
-    // app.use(cors());  
-    // autoriser les requêtes provenant de l'URL frontend de vercel remplace app.use(cors())
-    app.use(cors({ origin: 'https://video-games-frontend.vercel.app' }));
+
+    // Middleware de sécurité
+    app.use((req, res, next) => {
+        res.setHeader('X-Content-Type-Options', 'nosniff');
+        res.setHeader('X-Frame-Options', 'DENY');
+        res.setHeader('X-XSS-Protection', '1; mode=block');
+        next();
+    });
+
+    // Configuration CORS
+    app.use(cors({
+        origin: ['https://video-games-frontend.vercel.app', 'http://localhost:3000'],
+        methods: ['GET', 'POST', 'PUT', 'DELETE'],
+        credentials: true
+    }));
+
     app.use(express.json());
     app.use(express.urlencoded({ extended: false }));
 

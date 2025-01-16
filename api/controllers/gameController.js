@@ -238,3 +238,25 @@ module.exports.getPcGames = async (req, res) => {
         });
     }
 };
+
+/**
+ * Retrieves all games sorted by global sales.
+ * 
+ * @param {Object} req - The request object.
+ * @param {Object} res - The response object.
+ * @return {Promise<void>} Returns games sorted by global sales.
+ */
+module.exports.getTotalSorted = async (req, res) => {
+    try {
+        const games = await gameModel.find().sort({ globalSales: -1 });
+        if (games.length === 0) {
+            return res.status(404).json({ message: "Aucun jeu trouvé." });
+        }
+        res.status(200).json(games);
+    } catch (error) {
+        res.status(500).json({
+            message: "Une erreur s'est produite lors de la récupération des jeux.",
+            error: error.message
+        });
+    }
+};

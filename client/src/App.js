@@ -7,6 +7,15 @@ import UpdateGame from "./components/UpdateGame";
 import SearchGame from "./components/SearchGame";
 import ScrollUpArrow from "./components/ScrollUpArrow";
 
+// Filtres en dehors du composant pour éviter les re-rendus inutiles
+const FILTERS = [
+  { label: "Afficher tous les jeux", filter: "", key: "all" },
+  { label: "Nintendo", filter: "/action/nintendo", key: "nintendo" },
+  { label: "PlayStation", filter: "/action/playstation", key: "playstation" },
+  { label: "Sega", filter: "/action/sega", key: "sega" },
+  { label: "PC", filter: "/action/pc", key: "pc" },
+  { label: "Par ventes", filter: "/sorted/total", key: "sales" }, // Ajout du nouveau filtre
+];
 
 function App() {
 
@@ -16,6 +25,7 @@ function App() {
   const [isAddingGame, setIsAddingGame] = useState(false); // Stocke le booléen si bouton "+" (ajouter un jeu) est cliqué
   const [isUpdatingGame, setIsUpdatingGame] = useState(false); // Stocke le booléen si bouton "modifier" est cliqué
   const [ShowScrollArrow, setShowScrollArrow] = useState(false); //Stocke le booléen pour afficher la fleche de scroll vers le haut
+  const [error, setError] = useState(null); // Etat pour gérer les erreurs
 
 
   /**
@@ -54,9 +64,10 @@ function App() {
       const response = await axios.get(`${process.env.REACT_APP_BACKEND_URL}/api/games${filter ? filter : ""}`);
       console.log(response.data);
       setGames(response.data);
-
     } catch (error) {
       console.error("Erreur lors de la récupération des jeux :", error);
+      // Ajouter un état pour gérer les erreurs
+      setError(error.message);
     }
   };
 
@@ -74,16 +85,6 @@ function App() {
     setGameToDisplayed(jeu); // Met à jour l'état qui contient le jeu sélectionné à afficher
   };
 
-  // Tableau des filtres pour creer des boutons de manière dynamique
-  const filters = [
-    { label: "Afficher tous les jeux", filter: "", key: "all" },
-    { label: "Nintendo", filter: "/action/nintendo", key: "nintendo" },
-    { label: "PlayStation", filter: "/action/playstation", key: "playstation" },
-    { label: "Sega", filter: "/action/sega", key: "sega" },
-    { label: "PC", filter: "/action/pc", key: "pc" },
-  ];
-
-
   return (
     <>
       <div className="app-header">
@@ -92,7 +93,7 @@ function App() {
         {!isAddingGame && !isUpdatingGame && // Enlève les boutons si isAddingGame est true (bouton "+" cliqué)
           <div>
             {/*------- Affiche les boutons dynamiquement-------------- */}
-            {filters.map(({ label, filter, key }) => (
+            {FILTERS.map(({ label, filter, key }) => (
               <button
                 key={key}
                 className={activeButton === key ? "button-active" : "button-basic"}
