@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { API_URL } from "../config/constants";
 
 const UpdateGame = ({ gameToDisplayed, setIsUpdatingGame }) => {
   const [updateMessage, setUpdateMessage] = useState("");
@@ -29,8 +30,7 @@ const UpdateGame = ({ gameToDisplayed, setIsUpdatingGame }) => {
     try {
       // requête PUT pour mettre à jour le jeu avec l'ID du jeu à modifier
       await axios.put(
-        // `http://localhost:5000/api/games/${gameToDisplayed._id}`, updatedGame
-        `${process.env.REACT_APP_BACKEND_URL}/api/games/${gameToDisplayed._id}`,
+        `${API_URL}/api/games/${gameToDisplayed._id}`,
         updatedGame
       );
 

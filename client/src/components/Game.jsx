@@ -2,6 +2,7 @@ import { React, useState } from "react";
 import { Pie } from "react-chartjs-2";
 import "chart.js/auto";
 import axios from "axios";
+import { API_URL } from "../config/constants";
 
 /**
  * A React component that renders detailed information about a game
@@ -25,10 +26,7 @@ const Game = ({ gameToDisplayed, setGameToDisplayed, setIsUpdatingGame }) => {
   const handleDelete = async () => {
     console.log(gameToDisplayed._id);
     try {
-      await axios.delete(
-        // `http://localhost:5000/api/games/${gameToDisplayed._id}`
-        `${process.env.REACT_APP_BACKEND_URL}/api/games/${gameToDisplayed._id}`
-      );
+      await axios.delete(`${API_URL}/api/games/${gameToDisplayed._id}`);
       // Message de succès
       setDeleteMessage("Le jeu a bien été supprimé !");
     } catch (error) {

@@ -1,5 +1,6 @@
 import { React, useState } from "react";
 import axios from "axios";
+import { API_URL } from "../config/constants";
 
 /**
  * AddNewGame component.
@@ -53,13 +54,7 @@ const AddNewGame = () => {
     console.log(formData);
 
     try {
-      // Envoi des données au serveur
-      const response = await axios.post(
-        `${process.env.REACT_APP_BACKEND_URL}/api/games`,
-        formData
-      );
-      // "http://localhost:5000/api/games",
-
+      const response = await axios.post(`${API_URL}/api/games`, formData);
       console.log(response.data);
 
       // Réinitialisation des champs du formulaire après soumission

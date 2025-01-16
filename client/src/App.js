@@ -1,6 +1,7 @@
 import "./App.css";
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { API_URL } from "./config/constants";
 import Game from "./components/Game";
 import AddNewGame from "./components/AddNewGame";
 import UpdateGame from "./components/UpdateGame";
@@ -58,7 +59,7 @@ function App() {
    */
   const fetchGames = async (filter) => {
     try {
-      const response = await axios.get(`${process.env.REACT_APP_BACKEND_URL}/api/games${filter ? filter : ""}`);
+      const response = await axios.get(`${API_URL}/api/games${filter ? filter : ""}`);
       setGames(response.data);
     } catch (error) {
       console.error("Erreur détaillée:", error);
