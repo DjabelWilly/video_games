@@ -4,70 +4,22 @@ const dotenv = require("dotenv").config();
 const cors = require('cors');
 const port = process.env.PORT;
 
-// Test de connexion immédiat
-console.log('🚀 Démarrage du serveur...');
-console.log('Variables d\'environnement:', {
-    PORT: process.env.PORT,
-    NODE_ENV: process.env.NODE_ENV,
-    MONGO_URI: process.env.MONGO_URI ? '✅ Définie' : '❌ Manquante'
-});
-
 //Connexion à la DB
-connectDB()
-    .then(async () => {
-        console.log('✅ Connexion DB réussie');
-        const app = express();
+connectDB().then(() => {
+    const app = express();
 
-        // Configuration CORS détaillée
-        app.use(cors({
-            origin: '*',  // Autorise toutes les origines
-            methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-            allowedHeaders: ['Content-Type', 'Authorization']
-        }));
-        console.log('CORS configuré');
+    // Configuration CORS
+    app.use(cors());
 
-        // Middleware pour les headers CORS
-        app.use((req, res, next) => {
-            res.header('Access-Control-Allow-Origin', '*');
-            res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
-            res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
-            if (req.method === 'OPTIONS') {
-                return res.sendStatus(200);
-            }
-            next();
-        });
+    app.use(express.json());
+    app.use(express.urlencoded({ extended: false }));
 
-        app.use(express.json());
-        app.use(express.urlencoded({ extended: false }));
+    // Routes
+    app.use("/api/games", require("./routes/gameRoutes"));
 
-        // Routes
-        app.use("/api/games", require("./routes/gameRoutes")); // Remettre le préfixe /api
-        console.log('Routes configurées');
-
-        // Test de la connexion MongoDB au démarrage
-        const mongoose = require('mongoose');
-        const collections = await mongoose.connection.db.collections();
-        console.log('📊 Collections disponibles:', collections.map(c => c.collectionName));
-
-        // Route de test
-        app.get('/test', (req, res) => {
-            console.log('📍 Route de test appelée');
-            res.json({
-                status: 'ok',
-                env: {
-                    mongoUri: process.env.MONGO_URI ? 'défini' : 'non défini',
-                    port: process.env.PORT,
-                    nodeEnv: process.env.NODE_ENV
-                },
-                timestamp: new Date().toISOString()
-            });
-        });
-
-        app.listen(port, () => {
-            console.log(`🌍 Serveur démarré sur le port ${port}`);
-        });
-    })
-    .catch(error => {
-        console.error('❌ Erreur de démarrage:', error);
-        process.exit(1);
-    });
+    // Lance le serveur
+    app.listen(port, () => console.log("le serveur est connecté sur le port " + port));
+}).catch(error => {
+    console.error('Error connecting to MongoDB:', error);
+    process.exit(1);
+});

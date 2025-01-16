@@ -2,34 +2,20 @@ const express = require('express');
 const { getGames, addGame, updateGame, deleteGame, getGameById, getGameByName, getNintendoGames, getPlaystationGames, getSegaGames, getPcGames, getTotalSorted } = require('../controllers/gameController');
 const router = express.Router();
 
-
-
 // Route pour rechercher tous les jeux
-router.get('/', (req, res, next) => {
-    console.log('📥 Requête GET reçue sur /api/games');
-    next();
-}, getGames);
+router.get('/', getGames);
 
 // Route pour rechercher un jeu par le nom
 router.get('/search/:name', getGameByName);
 
 // Route pour sélectionner les jeux Nintendo
-router.get('/action/nintendo', (req, res, next) => {
-    console.log('📥 Requête GET reçue pour les jeux Nintendo');
-    next();
-}, getNintendoGames);
+router.get('/action/nintendo', getNintendoGames);
 
 // Route pour rechercher tous les jeux Playstation
-router.get('/action/playstation', (req, res, next) => {
-    console.log('📥 Requête GET reçue pour les jeux PlayStation');
-    next();
-}, getPlaystationGames);
+router.get('/action/playstation', getPlaystationGames);
 
 // Route pour rechercher tous les jeux Sega
-router.get('/action/sega', (req, res, next) => {
-    console.log('📥 Requête GET reçue pour les jeux Sega');
-    next();
-}, getSegaGames);
+router.get('/action/sega', getSegaGames);
 
 // Route pour rechercher tous les jeux Pc
 router.get('/action/PC', getPcGames);
@@ -52,12 +38,5 @@ router.get('/:id', getGameById);
 
 // Route pour obtenir les jeux triés par ventes globales
 router.get('/sorted/total', getTotalSorted);
-
-
-
-
-
-
-
 
 module.exports = router;

@@ -42,19 +42,10 @@ module.exports.addGame = async (req, res) => {
  */
 module.exports.getGames = async (req, res) => {
     try {
-        console.log('🔍 Tentative de récupération des jeux...');
         const games = await gameModel.find();
-        console.log(`📊 Nombre de jeux trouvés: ${games.length}`);
-
-        if (!games || games.length === 0) {
-            console.log('⚠️ Aucun jeu trouvé dans la base');
-            return res.status(404).json({ message: "Aucun jeu trouvé" });
-        }
-
-        console.log('✅ Jeux récupérés avec succès');
         res.status(200).json(games);
     } catch (error) {
-        console.error('❌ Erreur dans getGames:', error);
+        console.error('Error in getGames:', error);
         res.status(500).json({
             message: "Une erreur s'est produite lors de la recherche des données.",
             error: error.message
