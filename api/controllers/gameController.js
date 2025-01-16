@@ -42,9 +42,12 @@ module.exports.addGame = async (req, res) => {
  */
 module.exports.getGames = async (req, res) => {
     try {
+        console.log('Tentative de récupération des jeux...');
         const games = await gameModel.find();
+        console.log('Jeux trouvés:', games.length);
         res.status(200).json(games);
     } catch (error) {
+        console.error('Erreur dans getGames:', error);
         res.status(500).json({
             message: "Une erreur s'est produite lors de la recherche des données.",
             error: error.message

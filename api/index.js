@@ -20,6 +20,7 @@ connectDB().then(() => {
     app.use(cors({
         origin: ['https://video-games-frontend.vercel.app', 'http://localhost:3000'],
         methods: ['GET', 'POST', 'PUT', 'DELETE'],
+        allowedHeaders: ['Content-Type', 'Authorization'],
         credentials: true
     }));
 
