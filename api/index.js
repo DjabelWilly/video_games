@@ -49,6 +49,20 @@ connectDB()
         const collections = await mongoose.connection.db.collections();
         console.log('📊 Collections disponibles:', collections.map(c => c.collectionName));
 
+        // Route de test
+        app.get('/test', (req, res) => {
+            console.log('📍 Route de test appelée');
+            res.json({
+                status: 'ok',
+                env: {
+                    mongoUri: process.env.MONGO_URI ? 'défini' : 'non défini',
+                    port: process.env.PORT,
+                    nodeEnv: process.env.NODE_ENV
+                },
+                timestamp: new Date().toISOString()
+            });
+        });
+
         app.listen(port, () => {
             console.log(`🌍 Serveur démarré sur le port ${port}`);
         });

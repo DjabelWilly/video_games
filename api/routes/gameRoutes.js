@@ -14,13 +14,22 @@ router.get('/', (req, res, next) => {
 router.get('/search/:name', getGameByName);
 
 // Route pour sélectionner les jeux Nintendo
-router.get('/action/nintendo', getNintendoGames);
+router.get('/action/nintendo', (req, res, next) => {
+    console.log('📥 Requête GET reçue pour les jeux Nintendo');
+    next();
+}, getNintendoGames);
 
 // Route pour rechercher tous les jeux Playstation
-router.get('/action/playstation', getPlaystationGames);
+router.get('/action/playstation', (req, res, next) => {
+    console.log('📥 Requête GET reçue pour les jeux PlayStation');
+    next();
+}, getPlaystationGames);
 
 // Route pour rechercher tous les jeux Sega
-router.get('/action/sega', getSegaGames);
+router.get('/action/sega', (req, res, next) => {
+    console.log('📥 Requête GET reçue pour les jeux Sega');
+    next();
+}, getSegaGames);
 
 // Route pour rechercher tous les jeux Pc
 router.get('/action/PC', getPcGames);
