@@ -14,7 +14,7 @@ const FILTERS = [
   { label: "PlayStation", filter: "/action/playstation", key: "playstation" },
   { label: "Sega", filter: "/action/sega", key: "sega" },
   { label: "PC", filter: "/action/pc", key: "pc" },
-  { label: "Par ventes", filter: "/sorted/total", key: "sales" }, // Ajout du nouveau filtre
+  { label: "top ventes", filter: "/sorted/total", key: "sales" },
 ];
 
 function App() {
@@ -25,7 +25,6 @@ function App() {
   const [isAddingGame, setIsAddingGame] = useState(false); // Stocke le booléen si bouton "+" (ajouter un jeu) est cliqué
   const [isUpdatingGame, setIsUpdatingGame] = useState(false); // Stocke le booléen si bouton "modifier" est cliqué
   const [ShowScrollArrow, setShowScrollArrow] = useState(false); //Stocke le booléen pour afficher la fleche de scroll vers le haut
-  const [error, setError] = useState(null); // Etat pour gérer les erreurs
 
 
   /**
@@ -59,20 +58,10 @@ function App() {
    */
   const fetchGames = async (filter) => {
     try {
-      const url = `${process.env.REACT_APP_BACKEND_URL}/api/games${filter ? filter : ""}`;
-      console.log('Tentative de connexion à:', url);
-
-      const response = await axios.get(url, {
-        headers: {
-          'Content-Type': 'application/json'
-        }
-      });
-
-      console.log('Réponse:', response.data);
+      const response = await axios.get(`${process.env.REACT_APP_BACKEND_URL}/api/games${filter ? filter : ""}`);
       setGames(response.data);
     } catch (error) {
-      console.error("Erreur complète:", error);
-      setError("Erreur de connexion à l'API");
+      console.error("Erreur détaillée:", error);
     }
   };
 

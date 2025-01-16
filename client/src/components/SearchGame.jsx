@@ -31,19 +31,8 @@ const SearchGame = ({ setGames }) => {
    * If the request fails, logs an error message.
    * @returns {Promise<void>} Returns a Promise that resolves when the search is finished.
    */
-  const handleSearch = async () => {
-    // Vérifie que le champ de recherche n'est pas vide
-    if (!searchTerm.trim()) {
-      alert("Veuillez entrer un terme pour la recherche !");
-      return;
-    }
-
-    // Vérifie les caractères non autorisés, sauf les espaces
-    if (searchTerm.match(/[^a-zA-Z0-9\s]/g)) {
-      alert("Les caractères spéciaux ne sont pas autorisés !");
-      return;
-    }
-
+  const handleSearch = async (event) => {
+    event.preventDefault();
     try {
       // Effectue la requête API
       const response = await axios.get(
@@ -67,13 +56,7 @@ const SearchGame = ({ setGames }) => {
         value={searchTerm}
         onChange={handleChange}
       />
-      <button
-        className="button-submitGame"
-        onClick={(e) => {
-          e.preventDefault();
-          handleSearch(); // Appelle la recherche lors du clic
-        }}
-      >
+      <button className="button-submitGame" onClick={handleSearch}>
         Rechercher
       </button>
     </div>
