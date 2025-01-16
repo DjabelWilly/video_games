@@ -17,7 +17,6 @@ app.use(cors({
     origin: allowedOrigins  // Uniquement les origines listées
 }));
 app.use(express.json());
-// app.use(express.urlencoded({ extended: false }));
 
 //Connexion à la DB
 connectDB()
