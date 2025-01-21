@@ -83,7 +83,8 @@ function App() {
   return (
     <>
       <div className="app-header">
-        <h1>Sales Dashboard</h1>
+        <h1>Video Games</h1>
+        <h2>Sales Dashboard</h2>
 
         {!isAddingGame && !isUpdatingGame && // Enlève les boutons si isAddingGame est true (bouton "+" cliqué)
           <div>
