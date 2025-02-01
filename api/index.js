@@ -8,8 +8,8 @@ const app = express();
 
 // Configuration CORS
 const allowedOrigins = [
-    'http://localhost:3000',              // Développement local
-    'https://video-games-frontend.vercel.app'     // Production
+    'http://localhost:3000',                   // Développement local
+    'https://video-games-frontend.vercel.app'  // Production
 ];
 
 // Middleware CORS
@@ -29,9 +29,9 @@ app.use('/api/games', require('./routes/gameRoutes'));
 
 
 // Lance le serveur
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-    console.log(`Serveur en cours d'exécution sur le port ${PORT}`);
+
+app.listen(port, () => {
+    console.log(`Serveur en cours d'exécution sur le port ${port}`);
 });
 
 
