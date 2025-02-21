@@ -194,7 +194,7 @@ function App() {
               ))
             ) : (
               <tr>
-                <td colSpan="10">Aucun jeu trouvé</td>
+                <td colSpan="10">chargement...</td>
               </tr>
             )}
           </tbody>
